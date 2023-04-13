@@ -5,6 +5,8 @@ import { HeaderComponent } from './layout/header/header.component';
 import { FooterComponent } from './layout/footer/footer.component';
 import { LayoutRoutingModule } from './layout-routing.module';
 import { MenuComponent } from './layout/header/menu/menu.component';
+import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
+
 
 @NgModule({
   declarations: [
@@ -15,7 +17,8 @@ import { MenuComponent } from './layout/header/menu/menu.component';
   ],
   imports: [
     CommonModule,
-    LayoutRoutingModule
+    LayoutRoutingModule,
+    BsDropdownModule.forRoot(),
   ]
 })
 export class LayoutModule { }
