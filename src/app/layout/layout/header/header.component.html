@@ -132,8 +132,30 @@
           </li>
         </ul>
       </div>
-      <div class="icon-user-profile">
-        <img class="icon" src="/assets/svg/user.svg" alt="search" />
+      <div class="btn-group" dropdown [insideClick]="true">
+        <div class="icon-user-profile" dropdownToggle>
+          <img class="icon" src="/assets/svg/user.svg" alt="search" />
+        </div>
+        <ul *dropdownMenu class="dropdown-menu regular-dropdown-menu my-profile-dropdown">
+          <li>
+            <img
+              class="icon"
+              style="margin-left:-10px"
+              src="/assets/svg/user-outline.svg"
+              alt="externallink"
+            />
+            My Profile
+          </li>
+          <li>
+            <img
+              class="icon"
+              style="margin-right: 10px"
+              src="/assets/svg/log-out.svg"
+              alt="externallink"
+            />
+            <span class="sign-out">Sign out</span>
+          </li>
+        </ul>
       </div>
     </div>
   </div>

@@ -1,8 +1,8 @@
-.regular-dropdown-menu{
+.regular-dropdown-menu {
   padding: 10px 15px;
   width: fit-content;
   // min-width: 340px;
-  li{
+  li {
     list-style: none;
     padding: 12px 5px;
     border-bottom: 1px solid var(--color-border);
@@ -11,11 +11,16 @@
     font-size: 17px;
     font-weight: 500;
     white-space: nowrap;
-    &:last-child{
+    &:last-child {
       border: none;
     }
-
-    p{
+    &:hover {
+      color: #b1b1b1;
+      p {
+        color: var(--color-primary);
+      }
+    }
+    p {
       white-space: normal;
       font-family: var(--body-font-family);
       font-size: 14px;
@@ -23,9 +28,7 @@
       line-height: 24px;
       margin: 20px 0px;
     }
-    .icon{
-
+    .icon {
     }
   }
-
 }

@@ -9,8 +9,17 @@ nav {
   flex-wrap: wrap;
 }
 
-.icon-user-profile{
+.icon-user-profile {
   cursor: pointer;
+}
+
+.my-profile-dropdown {
+  li{
+    cursor: pointer;
+  }
+  .sign-out {
+    color: #b2b2b2;
+  }
 }
 
 @media (max-width: 992px) {
