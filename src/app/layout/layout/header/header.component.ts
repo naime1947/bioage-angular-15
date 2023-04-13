@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
 
+  handleClick(dropdown: any){
+    console.log(dropdown);
+  }
 }

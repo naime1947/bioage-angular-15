@@ -4,21 +4,20 @@ import { LayoutComponent } from './layout/layout.component';
 import { HeaderComponent } from './layout/header/header.component';
 import { FooterComponent } from './layout/footer/footer.component';
 import { LayoutRoutingModule } from './layout-routing.module';
-import { MenuComponent } from './layout/header/menu/menu.component';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
-
+import { MobileMenuComponent } from './layout/header/mobile-menu/mobile-menu.component';
+import { DesktopMenuComponent } from './layout/header/desktop-menu/desktop-menu.component';
+import { MenuItemsComponent } from './layout/header/menu-items/menu-items.component';
 
 @NgModule({
   declarations: [
     LayoutComponent,
     HeaderComponent,
     FooterComponent,
-    MenuComponent
+    MobileMenuComponent,
+    DesktopMenuComponent,
+    MenuItemsComponent,
   ],
-  imports: [
-    CommonModule,
-    LayoutRoutingModule,
-    BsDropdownModule.forRoot(),
-  ]
+  imports: [CommonModule, LayoutRoutingModule, BsDropdownModule.forRoot()],
 })
-export class LayoutModule { }
+export class LayoutModule {}

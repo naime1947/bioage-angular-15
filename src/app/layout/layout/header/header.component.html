@@ -1,22 +1,23 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light" dropdown>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container">
-    <a class="navbar-brand" href="#"><img src="/assets/img/Toku-Eyes-Bioage-Logo-1 2.png"/></a>
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#navbarMenu"
-      aria-controls="navbarMenu"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-      dropdownToggle
-    >
-      <span class="navbar-toggler-icon"></span>
-    </button>
+    <a class="navbar-brand" href="#"
+      ><img src="/assets/img/Toku-Eyes-Bioage-Logo-1 2.png"
+    /></a>
+    <div class="btn-group" dropdown>
+      <button class="navbar-toggler" type="button" dropdownToggle>
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <app-mobile-menu
+        id="dropdown-basic"
+        *dropdownMenu
+        class="dropdown-menu mobile-menu-wrapper"
+        role="menu"
+        aria-labelledby="button-basic"
+      >
+      </app-mobile-menu>
+    </div>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-
-      </ul>
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
       <form class="d-flex">
         <input
           class="form-control me-2"
@@ -28,16 +29,6 @@
       </form>
     </div>
   </div>
-  <div class="container">
-    <div class="collapse navbar-collapse" id="navbarMenu" *dropdownMenu>
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-      </ul>
-    </div>
-  </div>
 </nav>
+
+<app-desktop-menu class="desktop-menu-wrapper"></app-desktop-menu>
