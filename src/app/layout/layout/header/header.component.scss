@@ -9,6 +9,10 @@ nav {
   flex-wrap: wrap;
 }
 
+.icon-user-profile{
+  cursor: pointer;
+}
+
 @media (max-width: 992px) {
   app-desktop-menu {
     display: none;
