@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent {
-
+  isCollapsed = true;
   handleClick(dropdown: any){
     console.log(dropdown);
   }
