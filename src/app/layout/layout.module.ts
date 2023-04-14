@@ -9,8 +9,6 @@ import { DesktopMenuComponent } from './layout/header/desktop-menu/desktop-menu.
 import { MenuItemsComponent } from './layout/header/menu-items/menu-items.component';
 import { SharedModule } from '@shared/shared.module';
 
-
-
 @NgModule({
   declarations: [
     LayoutComponent,
@@ -20,10 +18,7 @@ import { SharedModule } from '@shared/shared.module';
     DesktopMenuComponent,
     MenuItemsComponent,
   ],
-  imports: [
-    CommonModule,
-    LayoutRoutingModule,
-    SharedModule
-  ],
+  imports: [CommonModule, LayoutRoutingModule, SharedModule],
+  exports: [FooterComponent],
 })
 export class LayoutModule {}
