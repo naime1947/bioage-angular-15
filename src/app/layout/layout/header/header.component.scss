@@ -37,10 +37,29 @@ nav {
 ::ng-deep {
   .mobile-menu-wrapper,
   .desktop-menu-wrapper {
+    li:hover {
+      .text {
+        color: var(--color-secondary);
+      }
+      app-dashboard-svg,
+      app-my-result-svg,
+      app-action-svg {
+        svg path {
+          fill: var(--color-secondary);
+        }
+      }
+
+      app-the-science-svg,
+      app-disclaimers-svg {
+        svg path {
+          stroke: var(--color-secondary);
+        }
+      }
+    }
     svg {
       margin-right: 12px;
     }
-    svg path {
+    app-dashboard-svg svg path {
       fill: var(--color-primary);
     }
   }
@@ -48,8 +67,20 @@ nav {
     .text {
       color: var(--color-secondary) !important;
     }
-    svg path {
-      fill: var(--color-secondary);
+
+    app-dashboard-svg,
+    app-my-result-svg,
+    app-action-svg {
+      svg path {
+        fill: var(--color-secondary);
+      }
+    }
+
+    app-the-science-svg,
+    app-disclaimers-svg {
+      svg path {
+        stroke: var(--color-secondary);
+      }
     }
   }
 }

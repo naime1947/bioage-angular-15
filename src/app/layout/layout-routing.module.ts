@@ -13,6 +13,26 @@ const routes: Routes = [
           import('../modules/dashboard/dashboard.module').then((m) => m.DashboardModule),
       },
       {
+        path: 'my-results',
+        loadChildren: () =>
+          import('../modules/my-results/my-results.module').then((m) => m.MyResultsModule),
+      },
+      {
+        path: 'actions',
+        loadChildren: () =>
+          import('../modules/actions/actions.module').then((m) => m.ActionsModule),
+      },
+      {
+        path: 'the-science',
+        loadChildren: () =>
+          import('../modules/the-science/the-science.module').then((m) => m.TheScienceModule),
+      },
+      {
+        path: 'desclaimers',
+        loadChildren: () =>
+          import('../modules/disclaimers/disclaimers.module').then((m) => m.DisclaimersModule),
+      },
+      {
         path: '',
         redirectTo: 'dashboard',
         pathMatch: "full"
