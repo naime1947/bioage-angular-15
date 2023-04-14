@@ -7,7 +7,7 @@ import { LayoutRoutingModule } from './layout-routing.module';
 import { MobileMenuComponent } from './layout/header/mobile-menu/mobile-menu.component';
 import { DesktopMenuComponent } from './layout/header/desktop-menu/desktop-menu.component';
 import { MenuItemsComponent } from './layout/header/menu-items/menu-items.component';
-import { SharedModule } from '../shared/shared.module';
+import { SharedModule } from '@shared/shared.module';
 
 
 
