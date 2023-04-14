@@ -11,6 +11,7 @@ import { MenuItemsComponent } from './layout/header/menu-items/menu-items.compon
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { CollapseModule } from 'ngx-bootstrap/collapse';
+import { SharedModule } from '../shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { CollapseModule } from 'ngx-bootstrap/collapse';
     LayoutRoutingModule,
     BsDropdownModule.forRoot(),
     CollapseModule.forRoot(),
+    SharedModule
   ],
 })
 export class LayoutModule {}

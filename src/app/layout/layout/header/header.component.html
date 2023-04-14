@@ -4,16 +4,8 @@
       ><img src="/assets/img/Toku-Eyes-Bioage-Logo-1 2.png"
     /></a>
     <div class="btn-group" dropdown>
-      <button class="navbar-toggler" type="button" dropdownToggle>
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <app-mobile-menu
-        id="dropdown-basic"
-        *dropdownMenu
-        class="dropdown-menu mobile-menu-wrapper"
-        role="menu"
-        aria-labelledby="button-basic"
-      >
+      <img  class="brand" src="/assets/svg/hamburger.svg" alt="" dropdownToggle />
+      <app-mobile-menu *dropdownMenu class="dropdown-menu mobile-menu-wrapper">
       </app-mobile-menu>
     </div>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -136,11 +128,14 @@
         <div class="icon-user-profile" dropdownToggle>
           <img class="icon" src="/assets/svg/user.svg" alt="search" />
         </div>
-        <ul *dropdownMenu class="dropdown-menu regular-dropdown-menu my-profile-dropdown">
+        <ul
+          *dropdownMenu
+          class="dropdown-menu regular-dropdown-menu my-profile-dropdown"
+        >
           <li>
             <img
               class="icon"
-              style="margin-left:-10px"
+              style="margin-left: -10px"
               src="/assets/svg/user-outline.svg"
               alt="externallink"
             />

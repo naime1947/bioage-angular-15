@@ -14,7 +14,7 @@ nav {
 }
 
 .my-profile-dropdown {
-  li{
+  li {
     cursor: pointer;
   }
   .sign-out {
@@ -25,5 +25,31 @@ nav {
 @media (max-width: 992px) {
   app-desktop-menu {
     display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .brand {
+    display: none;
+  }
+}
+
+::ng-deep {
+  .mobile-menu-wrapper,
+  .desktop-menu-wrapper {
+    svg {
+      margin-right: 12px;
+    }
+    svg path {
+      fill: var(--color-primary);
+    }
+  }
+  .active {
+    .text {
+      color: var(--color-secondary) !important;
+    }
+    svg path {
+      fill: var(--color-secondary);
+    }
   }
 }
