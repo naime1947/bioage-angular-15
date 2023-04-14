@@ -1,15 +1,31 @@
 :host {
-  width: fit-content;
-  margin-left: -135px;
+  width: 310px;
+  margin-left: -285px;
   margin-top: 5px;
   border: none;
   padding: 20px;
-
-  /* Surface */
-
   background: #f8f8f8;
-  /* Shadow Cards */
-
   box-shadow: 0px 0px 10px rgba(104, 104, 104, 0.25);
   border-radius: 8px;
+}
+
+::ng-deep {
+  .mobile-menu-wrapper {
+    .wrapper {
+      border-bottom: 1px solid var(--color-border);
+    }
+    app-menu-items {
+      li {
+        list-style: none;
+        padding: 15px 0px;
+        .text{
+          font-size: 20px;
+        }
+        svg {
+          width: 40px;
+          margin-right: 12px;
+        }
+      }
+    }
+  }
 }
