@@ -6,7 +6,8 @@ import { ActionSvgComponent } from './svg-cions/action-svg/action-svg.component'
 import { TheScienceSvgComponent } from './svg-cions/the-science-svg/the-science-svg.component';
 import { DisclaimersSvgComponent } from './svg-cions/disclaimers-svg/disclaimers-svg.component';
 
-
+import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
+import { CollapseModule } from 'ngx-bootstrap/collapse';
 
 @NgModule({
   declarations: [
@@ -14,17 +15,17 @@ import { DisclaimersSvgComponent } from './svg-cions/disclaimers-svg/disclaimers
     MyResultSvgComponent,
     ActionSvgComponent,
     TheScienceSvgComponent,
-    DisclaimersSvgComponent
+    DisclaimersSvgComponent,
   ],
-  imports: [
-    CommonModule
-  ],
+  imports: [CommonModule, BsDropdownModule.forRoot(), CollapseModule.forRoot()],
   exports: [
     DashboardSvgComponent,
     MyResultSvgComponent,
     ActionSvgComponent,
     TheScienceSvgComponent,
-    DisclaimersSvgComponent
-  ]
+    DisclaimersSvgComponent,
+    BsDropdownModule,
+    CollapseModule,
+  ],
 })
-export class SharedModule { }
+export class SharedModule {}

@@ -7,11 +7,9 @@ import { LayoutRoutingModule } from './layout-routing.module';
 import { MobileMenuComponent } from './layout/header/mobile-menu/mobile-menu.component';
 import { DesktopMenuComponent } from './layout/header/desktop-menu/desktop-menu.component';
 import { MenuItemsComponent } from './layout/header/menu-items/menu-items.component';
-
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
-import { CollapseModule } from 'ngx-bootstrap/collapse';
 import { SharedModule } from '../shared/shared.module';
+
+
 
 @NgModule({
   declarations: [
@@ -25,8 +23,6 @@ import { SharedModule } from '../shared/shared.module';
   imports: [
     CommonModule,
     LayoutRoutingModule,
-    BsDropdownModule.forRoot(),
-    CollapseModule.forRoot(),
     SharedModule
   ],
 })
