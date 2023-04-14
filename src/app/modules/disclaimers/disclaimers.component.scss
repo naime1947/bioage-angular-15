@@ -13,8 +13,7 @@
   }
 }
 .article-container {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 30px 15%;
   p {
     font-family: var(--body-font-family);
     font-size: 16px;
@@ -23,9 +22,16 @@
   }
 }
 
-@media (min-width: 992px) {
+@media screen and (max-width: 991px) {
+  .banner {
+    height: 82px;
+  }
+  .banner-title {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 34px;
+  }
   .article-container {
-    max-width: 775px;
-    padding: 20px 0;
+    padding: 30px calc(var(--bs-gutter-x) * 0.5);
   }
 }
