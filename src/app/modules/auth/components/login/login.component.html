@@ -13,7 +13,7 @@
               <h1 class="title text-center">BioAge Results Portal</h1>
               <p>Please, authenticate to view your results</p>
               <div class="actions">
-                <button class="btn text-uppercase me-3 btn-regular">Sign In</button>
+                <button (click)="login()" class="btn text-uppercase me-3 btn-regular">Sign In</button>
                 <button class="btn text-uppercase btn-regular-outlined">
                   Create account
                 </button>
@@ -28,4 +28,8 @@
     </div>
   </div>
 </div>
-<app-footer></app-footer>
+<footer>
+  <img src="/assets/img/Toku USA Logo Primary_white on transp bkg.png" alt="" />
+  <p>©Toku Inc. {{year}} | All rights reserved</p>
+</footer>
+

@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { BehaviorSubject } from 'rxjs';
 import { UserModel } from '../models/user.model';
+import { Router } from '@angular/router';
 
 @Injectable({
   providedIn: 'root',
@@ -15,7 +16,7 @@ export class AuthService {
     lastName: 'Smith',
     email: 'john.smith@bioage.com',
   } as UserModel;
-  constructor() {}
+  constructor(private router: Router) {}
 
   getUser() {
     if (!this.isLogin) {
@@ -26,10 +27,12 @@ export class AuthService {
   login() {
     this.isLogin = true;
     this.loginSub.next(true);
+    this.router.navigate(['/']);
   }
 
   logout() {
     this.isLogin = false;
     this.loginSub.next(false);
+    this.router.navigate(['auth']);
   }
 }
