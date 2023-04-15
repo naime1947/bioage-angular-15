@@ -8,6 +8,8 @@ import { DisclaimersSvgComponent } from './svg-icons/disclaimers-svg/disclaimers
 
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { CollapseModule } from 'ngx-bootstrap/collapse';
+import { PopoverModule } from 'ngx-bootstrap/popover';
+
 import { UserSvgComponent } from './svg-icons/user-svg/user-svg.component';
 import { SignOutSvgComponent } from './svg-icons/sign-out-svg/sign-out-svg.component';
 
@@ -21,7 +23,12 @@ import { SignOutSvgComponent } from './svg-icons/sign-out-svg/sign-out-svg.compo
     UserSvgComponent,
     SignOutSvgComponent,
   ],
-  imports: [CommonModule, BsDropdownModule.forRoot(), CollapseModule.forRoot()],
+  imports: [
+    CommonModule,
+    BsDropdownModule.forRoot(),
+    CollapseModule.forRoot(),
+    PopoverModule.forRoot(),
+  ],
   exports: [
     DashboardSvgComponent,
     MyResultSvgComponent,
@@ -32,6 +39,7 @@ import { SignOutSvgComponent } from './svg-icons/sign-out-svg/sign-out-svg.compo
     BsDropdownModule,
     CollapseModule,
     SignOutSvgComponent,
+    PopoverModule
   ],
 })
 export class SharedModule {}

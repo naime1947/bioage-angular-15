@@ -16,7 +16,39 @@
     <div class="inner">
       <img src="/assets/svg/heart-orange.svg" alt="" />
       <div class="content">
-        <h2 class="title">Our Blood Sugar</h2>
+        <h2 class="title">
+          Our Blood Sugar
+
+          <ng-container dropdown>
+            <span class="popover-base" dropdownToggle>
+              <span>1</span>
+              <div *dropdownMenu class="dropdown-menu popover-dropdown">
+                <img src="/assets/img/triangle-up.png" alt="" />
+                <p>
+                  <span class="color-secondary">(1)(a)</span> ACCORD Study
+                  Group; Buse JB, Bigger JT, Byington RP, Cooper LS, Cushman WC,
+                  Friedewald WT, Genuth S, Gerstein HC, Ginsberg HN, Goff DC Jr,
+                  Grimm RH Jr, Margolis KL, Probstfield JL, Simons-Morton DG,
+                  Sullivan MD. Action to Control Cardiovascular Risk in Diabetes
+                  (ACCORD) trial: design and methods. Am J Cardiol. 2007 Jun
+                  18;99(12A):21i-33i. doi: 10.1016/j.amjcard.2007.03.003. Epub
+                  2007 Apr 16. PMID: 17599422.
+                </p>
+                <p>
+                  <span class="color-secondary">(1)(b)</span> Duckworth W,
+                  Abraira C, Moritz T, et al., on behalf of the VADT
+                  Investigators. Glucose control and vascular complications in
+                  veterans with type 2 diabetes. N Engl J Med 2009;360:129-39.
+                </p>
+                <p>
+                  <span class="color-secondary">(1)(c)</span> Leslie RD. United
+                  Kingdom prospective diabetes study (UKPDS): what now or so
+                  what? Diabetes Metab Res Rev. 1999 Jan-Feb;15.
+                </p>
+              </div>
+            </span>
+          </ng-container>
+        </h2>
         <p>
           A 1% reduction in blood sugar in those with elevated levels is
           associated with
@@ -29,7 +61,7 @@
     <div class="inner">
       <img src="/assets/svg/towerds-left.svg" alt="" />
       <div class="content">
-        <h2 class="title">Our Weight</h2>
+        <h2 class="title">Our Weight <span class="popover-base">2</span></h2>
         <p>
           A <b>5kg</b> weight loss in those with a high BMI can
           <b>reduce diabetes risk by 58%.</b>
@@ -41,12 +73,17 @@
     <div class="inner">
       <img src="/assets/svg/blood-pressure-organge.svg" alt="" />
       <div class="content">
-        <h2 class="title">Our Blood Pressure</h2>
+        <h2 class="title">
+          Our Blood Pressure <span class="popover-base">3</span>
+        </h2>
         <p>
-          A <b>10%</b> reduction in systolic blood pressure in those with elevated levels is associated with
+          A <b>10%</b> reduction in systolic blood pressure in those with
+          elevated levels is associated with
           <b>a 25% - 35% reduction in the risk of cardiac events.</b>
         </p>
       </div>
     </div>
   </div>
 </div>
+
+<div class="container references">ⓘ See References ></div>

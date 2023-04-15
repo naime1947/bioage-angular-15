@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ActionsComponent } from './actions.component';
 import { ActionsRoutingModule } from './actions-routing.module';
+import { SharedModule } from '@shared/shared.module';
 
 
 
@@ -11,7 +12,8 @@ import { ActionsRoutingModule } from './actions-routing.module';
   ],
   imports: [
     CommonModule,
-    ActionsRoutingModule
+    ActionsRoutingModule,
+    SharedModule
   ]
 })
 export class ActionsModule { }
