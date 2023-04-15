@@ -1,6 +1,8 @@
 <header>
   <div class="container">
-    <img src="/assets/img/Toku-Eyes-Bioage-Logo.png" alt="logo" class="brand" />
+    <a href="/">
+      <img src="/assets/img/Toku-Eyes-Bioage-Logo.png" alt="logo" class="brand"
+    /></a>
   </div>
 </header>
 <div class="main">
@@ -13,7 +15,12 @@
               <h1 class="title text-center">BioAge Results Portal</h1>
               <p>Please, authenticate to view your results</p>
               <div class="actions">
-                <button (click)="login()" class="btn text-uppercase me-3 btn-regular">Sign In</button>
+                <button
+                  (click)="login()"
+                  class="btn text-uppercase me-3 btn-regular"
+                >
+                  Sign In
+                </button>
                 <button class="btn text-uppercase btn-regular-outlined">
                   Create account
                 </button>
@@ -30,6 +37,5 @@
 </div>
 <footer>
   <img src="/assets/img/Toku USA Logo Primary_white on transp bkg.png" alt="" />
-  <p>©Toku Inc. {{year}} | All rights reserved</p>
+  <p>©Toku Inc. {{ year }} | All rights reserved</p>
 </footer>
-
