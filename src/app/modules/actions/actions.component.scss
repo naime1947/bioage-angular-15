@@ -30,11 +30,12 @@
 .box-wrapper {
   display: flex;
   justify-content: space-between;
-  margin-top: -50px;
+  margin-top: -100px;
 }
 .each-box {
   flex-grow: 1;
-  height: 100px;
+  flex-shrink: 1;
+  flex-basis: 0;
   margin-right: 30px;
   &:last-child {
     margin-right: 0;
@@ -52,6 +53,23 @@
     background: #fff;
     height: 100%;
     width: 100%;
+    padding: 20px 15px;
+    display: flex;
+    justify-content: start;
+    img {
+      align-self: start;
+      margin-top: 6px;
+      margin-right: 10px;
+    }
+
+    .content{
+      .title{
+        font-family: var(--heading-font-family);
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 34px;
+      }
+    }
   }
 }
 
