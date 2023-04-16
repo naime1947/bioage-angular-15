@@ -331,16 +331,27 @@
   }
 
   .section-two {
+    margin: 1rem auto;
     .row {
+      margin: 10px auto;
+      p{
+        font-size: 14px;
+      }
     }
     .title {
       &.pe-5 {
+        padding-right: 0 !important;
       }
     }
 
     hr {
     }
     .title-two {
+      text-align: start;
+    }
+
+    .hidden-custom{
+      display: none;
     }
   }
 
@@ -372,216 +383,4 @@
     }
   }
 }
-@media screen and (max-width: 991px) {
-  .banner {
-    //height: 420px;
-    background-image: url("/assets/img/Rectangle-420.png");
-    background-repeat: no-repeat;
-    background-size: cover;
 
-    .title {
-    }
-    h1.fst-italic {
-    }
-
-    p {
-    }
-
-    p.description {
-    }
-  }
-
-  .box-wrapper {
-  }
-  .each-box {
-    &:last-child {
-    }
-
-    .inner {
-      img {
-      }
-
-      .content {
-        .title {
-          .popover-base {
-            .popover-dropdown {
-              img {
-              }
-
-              p {
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-  .color-secondary {
-  }
-  .references {
-    span {
-    }
-  }
-
-  .ref-modal {
-    .modal-header {
-      .btn-close {
-      }
-    }
-
-    .modal-body {
-      h2 {
-      }
-      p {
-      }
-    }
-  }
-
-  .section-two {
-    .row {
-    }
-    .title {
-      &.pe-5 {
-      }
-    }
-
-    hr {
-    }
-    .title-two {
-    }
-  }
-
-  .image-block-wrapper {
-    .image-block {
-      &:nth-child(even) {
-        .content {
-        }
-        img {
-        }
-      }
-    }
-
-    .content,
-    img {
-    }
-
-    img {
-    }
-
-    .content {
-      .title {
-      }
-      p {
-      }
-    }
-
-    button {
-    }
-  }
-}
-@media screen and (max-width: 991px) {
-  .banner {
-    //height: 420px;
-    background-image: url("/assets/img/Rectangle-420.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    .title {
-    }
-    h1.fst-italic {
-    }
-
-    p {
-    }
-
-    p.description {
-    }
-  }
-
-  .box-wrapper {
-  }
-  .each-box {
-    &:last-child {
-    }
-
-    .inner {
-      img {
-      }
-
-      .content {
-        .title {
-          .popover-base {
-            .popover-dropdown {
-              img {
-              }
-
-              p {
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-  .color-secondary {
-  }
-  .references {
-    span {
-    }
-  }
-
-  .ref-modal {
-    .modal-header {
-      .btn-close {
-      }
-    }
-
-    .modal-body {
-      h2 {
-      }
-      p {
-      }
-    }
-  }
-
-  .section-two {
-    .row {
-    }
-    .title {
-      &.pe-5 {
-      }
-    }
-
-    hr {
-    }
-    .title-two {
-    }
-  }
-
-  .image-block-wrapper {
-    .image-block {
-      &:nth-child(even) {
-        .content {
-        }
-        img {
-        }
-      }
-    }
-
-    .content,
-    img {
-    }
-
-    img {
-    }
-
-    .content {
-      .title {
-      }
-      p {
-      }
-    }
-
-    button {
-    }
-  }
-}
