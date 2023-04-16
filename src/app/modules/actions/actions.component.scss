@@ -25,11 +25,18 @@
   p.description {
     max-width: 60%;
   }
+  .box-wrapper,
+  .references {
+    display: none;
+  }
 }
 
 .box-wrapper {
-  display: flex;
-  justify-content: space-between;
+  app-three-box {
+    display: flex;
+    justify-content: space-between;
+  }
+
   margin-top: -100px;
 }
 .each-box {
@@ -228,7 +235,353 @@
 }
 
 @media screen and (max-width: 991px) {
-  .each-box {
+  .banner {
+    height: auto;
+    background-image: url("/assets/img/Rectangle-420.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 1rem;
+    padding-bottom: 0.1rem;
+    .title {
+      font-size: 28px;
+      line-height: 34px;
+    }
+
+    h1.fst-italic {
+      margin-bottom: 10px;
+    }
+    p.fw-bold{
+      margin-bottom: 5px;
+    }
+    p {
+      font-size: 14px;
+      line-height: 24px;
+    }
+
+    p.description {
+      max-width: 100%;
+    }
+
+    .box-wrapper {
+      display: block;
+      app-three-box {
+        display: flex;
+        flex-direction: column;
+      }
+      margin: 0;
+    }
+
+    .references{
+      display: block;
+      text-align: start;
+      margin-bottom: 20px;
+    }
+  }
+  .desktop-box {
     display: none;
+  }
+
+  .each-box {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+    margin: 10px 0;
+    .inner {
+      img {
+      }
+
+      .content {
+        .title {
+          font-size: 20px;
+          line-height: 30px;
+          .popover-base {
+            .popover-dropdown {
+              img {
+              }
+
+              p {
+                font-weight: 600;
+                line-height: 21px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .color-secondary {
+  }
+  .references {
+    span {
+    }
+  }
+
+  .ref-modal {
+    .modal-header {
+      .btn-close {
+      }
+    }
+
+    .modal-body {
+      h2 {
+      }
+      p {
+      }
+    }
+  }
+
+  .section-two {
+    .row {
+    }
+    .title {
+      &.pe-5 {
+      }
+    }
+
+    hr {
+    }
+    .title-two {
+    }
+  }
+
+  .image-block-wrapper {
+    .image-block {
+      &:nth-child(even) {
+        .content {
+        }
+        img {
+        }
+      }
+    }
+
+    .content,
+    img {
+    }
+
+    img {
+    }
+
+    .content {
+      .title {
+      }
+      p {
+      }
+    }
+
+    button {
+    }
+  }
+}
+@media screen and (max-width: 991px) {
+  .banner {
+    //height: 420px;
+    background-image: url("/assets/img/Rectangle-420.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .title {
+    }
+    h1.fst-italic {
+    }
+
+    p {
+    }
+
+    p.description {
+    }
+  }
+
+  .box-wrapper {
+  }
+  .each-box {
+    &:last-child {
+    }
+
+    .inner {
+      img {
+      }
+
+      .content {
+        .title {
+          .popover-base {
+            .popover-dropdown {
+              img {
+              }
+
+              p {
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .color-secondary {
+  }
+  .references {
+    span {
+    }
+  }
+
+  .ref-modal {
+    .modal-header {
+      .btn-close {
+      }
+    }
+
+    .modal-body {
+      h2 {
+      }
+      p {
+      }
+    }
+  }
+
+  .section-two {
+    .row {
+    }
+    .title {
+      &.pe-5 {
+      }
+    }
+
+    hr {
+    }
+    .title-two {
+    }
+  }
+
+  .image-block-wrapper {
+    .image-block {
+      &:nth-child(even) {
+        .content {
+        }
+        img {
+        }
+      }
+    }
+
+    .content,
+    img {
+    }
+
+    img {
+    }
+
+    .content {
+      .title {
+      }
+      p {
+      }
+    }
+
+    button {
+    }
+  }
+}
+@media screen and (max-width: 991px) {
+  .banner {
+    //height: 420px;
+    background-image: url("/assets/img/Rectangle-420.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    .title {
+    }
+    h1.fst-italic {
+    }
+
+    p {
+    }
+
+    p.description {
+    }
+  }
+
+  .box-wrapper {
+  }
+  .each-box {
+    &:last-child {
+    }
+
+    .inner {
+      img {
+      }
+
+      .content {
+        .title {
+          .popover-base {
+            .popover-dropdown {
+              img {
+              }
+
+              p {
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .color-secondary {
+  }
+  .references {
+    span {
+    }
+  }
+
+  .ref-modal {
+    .modal-header {
+      .btn-close {
+      }
+    }
+
+    .modal-body {
+      h2 {
+      }
+      p {
+      }
+    }
+  }
+
+  .section-two {
+    .row {
+    }
+    .title {
+      &.pe-5 {
+      }
+    }
+
+    hr {
+    }
+    .title-two {
+    }
+  }
+
+  .image-block-wrapper {
+    .image-block {
+      &:nth-child(even) {
+        .content {
+        }
+        img {
+        }
+      }
+    }
+
+    .content,
+    img {
+    }
+
+    img {
+    }
+
+    .content {
+      .title {
+      }
+      p {
+      }
+    }
+
+    button {
+    }
   }
 }

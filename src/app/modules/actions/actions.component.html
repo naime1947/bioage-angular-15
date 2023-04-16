@@ -8,132 +8,24 @@
       We can improve our BioAge by taking small steps towards better health.
       Research tells us to focus on these three aspects of our health:
     </p>
-  </div>
-</div>
 
-<div class="container box-wrapper">
-  <div class="each-box">
-    <div class="inner">
-      <img src="/assets/svg/heart-orange.svg" alt="" />
-      <div class="content">
-        <h2 class="title">
-          Our Blood Sugar
-
-          <ng-container dropdown>
-            <span class="popover-base" dropdownToggle>
-              <span>1</span>
-              <div *dropdownMenu class="dropdown-menu popover-dropdown">
-                <img src="/assets/img/triangle-up.png" alt="" />
-                <p>
-                  <span class="color-secondary">(1)(a)</span> ACCORD Study
-                  Group; Buse JB, Bigger JT, Byington RP, Cooper LS, Cushman WC,
-                  Friedewald WT, Genuth S, Gerstein HC, Ginsberg HN, Goff DC Jr,
-                  Grimm RH Jr, Margolis KL, Probstfield JL, Simons-Morton DG,
-                  Sullivan MD. Action to Control Cardiovascular Risk in Diabetes
-                  (ACCORD) trial: design and methods. Am J Cardiol. 2007 Jun
-                  18;99(12A):21i-33i. doi: 10.1016/j.amjcard.2007.03.003. Epub
-                  2007 Apr 16. PMID: 17599422.
-                </p>
-                <p>
-                  <span class="color-secondary">(1)(b)</span> Duckworth W,
-                  Abraira C, Moritz T, et al., on behalf of the VADT
-                  Investigators. Glucose control and vascular complications in
-                  veterans with type 2 diabetes. N Engl J Med 2009;360:129-39.
-                </p>
-                <p>
-                  <span class="color-secondary">(1)(c)</span> Leslie RD. United
-                  Kingdom prospective diabetes study (UKPDS): what now or so
-                  what? Diabetes Metab Res Rev. 1999 Jan-Feb;15.
-                </p>
-              </div>
-            </span>
-          </ng-container>
-        </h2>
-        <p>
-          A 1% reduction in blood sugar in those with elevated levels is
-          associated with
-          <b>a 17-21% reduction in the risk of cardiac events. </b>
-        </p>
-      </div>
+    <div class="box-wrapper">
+      <app-three-box></app-three-box>
     </div>
-  </div>
-  <div class="each-box">
-    <div class="inner">
-      <img src="/assets/svg/towerds-left.svg" alt="" />
-      <div class="content">
-        <h2 class="title">
-          Our Weight
-          <ng-container dropdown>
-            <span class="popover-base" dropdownToggle>
-              <span>2</span>
-              <div *dropdownMenu class="dropdown-menu popover-dropdown">
-                <img src="/assets/img/triangle-up.png" alt="" />
-                <p>
-                  <span class="color-secondary">(2)</span> Galaviz KI, Narayan
-                  KMV, Lobelo F, Weber MB. Lifestyle and the Prevention of Type
-                  2 Diabetes: A Status Report. Am J Lifestyle Med. 2015 Nov
-                  24;12(1):4-20. doi: 10.1177/1559827615619159. PMID: 30202378;
-                  PMCID: PMC6125024.
-                </p>
-              </div>
-            </span>
-          </ng-container>
-        </h2>
-        <p>
-          A <b>5kg</b> weight loss in those with a high BMI can
-          <b>reduce diabetes risk by 58%.</b>
-        </p>
-      </div>
-    </div>
-  </div>
-  <div class="each-box">
-    <div class="inner">
-      <img src="/assets/svg/blood-pressure-organge.svg" alt="" />
-      <div class="content">
-        <h2 class="title">
-          Our Blood Pressure
-          <ng-container dropdown>
-            <span class="popover-base" dropdownToggle>
-              <span>3</span>
-              <div *dropdownMenu class="dropdown-menu popover-dropdown">
-                <img src="/assets/img/triangle-up.png" alt="" />
-                <p>
-                  <span class="color-secondary">(3)(a)</span> The Hypertension
-                  Optimal Treatment Study (the HOT Study). Blood Press. 1993
-                  Mar;2(1):62-8. doi: 10.3109/08037059309077529. PMID: 8193735.
-                </p>
-                <p>
-                  <span class="color-secondary">(3)(b)</span> Ambrosius WT, Sink
-                  KM, Foy CG, Berlowitz DR, Cheung AK, Cushman WC, Fine LJ, Goff
-                  DC Jr, Johnson KC, Killeen AA, Lewis CE, Oparil S, Reboussin
-                  DM, Rocco MV, Snyder JK, Williamson JD, Wright JT Jr, Whelton
-                  PK; SPRINT Study Research Group. The design and rationale of a
-                  multicenter clinical trial comparing two strategies for
-                  control of systolic blood pressure: the Systolic Blood
-                  Pressure Intervention Trial (SPRINT). Clin Trials. 2014
-                  Oct;11(5):532-46. doi: 10.1177/1740774514537404. Epub 2014 Jun
-                  5. Erratum in: Clin Trials. 2017 Apr;14(2):222. PMID:
-                  24902920; PMCID: PMC4156910.
-                </p>
-              </div>
-            </span>
-          </ng-container>
-        </h2>
-        <p>
-          A <b>10%</b> reduction in systolic blood pressure in those with
-          elevated levels is associated with
-          <b>a 25% - 35% reduction in the risk of cardiac events.</b>
-        </p>
-      </div>
+    <div class="references">
+      <app-see-reference
+        (click)="openRefModal(reFTemplate)"
+      ></app-see-reference>
     </div>
   </div>
 </div>
 
-<div class="container references">
-  <span (click)="openRefModal(reFTemplate)">
-    <img src="/assets/svg/alert-circle-orange.svg" alt="" /> See References
-    <img src="/assets/svg/chevron-right-orange.svg" alt=""
-  /></span>
+<div class="container box-wrapper desktop-box">
+  <app-three-box></app-three-box>
+</div>
+
+<div class="container references desktop-box">
+  <app-see-reference (click)="openRefModal(reFTemplate)"></app-see-reference>
 </div>
 
 <ng-template #reFTemplate>
@@ -268,7 +160,7 @@
       <h2 class="title">Manage Stress</h2>
       <p>
         High levels of stress can cause blood sugar levels, weight and blood
-        pressure to rise, so it's important to manage stress levels. 
+        pressure to rise, so it's important to manage stress levels.
       </p>
       <p>
         Try to manage stress through relaxation techniques such as deep
@@ -281,8 +173,7 @@
     <div class="content">
       <h2 class="title">Quit Smoking</h2>
       <p>
-        Smoking can raise blood pressure and increase the risk of heart
-        disease. 
+        Smoking can raise blood pressure and increase the risk of heart disease.
       </p>
       <p>
         Speak to your doctor for guidance and assistance with quitting smoking.
