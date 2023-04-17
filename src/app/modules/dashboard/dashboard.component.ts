@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { UserModel } from '@modules/auth/models/user.model';
+import { AuthService } from '@modules/auth/services/auth.service';
 
 @Component({
   selector: 'app-dashboard',
@@ -6,5 +8,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./dashboard.component.scss']
 })
 export class DashboardComponent {
-
+  user: UserModel | null;
+  constructor(private authService: AuthService){
+    this.user = this.authService.getUser();
+  }
 }

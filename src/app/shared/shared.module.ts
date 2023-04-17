@@ -15,6 +15,7 @@ import { TooltipModule } from 'ngx-bootstrap/tooltip';
 import { UserSvgComponent } from './svg-icons/user-svg/user-svg.component';
 import { SignOutSvgComponent } from './svg-icons/sign-out-svg/sign-out-svg.component';
 import { ReadMoreComponent } from './components/read-more/read-more.component';
+import { AuthGuard } from './guards/auth.guard';
 
 @NgModule({
   declarations: [
@@ -58,5 +59,8 @@ import { ReadMoreComponent } from './components/read-more/read-more.component';
     //components
     ReadMoreComponent
   ],
+  providers: [
+    AuthGuard
+  ]
 })
 export class SharedModule {}
