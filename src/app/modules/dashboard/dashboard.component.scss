@@ -4,10 +4,19 @@
   background-image: url("/assets/img/Rectangle 170.png");
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
-}
+  .wrapper {
+    height: 100%;
+    position: relative;
 
-.banner-img-wrapper {
-  margin-top: 39px;
-  height: 265px;
+    display: flex;
+    justify-content: space-between;
+    .banner-content {
+      padding-top: 8%;
+    }
+    .banner-img {
+      position: absolute;
+      right: 15%;
+      bottom: 0;
+    }
+  }
 }
