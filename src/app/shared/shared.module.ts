@@ -14,9 +14,11 @@ import { TooltipModule } from 'ngx-bootstrap/tooltip';
 
 import { UserSvgComponent } from './svg-icons/user-svg/user-svg.component';
 import { SignOutSvgComponent } from './svg-icons/sign-out-svg/sign-out-svg.component';
+import { ReadMoreComponent } from './components/read-more/read-more.component';
 
 @NgModule({
   declarations: [
+    //svg icons
     DashboardSvgComponent,
     MyResultSvgComponent,
     ActionSvgComponent,
@@ -24,6 +26,9 @@ import { SignOutSvgComponent } from './svg-icons/sign-out-svg/sign-out-svg.compo
     DisclaimersSvgComponent,
     UserSvgComponent,
     SignOutSvgComponent,
+
+    //components
+    ReadMoreComponent,
   ],
   imports: [
     CommonModule,
@@ -34,18 +39,24 @@ import { SignOutSvgComponent } from './svg-icons/sign-out-svg/sign-out-svg.compo
     TooltipModule.forRoot(),
   ],
   exports: [
+    //svg icons
     DashboardSvgComponent,
     MyResultSvgComponent,
     ActionSvgComponent,
     TheScienceSvgComponent,
     DisclaimersSvgComponent,
     UserSvgComponent,
+
+    //bootstrap module
     BsDropdownModule,
     CollapseModule,
     SignOutSvgComponent,
     PopoverModule,
     ModalModule,
-    TooltipModule
+    TooltipModule,
+
+    //components
+    ReadMoreComponent
   ],
 })
 export class SharedModule {}

@@ -1,0 +1,4 @@
+<p [innerHTML]="currentText"></p>
+<span class="action" [class.hidden]="hideToggle" (click)="toggleView()">{{
+  isCollapsed ? "More" : "Less"
+}}</span>
