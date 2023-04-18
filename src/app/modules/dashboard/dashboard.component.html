@@ -8,10 +8,45 @@
   </div>
 </div>
 <div class="container grid grid--10x2">
-  <div class="grid-item-1"></div>
-  <div class="grid-item-2"></div>
-  <div class="grid-item-3"></div>
-  <div class="grid-item-4"></div>
-  <div class="grid-item-5"></div>
-  <div class="grid-item-6"></div>
+  <div class="overview">
+    <h2>Overview</h2>
+    <ul>
+      <li>
+        <span class="label">Patient:</span>
+        {{ user?.firstName + " " + user?.lastName }}
+      </li>
+      <li>
+        <span class="label">Date of Latest Imagin:</span>
+        {{ user?.dateOfLatestImaging | date }}
+      </li>
+      <li><span class="label">Ref. No:</span> {{ user?.refNo }}</li>
+    </ul>
+  </div>
+  <div class="bio-age">
+    <span>Your Biological Age</span>
+  </div>
+  <div class="health-recom">
+    <h2>Health Recommendations</h2>
+    <div class="content">
+      <img src="/assets/svg/health-recom.svg" alt="">
+      <p>Follow these health recommendations to stay on top of your BioAge</p>
+    </div>
+    <button class="btn btn-outline-primary btn-regular-outlined w-100">Find out more</button>
+  </div>
+  <div class="next-bio-age">
+    <h2>Your next Bio Age assessment is due in:</h2>
+    <button class="btn btn-outline-primary btn-regular-outlined w-100">Book Appoinment now</button>
+  </div>
+  <div class="john-dyk">
+    <span>John, Did you know</span>
+  </div>
+  <div class="effect-of-smock">
+    <span>Effect of Exposure to smoking</span>
+  </div>
+  <div class="compare-others">
+    <span>Compare others like you</span>
+  </div>
+  <div class="bio-age-progress">
+    <span>How your BioAge has proressed</span>
+  </div>
 </div>

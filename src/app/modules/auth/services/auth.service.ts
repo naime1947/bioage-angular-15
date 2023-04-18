@@ -15,6 +15,8 @@ export class AuthService {
     firstName: 'John',
     lastName: 'Smith',
     email: 'john.smith@bioage.com',
+    dateOfLatestImaging: new Date('03/27/2023'),
+    refNo: 'RD12345',
   } as UserModel;
   constructor(private router: Router) {
     const savedUser = localStorage.getItem('user');

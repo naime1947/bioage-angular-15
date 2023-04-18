@@ -3,4 +3,6 @@ export interface UserModel{
   firstName: string;
   lastName: string;
   email: string;
+  dateOfLatestImaging: Date;
+  refNo:string;
 }
