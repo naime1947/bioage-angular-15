@@ -16,6 +16,7 @@ import { UserSvgComponent } from './svg-icons/user-svg/user-svg.component';
 import { SignOutSvgComponent } from './svg-icons/sign-out-svg/sign-out-svg.component';
 import { ReadMoreComponent } from './components/read-more/read-more.component';
 import { AuthGuard } from './guards/auth.guard';
+import { DateDueCounterComponent } from './components/date-due-counter/date-due-counter.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { AuthGuard } from './guards/auth.guard';
 
     //components
     ReadMoreComponent,
+    DateDueCounterComponent,
   ],
   imports: [
     CommonModule,
@@ -57,7 +59,8 @@ import { AuthGuard } from './guards/auth.guard';
     TooltipModule,
 
     //components
-    ReadMoreComponent
+    ReadMoreComponent,
+    DateDueCounterComponent
   ],
   providers: [
     AuthGuard
