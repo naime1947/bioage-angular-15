@@ -16,7 +16,13 @@ export class AuthService {
     lastName: 'Smith',
     email: 'john.smith@bioage.com',
   } as UserModel;
-  constructor(private router: Router) {}
+  constructor(private router: Router) {
+    const savedUser = localStorage.getItem('user');
+    if (savedUser) {
+      this.isLogin = true;
+      this.loginSub.next(true);
+    }
+  }
 
   getUser() {
     if (!this.isLogin) {
@@ -27,10 +33,12 @@ export class AuthService {
   login() {
     this.isLogin = true;
     this.loginSub.next(true);
+    localStorage.setItem('user', JSON.stringify(this.user));
     this.router.navigate(['/']);
   }
 
   logout() {
+    localStorage.removeItem('user');
     this.isLogin = false;
     this.loginSub.next(false);
     this.router.navigate(['auth']);

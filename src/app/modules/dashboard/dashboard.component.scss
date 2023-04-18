@@ -20,3 +20,11 @@
     }
   }
 }
+
+.grid{
+  background-color: beige;
+  gap: 20px;
+}
+.grid>div{
+  background-color: aqua;
+}
