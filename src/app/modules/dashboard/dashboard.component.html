@@ -82,7 +82,7 @@
     </button>
   </div>
   <div class="next-bio-age">
-    <h2 class="title"> Your next Bio Age assessment is due in:</h2>
+    <h2 class="title">Your next Bio Age assessment is due in:</h2>
     <app-date-due-counter
       [dueDate]="user?.nextAssessmentDate"
     ></app-date-due-counter>
@@ -127,9 +127,15 @@
     </button>
   </div>
   <div class="compare-others">
-    <h2>Compare others like you</h2>
+    <h2 class="title">How to Compare to others like you</h2>
+    <div class="chart">Chart will be shown here</div>
+    <div class="caption">
+      *Compared to the BioAge data from thousands of people of similar
+      chronological age and gender at birth
+    </div>
   </div>
   <div class="bio-age-progress">
     <h2 class="title">How your BioAge has proressed</h2>
+    <div class="chart">Chart will be shown here</div>
   </div>
 </div>

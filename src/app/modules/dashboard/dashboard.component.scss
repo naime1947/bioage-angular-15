@@ -243,8 +243,26 @@
 
   .compare-others {
     grid-column: 2/3;
+    .chart{
+      height: 335px;
+      background-color: var(--color-body);
+    }
+    .caption {
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+      color: #6c757d;
+      text-align: left;
+      width: 100%;
+      font-size: 12px;
+      line-height: 16px;
+    }
   }
   .bio-age-progress {
     grid-column: 3/4;
+
+    .chart{
+      height: 335px;
+      background-color: var(--color-body);
+    }
   }
 }
