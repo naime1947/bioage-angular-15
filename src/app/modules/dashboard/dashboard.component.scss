@@ -32,17 +32,17 @@
     border: 1px solid var(--color-border);
     border-radius: 8px;
     outline: none;
-  }
 
-  .overview {
-    grid-column: 1/2;
-
-    h2 {
+    .title {
       font-family: var(--heading-font-family);
       font-size: 28px;
       line-height: 34px;
       font-weight: 500;
     }
+  }
+
+  .overview {
+    grid-column: 1/2;
     ul {
       margin: 0;
       padding: 0;
@@ -61,9 +61,6 @@
     grid-row: 1 / 4;
 
     h2 {
-      font-size: var(--heading-font-family);
-      font-size: 28px;
-      line-height: 34px;
       margin-bottom: 20px;
     }
 
@@ -169,13 +166,6 @@
   .health-recom {
     grid-column: 1 / 2;
     grid-row: 2 / 3;
-
-    h2 {
-      font-family: var(--heading-font-family);
-      font-size: 24px;
-      line-height: 28px;
-      font-weight: 400;
-    }
     .content {
       display: flex;
       margin: 15px 0;
@@ -194,10 +184,6 @@
     grid-column: 1/2;
     grid-row: 3/5;
     h2 {
-      font-family: var(--heading-font-family);
-      font-weight: 500;
-      font-size: 20px;
-      line-height: 30px;
       padding-right: 30%;
     }
   }
@@ -208,13 +194,6 @@
     background-size: cover;
     grid-column: 2/4;
     grid-row: 4/6;
-
-    h2 {
-      font-family: var(--heading-font-family);
-      font-size: 28px;
-      font-weight: 500;
-      line-height: 34px;
-    }
 
     p {
       font-size: 14px;

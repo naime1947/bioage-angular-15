@@ -9,7 +9,7 @@
 </div>
 <div class="container grid grid--10x2">
   <div class="overview">
-    <h2>Overview</h2>
+    <h2 class="title">Overview</h2>
     <ul>
       <li>
         <span class="label">Patient:</span>
@@ -72,7 +72,7 @@
     </button>
   </div>
   <div class="health-recom">
-    <h2>Health Recommendations</h2>
+    <h2 class="title">Health Recommendations</h2>
     <div class="content">
       <img src="/assets/svg/health-recom.svg" alt="" />
       <p>Follow these health recommendations to stay on top of your BioAge</p>
@@ -82,7 +82,7 @@
     </button>
   </div>
   <div class="next-bio-age">
-    <h2>Your next Bio Age assessment is due in:</h2>
+    <h2 class="title"> Your next Bio Age assessment is due in:</h2>
     <app-date-due-counter
       [dueDate]="user?.nextAssessmentDate"
     ></app-date-due-counter>
@@ -91,7 +91,7 @@
     </button>
   </div>
   <div class="john-dyk">
-    <h2>{{ user?.firstName }}, Did you know</h2>
+    <h2 class="title">{{ user?.firstName }}, Did you know</h2>
     <p>
       A {{ user?.biologicalAge }} years old is at higher risk for a range of
       medical conditions when compared to a {{ user?.choronologicalAge }} years
@@ -120,12 +120,12 @@
     </div>
   </div>
   <div class="effect-of-smock">
-    <span>Effect of Exposure to smoking</span>
+    <h2 class="title">Effect of Exposure to smoking</h2>
   </div>
   <div class="compare-others">
-    <span>Compare others like you</span>
+    <h2>Compare others like you</h2>
   </div>
   <div class="bio-age-progress">
-    <span>How your BioAge has proressed</span>
+    <h2 class="title">How your BioAge has proressed</h2>
   </div>
 </div>
