@@ -24,11 +24,10 @@
 .grid {
   margin: 2rem auto;
   display: grid;
-  //background-color: rgb(240, 240, 232);
   grid-template-columns: 1fr 1fr 1fr;
   gap: 15px;
   & > div {
-    padding: 15px;
+    padding: 2rem;
     border: 1px solid var(--color-border);
     border-radius: 8px;
     outline: none;
@@ -134,26 +133,26 @@
       border: 1px solid var(--color-border);
       border-radius: 8px;
       display: flex;
-      img{
+      img {
         margin-right: 15px;
         margin-top: 10px;
         align-self: self-start;
       }
 
-      h3{
+      h3 {
         font-family: var(--heading-font-family);
         font-size: 16px;
         line-height: 24px;
       }
-      p{
+      p {
         color: var(--color-primary-light);
         font-size: 12px;
         line-height: 16px;
-
       }
-      .gap{
+      .gap {
         font-size: 16px;
-        .number{
+        align-self: center;
+        .number {
           color: #ff4343;
           font-size: 40px;
           font-weight: 500;
@@ -203,7 +202,59 @@
   }
 
   .john-dyk {
+    background-image: url("/assets/img/Rectangle 170.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     grid-column: 2/4;
+    grid-row: 4/6;
+
+    h2 {
+      font-family: var(--heading-font-family);
+      font-size: 28px;
+      font-weight: 500;
+      line-height: 34px;
+    }
+
+    p {
+      font-size: 14px;
+    }
+
+    .three-boxes {
+      display: flex;
+      .box {
+        background: linear-gradient(
+          90deg,
+          rgba(68, 206, 246, 1) 0%,
+          rgba(142, 209, 133, 1) 100%
+        );
+        padding: 3px;
+        border-radius: 8px;
+        flex-grow: 1;
+        flex-basis: 0;
+        flex-shrink: 1;
+        .inner {
+          display: flex;
+          background-color: #fff;
+          border-radius: 6px;
+          padding: 10px 12px;
+          height: 100%;
+
+          img {
+            align-self: flex-start;
+            margin-top: 6px;
+          }
+
+          p {
+            padding-left: 10px;
+            margin-bottom: 0;
+            font-family: var(--heading-font-family);
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 500;
+          }
+        }
+      }
+    }
   }
 
   .effect-of-smock {
