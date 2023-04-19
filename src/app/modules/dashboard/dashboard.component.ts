@@ -9,7 +9,6 @@ import { AuthService } from '@modules/auth/services/auth.service';
 })
 export class DashboardComponent {
   user: UserModel | null;
-  dueDate = new Date("2023-11-16T12:00:00Z");
   constructor(private authService: AuthService){
     this.user = this.authService.getUser();
   }

@@ -23,20 +23,48 @@
     </ul>
   </div>
   <div class="bio-age">
-    <span>Your Biological Age</span>
+    <h2>Your Biological Age</h2>
+    <div class="age-boxes">
+      <div class="box me-3">
+        <div class="title-wrapper">
+          <img src="/assets/svg/chronological.svg" alt=""> <span>Chronological</span>
+        </div>
+        <div class="circle">
+          <div class="inner">
+            <div class="age">{{user?.choronologicalAge}}</div>
+            <div class="label">Years</div>
+          </div>
+        </div>
+      </div>
+      <div class="box ">
+        <div class="title-wrapper">
+          <img src="/assets/svg/heart-orange.svg" alt=""> <span>Biological</span>
+        </div>
+        <div class="circle">
+          <div class="inner">
+            <div class="age">{{user?.biologicalAge}}</div>
+            <div class="label">Years</div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
   <div class="health-recom">
     <h2>Health Recommendations</h2>
     <div class="content">
-      <img src="/assets/svg/health-recom.svg" alt="">
+      <img src="/assets/svg/health-recom.svg" alt="" />
       <p>Follow these health recommendations to stay on top of your BioAge</p>
     </div>
-    <button class="btn btn-outline-primary btn-regular-outlined w-100">Find out more</button>
+    <button class="btn btn-outline-primary btn-regular-outlined w-100">
+      Find out more
+    </button>
   </div>
   <div class="next-bio-age">
     <h2>Your next Bio Age assessment is due in:</h2>
-    <app-date-due-counter [dueDate]="dueDate"></app-date-due-counter>
-    <button class="btn btn-outline-primary btn-regular-outlined w-100">Book Appoinment now</button>
+    <app-date-due-counter [dueDate]="user?.nextAssessmentDate"></app-date-due-counter>
+    <button class="btn btn-outline-primary btn-regular-outlined w-100">
+      Book Appoinment now
+    </button>
   </div>
   <div class="john-dyk">
     <span>John, Did you know</span>
