@@ -17,6 +17,7 @@ import { SignOutSvgComponent } from './svg-icons/sign-out-svg/sign-out-svg.compo
 import { ReadMoreComponent } from './components/read-more/read-more.component';
 import { AuthGuard } from './guards/auth.guard';
 import { DateDueCounterComponent } from './components/date-due-counter/date-due-counter.component';
+import { RangeViewerComponent } from './components/range-viewer/range-viewer.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { DateDueCounterComponent } from './components/date-due-counter/date-due-
     //components
     ReadMoreComponent,
     DateDueCounterComponent,
+    RangeViewerComponent,
   ],
   imports: [
     CommonModule,
@@ -60,7 +62,8 @@ import { DateDueCounterComponent } from './components/date-due-counter/date-due-
 
     //components
     ReadMoreComponent,
-    DateDueCounterComponent
+    DateDueCounterComponent,
+    RangeViewerComponent
   ],
   providers: [
     AuthGuard
