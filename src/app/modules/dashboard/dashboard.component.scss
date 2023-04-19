@@ -127,6 +127,43 @@
         }
       }
     }
+
+    .age-gap {
+      margin: 15px 0;
+      padding: 20px;
+      border: 1px solid var(--color-border);
+      border-radius: 8px;
+      display: flex;
+      img{
+        margin-right: 15px;
+        margin-top: 10px;
+        align-self: self-start;
+      }
+
+      h3{
+        font-family: var(--heading-font-family);
+        font-size: 16px;
+        line-height: 24px;
+      }
+      p{
+        color: var(--color-primary-light);
+        font-size: 12px;
+        line-height: 16px;
+
+      }
+      .gap{
+        font-size: 16px;
+        .number{
+          color: #ff4343;
+          font-size: 40px;
+          font-weight: 500;
+          font-family: var(--heading-font-family);
+        }
+      }
+    }
+    button {
+      width: 45%;
+    }
   }
 
   .health-recom {
@@ -167,20 +204,16 @@
 
   .john-dyk {
     grid-column: 2/4;
-    height: 150px;
   }
 
   .effect-of-smock {
     grid-column: 2/4;
-    height: 155px;
   }
 
   .compare-others {
     grid-column: 2/3;
-    height: 300px;
   }
   .bio-age-progress {
     grid-column: 3/4;
-    height: 300px;
   }
 }
