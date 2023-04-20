@@ -1,0 +1,14 @@
+.banner {
+  height: 133px;
+  background-image: url("/assets/img/Rectangle 170.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  .banner-title {
+    font-family: var(--heading-font-family);
+    font-size: 48px;
+    line-height: 72px;
+  }
+}
