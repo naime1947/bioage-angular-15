@@ -243,7 +243,7 @@
 
   .compare-others {
     grid-column: 2/3;
-    .chart{
+    .chart {
       height: 335px;
       background-color: var(--color-body);
     }
@@ -260,9 +260,140 @@
   .bio-age-progress {
     grid-column: 3/4;
 
-    .chart{
+    .chart {
       height: 335px;
       background-color: var(--color-body);
+    }
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .banner {
+    .wrapper {
+      .banner-content {
+      }
+      .banner-img {
+      }
+    }
+  }
+
+  .grid {
+    width: 100%;
+    margin: 2rem auto;
+    grid-template-columns: 100%;
+    & > div {
+      .title {
+      }
+    }
+
+    .overview {
+      grid-column: 1/2;
+      grid-row: 1/2;
+      ul {
+        li {
+          .label {
+          }
+        }
+      }
+    }
+
+    .bio-age {
+      grid-column: 1/2;
+      grid-row: 2 / 4;
+      h2 {
+      }
+
+      .age-boxes {
+        .box {
+          .title-wrapper {
+            span {
+            }
+          }
+
+          .circle {
+            .inner {
+              .age {
+              }
+
+              .label {
+              }
+            }
+          }
+        }
+      }
+
+      .age-gap {
+        img {
+        }
+
+        h3 {
+        }
+        p {
+        }
+        .gap {
+          .number {
+          }
+        }
+      }
+      button {
+      }
+    }
+
+    .health-recom {
+      grid-column: 1/2;
+      grid-row: 8/9;
+      .content {
+        img {
+        }
+        p {
+        }
+      }
+    }
+
+    .next-bio-age {
+      grid-column: 1/2;
+      grid-row: 9/10;
+      h2 {
+      }
+    }
+
+    .john-dyk {
+      grid-column: 1/2;
+      grid-row: 4/5;
+      p {
+      }
+
+      .three-boxes {
+        .box {
+          .inner {
+            img {
+            }
+
+            p {
+            }
+          }
+        }
+      }
+    }
+
+    .effect-of-smock {
+      grid-column: 1/2;
+      grid-row: 5/6;
+    }
+
+    .compare-others {
+      grid-column: 1/2;
+      grid-row: 6/7;
+      .chart {
+      }
+      .caption {
+      }
+    }
+    .bio-age-progress {
+      grid-column: 1/2;
+      grid-row: 7/8;
+      .chart {
+      }
     }
   }
 }
