@@ -12,3 +12,95 @@
     line-height: 72px;
   }
 }
+
+.grid {
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+  & > div {
+    min-height: 200px;
+    background-color: azure;
+
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    background-color: var(--color-body);
+  }
+
+  .block-results {
+    grid-column: 1/2;
+    grid-row: 1/4;
+
+    padding: 20px;
+    .header {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+
+      label {
+        margin-right: 10px;
+        font-weight: 600;
+      }
+      select {
+        min-width: 130px;
+        padding: 3px 5px;
+        background-color: var(--color-body);
+      }
+    }
+
+    .no-results {
+      margin-top: 50px;
+      text-align: center;
+      vertical-align: middle;
+    }
+
+    .assessments-wrapper {
+      .each-block {
+        cursor: pointer;
+        margin: 20px 0;
+        padding: 2px;
+        border-radius: 8px;
+        background: linear-gradient(
+          90deg,
+          rgba(68, 206, 246, 1) 0%,
+          rgba(142, 209, 133, 1) 100%
+        );
+        .inner {
+          border-radius: 6px;
+          background: var(--color-body);
+          display: flex;
+
+          padding: 20px;
+
+          h3 {
+            font-family: var(--heading-font-family);
+            line-height: 20px;
+            font-weight: 500;
+            font-size: 20px;
+            align-self: flex-end;
+            margin-left: 10px;
+          }
+
+          .date {
+            align-self: center;
+          }
+          .icon-chevron {
+            margin-left: 20px;
+          }
+        }
+      }
+    }
+  }
+  .block-chart {
+    grid-column: 2/3;
+    grid-row: 1/3;
+  }
+  .block-due-date {
+    grid-column: 2/3;
+    grid-row: 3/5;
+  }
+  .block-result-footer {
+    grid-column: 1/2;
+    grid-row: 4/5;
+  }
+}

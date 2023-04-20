@@ -3,3 +3,45 @@
     <h1 class="banner-title">My Results</h1>
   </div>
 </div>
+<div class="container grid">
+  <div class="block-results">
+    <div class="header">
+      <p>
+        <b>{{ assessmentResults?.length }} </b>tests found
+      </p>
+
+      <div class="form-group">
+        <label for="sort">Sort:</label>
+        <select name="sort" #sortControl id="sort" (change)="onSort(sortControl.value)">
+          <option value="new" selected>Newest</option>
+          <option value="old">Oldest</option>
+        </select>
+      </div>
+    </div>
+
+    <div *ngIf="!assessmentResults?.length" class="no-results">
+      <p>No Assesment found.</p>
+    </div>
+
+    <div class="assessments-wrapper">
+      <div *ngFor="let assessment of assessmentResults" class="each-block">
+        <div class="inner">
+          <img src="/assets/svg/file-text.svg" alt="" />
+          <h3 class="title me-auto">{{ assessment.name }}</h3>
+          <div class="date">
+            <img class="icon" src="/assets/svg/calendar.svg" alt="" />
+            {{ assessment.date | date }}
+          </div>
+          <img
+            src="/assets/svg/chevron-right.svg"
+            alt=""
+            class="icon-chevron"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="block-chart"></div>
+  <div class="block-result-footer"></div>
+  <div class="block-due-date"></div>
+</div>
