@@ -12,12 +12,12 @@
     justify-content: space-between;
     .banner-content {
       padding-top: 6%;
-      h1{
+      h1 {
         font-family: var(--heading-font-family);
         font-size: 60px;
         line-height: 90px;
       }
-      p{
+      p {
         font-size: 16px;
         line-height: 24px;
       }
@@ -285,11 +285,11 @@
       display: block;
       .banner-content {
         padding-top: 20px;
-        h1{
+        h1 {
           font-size: 28px;
           line-height: 34px;
         }
-        p{
+        p {
           font-size: 14px;
           line-height: 24px;
         }
@@ -297,7 +297,6 @@
       .banner-img {
         height: 190px;
       }
-
     }
   }
 
@@ -322,12 +321,6 @@
       h2 {
         font-size: 28px;
       }
-      ul {
-        li {
-          .label {
-          }
-        }
-      }
     }
 
     .bio-age {
@@ -336,43 +329,6 @@
 
       border: none;
       box-shadow: 0px 0px 20px rgba(151, 151, 151, 0.25);
-      h2 {
-      }
-
-      .age-boxes {
-        .box {
-          .title-wrapper {
-            span {
-            }
-          }
-
-          .circle {
-            .inner {
-              .age {
-              }
-
-              .label {
-              }
-            }
-          }
-        }
-      }
-
-      .age-gap {
-        img {
-        }
-
-        h3 {
-        }
-        p {
-        }
-        .gap {
-          .number {
-          }
-        }
-      }
-      button {
-      }
     }
 
     .health-recom {
@@ -381,13 +337,6 @@
 
       border: none;
       box-shadow: 0px 0px 20px rgba(151, 151, 151, 0.25);
-
-      .content {
-        img {
-        }
-        p {
-        }
-      }
     }
 
     .next-bio-age {
@@ -396,9 +345,6 @@
 
       border: none;
       box-shadow: 0px 0px 20px rgba(151, 151, 151, 0.25);
-
-      h2 {
-      }
     }
 
     .john-dyk {
@@ -414,11 +360,6 @@
           margin: 5px 0 !important;
           .inner {
             padding: 20px 15px;
-            img {
-            }
-
-            p {
-            }
           }
         }
       }
@@ -438,11 +379,6 @@
 
       border: none;
       box-shadow: 0px 0px 20px rgba(151, 151, 151, 0.25);
-
-      .chart {
-      }
-      .caption {
-      }
     }
     .bio-age-progress {
       grid-column: 1/2;
@@ -450,44 +386,13 @@
 
       border: none;
       box-shadow: 0px 0px 20px rgba(151, 151, 151, 0.25);
-
-      .chart {
-      }
     }
   }
 }
 
 @media screen and (max-width: 575px) {
-  .banner {
-    .wrapper {
-      .banner-content {
-      }
-      .banner-img {
-      }
-    }
-  }
-
   .grid {
-    & > div {
-      .title {
-      }
-    }
-
-    .overview {
-      h2 {
-      }
-      ul {
-        li {
-          .label {
-          }
-        }
-      }
-    }
-
     .bio-age {
-      h2 {
-      }
-
       .age-boxes {
         .box {
           padding: 10px;
@@ -520,8 +425,6 @@
 
       .age-gap {
         margin: 10px auto;
-        img {
-        }
         .content {
           width: 40%;
         }
@@ -544,41 +447,6 @@
         font-size: 14px;
       }
     }
-
-    .health-recom {
-      .content {
-        img {
-        }
-        p {
-        }
-      }
-    }
-
-    .next-bio-age {
-      h2 {
-      }
-    }
-
-    .john-dyk {
-      p {
-      }
-
-      .three-boxes {
-        .box {
-          .inner {
-            img {
-            }
-
-            p {
-            }
-          }
-        }
-      }
-    }
-
-    .effect-of-smock {
-    }
-
     .compare-others {
       .chart {
       }
