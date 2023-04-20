@@ -46,9 +46,26 @@
     }
   }
 
-  .labels{
+  .labels {
     width: 100%;
     display: flex;
     justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .wrapper {
+    .bar {
+      height: 6px;
+      border-radius: 4px;
+      .value-pointer {
+        bottom: 23px;
+        .circle {
+          width: 14px;
+          height: 14px;
+          border: 3px solid var(--color-primary);
+        }
+      }
+    }
   }
 }
