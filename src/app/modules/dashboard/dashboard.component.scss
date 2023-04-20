@@ -296,6 +296,7 @@
       }
       .banner-img {
         height: 190px;
+        right: 5%;
       }
     }
   }
@@ -350,6 +351,7 @@
     .john-dyk {
       grid-column: 1/2;
       grid-row: 4/5;
+      border: none;
       p {
         line-height: 24px;
       }
