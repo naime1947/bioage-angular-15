@@ -384,13 +384,15 @@
       grid-column: 1/2;
       grid-row: 4/5;
       p {
+        line-height: 24px;
       }
 
       .three-boxes {
         flex-direction: column;
         .box {
-          margin: 10px 0 !important;
+          margin: 5px 0 !important;
           .inner {
+            padding: 20px 15px;
             img {
             }
 
@@ -468,7 +470,7 @@
       .age-boxes {
         .box {
           padding: 10px;
-          &:first-child{
+          &:first-child {
             margin-right: 10px !important;
           }
           .title-wrapper {
@@ -499,7 +501,7 @@
         margin: 10px auto;
         img {
         }
-        .content{
+        .content {
           width: 40%;
         }
         h3 {
@@ -518,6 +520,7 @@
         }
       }
       button {
+        font-size: 14px;
       }
     }
 
