@@ -11,7 +11,16 @@
     display: flex;
     justify-content: space-between;
     .banner-content {
-      padding-top: 8%;
+      padding-top: 6%;
+      h1{
+        font-family: var(--heading-font-family);
+        font-size: 60px;
+        line-height: 90px;
+      }
+      p{
+        font-size: 16px;
+        line-height: 24px;
+      }
     }
     .banner-img {
       position: absolute;
@@ -273,10 +282,22 @@
 @media screen and (max-width: 991px) {
   .banner {
     .wrapper {
+      display: block;
       .banner-content {
+        padding-top: 20px;
+        h1{
+          font-size: 28px;
+          line-height: 34px;
+        }
+        p{
+          font-size: 14px;
+          line-height: 24px;
+        }
       }
       .banner-img {
+        height: 190px;
       }
+
     }
   }
 
