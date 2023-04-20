@@ -12,7 +12,12 @@
 
       <div class="form-group">
         <label for="sort">Sort:</label>
-        <select name="sort" #sortControl id="sort" (change)="onSort(sortControl.value)">
+        <select
+          name="sort"
+          #sortControl
+          id="sort"
+          (change)="onSort(sortControl.value)"
+        >
           <option value="new" selected>Newest</option>
           <option value="old">Oldest</option>
         </select>
@@ -41,7 +46,23 @@
       </div>
     </div>
   </div>
-  <div class="block-chart"></div>
-  <div class="block-result-footer"></div>
-  <div class="block-due-date"></div>
+  <div class="block-chart">
+    <h2 class="title">How your BioAge has proressed</h2>
+    <div class="chart">Chart will be shown here</div>
+  </div>
+  <div class="block-result-footer">
+    <h3>Your BioAge and your health are not fixed!</h3>
+    <button class="btn btn-outline-primary btn-regular-outlined">
+      See Our Health recommendations
+    </button>
+  </div>
+  <div class="block-due-date">
+    <h3>Your next BioAge assessment is due in:</h3>
+    <app-date-due-counter
+      [dueDate]="user?.nextAssessmentDate"
+    ></app-date-due-counter>
+    <button class="btn btn-outline-primary btn-regular-outlined w-100">
+      Book appoinment now
+    </button>
+  </div>
 </div>

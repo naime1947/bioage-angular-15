@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl } from '@angular/forms';
+import { UserModel } from '@modules/auth/models/user.model';
+import { AuthService } from '@modules/auth/services/auth.service';
 
 @Component({
   selector: 'app-my-results',
@@ -30,8 +32,13 @@ export class MyResultsComponent implements OnInit {
     },
   ];
 
+  user: UserModel | null;
+  constructor(private authService: AuthService){
+    this.user = authService.getUser();
+  }
   ngOnInit(): void {
     this.onSort('new');
+    //this.assessmentResults = [];
   }
 
   onSort(type: string) {
