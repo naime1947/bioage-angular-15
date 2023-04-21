@@ -32,7 +32,6 @@
     grid-column: 1/2;
     grid-row: 1/4;
 
-    padding: 20px;
     .header {
       width: 100%;
       display: flex;
@@ -112,8 +111,6 @@
   .block-due-date {
     grid-column: 2/3;
     grid-row: 3/5;
-
-    padding: 20px;
     h3 {
       font-family: var(--heading-font-family);
       font-size: 20px;
@@ -124,7 +121,6 @@
   .block-result-footer {
     grid-column: 1/2;
     grid-row: 4/5;
-    padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
