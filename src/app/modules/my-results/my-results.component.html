@@ -31,8 +31,8 @@
     <div class="assessments-wrapper">
       <div *ngFor="let assessment of assessmentResults" class="each-block">
         <div class="inner">
-          <img src="/assets/svg/file-text.svg" alt="" />
-          <h3 class="title me-auto">{{ assessment.name }}</h3>
+          <img class="icon-file" src="/assets/svg/file-text.svg" alt="" />
+          <h3 class="title">{{ assessment.name }}</h3>
           <div class="date">
             <img class="icon" src="/assets/svg/calendar.svg" alt="" />
             {{ assessment.date | date }}
