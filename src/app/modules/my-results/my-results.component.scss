@@ -71,7 +71,7 @@
           border-radius: 6px;
           background: var(--color-body);
           display: grid;
-          grid-template-columns: min-content auto 120px min-content;
+          grid-template-columns: min-content auto 150px min-content;
           padding: 20px;
 
           h3 {
@@ -85,6 +85,10 @@
 
           .date {
             align-self: center;
+            .icon{
+              margin-right: 5px;
+              margin-top: -3px;
+            }
           }
           .icon-chevron {
             margin-left: 20px;
