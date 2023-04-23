@@ -1,0 +1,15 @@
+.my-profile-wrapper{
+  margin: 2rem auto;
+  display: flex;
+  .summary{
+    flex: 1;
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+  }
+  .forms{
+    margin-left: 20px;
+    flex: 2;
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+  }
+}
