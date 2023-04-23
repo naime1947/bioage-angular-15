@@ -33,6 +33,11 @@ const routes: Routes = [
           import('../modules/disclaimers/disclaimers.module').then((m) => m.DisclaimersModule),
       },
       {
+        path: 'my-profile',
+        loadChildren: () =>
+          import('../modules/my-profile/my-profile.module').then((m) => m.MyProfileModule),
+      },
+      {
         path: '',
         redirectTo: 'dashboard',
         pathMatch: "full"

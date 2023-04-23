@@ -3,8 +3,15 @@
     <a class="navbar-brand" href="#"
       ><img src="/assets/img/Toku-Eyes-Bioage-Logo.png"
     /></a>
-    <div class="btn-group" dropdown>
-      <img  class="brand" src="/assets/svg/hamburger.svg" alt="" dropdownToggle />
+
+    <div class="btn-group mobile-elements" dropdown>
+      <app-language-switcher></app-language-switcher>
+      <img
+        class="brand"
+        src="/assets/svg/hamburger.svg"
+        alt=""
+        dropdownToggle
+      />
       <app-mobile-menu *dropdownMenu class="dropdown-menu mobile-menu-wrapper">
       </app-mobile-menu>
     </div>
@@ -14,6 +21,7 @@
         <img src="/assets/svg/search.svg" alt="search" />
         <input type="search" placeholder="Search..." class="form-control" />
       </div> -->
+
       <div class="btn-group" dropdown [insideClick]="true">
         <div class="icon-with-text-wrapper me-4" dropdownToggle>
           <img class="icon" src="/assets/svg/help-circle.svg" alt="search" />
@@ -124,7 +132,7 @@
           </li>
         </ul>
       </div>
-      <div class="btn-group" dropdown [insideClick]="true">
+      <div class="btn-group" dropdown [insideClick]="false">
         <div class="icon-user-profile" dropdownToggle>
           <img class="icon" src="/assets/svg/user.svg" alt="search" />
         </div>
@@ -132,7 +140,7 @@
           *dropdownMenu
           class="dropdown-menu regular-dropdown-menu my-profile-dropdown"
         >
-          <li>
+          <li routerLink="/my-profile" [routerLinkActive]="'active'">
             <img
               class="icon"
               style="margin-left: -10px"

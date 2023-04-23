@@ -9,12 +9,6 @@
       display: flex;
       app-language-switcher {
         align-self: center;
-        select {
-          outline: 0;
-          border: 1px solid var(--color-border);
-          padding: 4px;
-          border-radius: 5px;
-        }
       }
     }
 

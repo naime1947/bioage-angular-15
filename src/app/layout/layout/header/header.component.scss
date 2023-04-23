@@ -23,6 +23,9 @@ nav {
   }
 }
 
+app-language-switcher{
+  margin-right: 20px;
+}
 @media (max-width: 992px) {
   app-desktop-menu {
     display: none;
@@ -30,7 +33,7 @@ nav {
 }
 
 @media (min-width: 992px) {
-  .brand {
+  .mobile-elements {
     display: none;
   }
 }
