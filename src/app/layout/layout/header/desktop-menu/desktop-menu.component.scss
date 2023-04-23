@@ -5,6 +5,18 @@
       background: #fff;
     }
 
+    .container {
+      display: flex;
+      app-language-switcher {
+        align-self: center;
+        select {
+          outline: 0;
+          border: 1px solid var(--color-border);
+          padding: 4px;
+          border-radius: 5px;
+        }
+      }
+    }
 
     app-menu-items {
       width: 100%;
@@ -15,28 +27,14 @@
       li {
         list-style: none;
         padding: 10px 40px 10px 0px;
-        .icon{
+        .icon {
           margin-right: 12px;
         }
 
-        &.mobile-specific{
+        &.mobile-specific {
           display: none;
         }
       }
-    }
-  }
-}
-
-
-.container{
-  display: flex;
-  .form-group{
-    align-self: center;
-    select{
-      outline: 0;
-      border: 1px solid var(--color-border);
-      padding: 4px;
-      border-radius: 5px;
     }
   }
 }
