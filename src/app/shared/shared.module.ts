@@ -18,6 +18,7 @@ import { ReadMoreComponent } from './components/read-more/read-more.component';
 import { AuthGuard } from './guards/auth.guard';
 import { DateDueCounterComponent } from './components/date-due-counter/date-due-counter.component';
 import { RangeViewerComponent } from './components/range-viewer/range-viewer.component';
+import { LanguageSwitcherComponent } from './components/language-switcher/language-switcher.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import { RangeViewerComponent } from './components/range-viewer/range-viewer.com
     ReadMoreComponent,
     DateDueCounterComponent,
     RangeViewerComponent,
+    LanguageSwitcherComponent,
   ],
   imports: [
     CommonModule,
@@ -63,7 +65,8 @@ import { RangeViewerComponent } from './components/range-viewer/range-viewer.com
     //components
     ReadMoreComponent,
     DateDueCounterComponent,
-    RangeViewerComponent
+    RangeViewerComponent,
+    LanguageSwitcherComponent
   ],
   providers: [
     AuthGuard
