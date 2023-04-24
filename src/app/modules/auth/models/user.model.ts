@@ -2,6 +2,7 @@ export interface UserModel {
   id: string;
   firstName: string;
   lastName: string;
+  displayName: string;
   email: string;
   dateOfLatestImaging: Date;
   nextAssessmentDate: Date;

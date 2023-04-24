@@ -1,24 +1,32 @@
 <div class="container my-profile-wrapper">
   <div class="summary">
-    <div class="header"></div>
-    <div class="profile-photo">
-      <img src="/assets/img/pro-photo-placeholder.png" alt="" />
-    </div>
-    <div class="label">Display name</div>
-    <div class="data name">{{ user?.firstName + " " + user?.lastName }}</div>
-    <div class="label">Phone number</div>
-    <div class="data">{{ user?.phone }}</div>
-    <div class="label">Country</div>
-    <div class="data">
-      <img class="location-icon" src="/assets/svg/country-orange.svg" alt="" />
-      <span class="countryName">{{ user?.country }}</span>
+    <div class="inner">
+      <div class="header"></div>
+      <div class="profile-photo">
+        <img src="/assets/img/pro-photo-placeholder.png" alt="" />
+      </div>
+      <div class="label">Display name</div>
+      <div class="data name">{{ user?.displayName }}</div>
+      <div class="label">Phone number</div>
+      <div class="data">{{ user?.phone }}</div>
+      <div class="label">Country</div>
+      <div class="data">
+        <img
+          class="location-icon"
+          src="/assets/svg/country-orange.svg"
+          alt=""
+        />
+        <span class="countryName">{{ user?.country }}</span>
+      </div>
     </div>
   </div>
   <div class="forms">
     <div class="personal-details">
       <h2 class="title">Edit Personal Details</h2>
       <app-personal-detail-form></app-personal-detail-form>
-      <a class="close-my-account" routerLink="/my-profile/close-account">Close my account</a>
+      <div class="close-my-account">
+        <a routerLink="/my-profile/close-account">Close my account</a>
+      </div>
     </div>
     <div class="reset-passwords">
       <h2 class="title">Reset Password</h2>
