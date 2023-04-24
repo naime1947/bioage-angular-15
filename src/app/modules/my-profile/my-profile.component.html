@@ -1,20 +1,29 @@
 <div class="container my-profile-wrapper">
   <div class="summary">
     <div class="header"></div>
-    <div class="profile-photo"></div>
+    <div class="profile-photo">
+      <img src="/assets/img/pro-photo-placeholder.png" alt="" />
+    </div>
     <div class="label">Display name</div>
-    <div class="name">{{ user?.firstName + " " + user?.lastName }}</div>
+    <div class="data name">{{ user?.firstName + " " + user?.lastName }}</div>
     <div class="label">Phone number</div>
-    <div class="phone">{{user?.phone}}</div>
+    <div class="data">{{ user?.phone }}</div>
     <div class="label">Country</div>
-    <div class="country">
-      <img src="/assets/svg/country-orange.svg" alt="" />
-      <span class="countryName">{{user?.country}}</span>
+    <div class="data">
+      <img class="location-icon" src="/assets/svg/country-orange.svg" alt="" />
+      <span class="countryName">{{ user?.country }}</span>
     </div>
   </div>
   <div class="forms">
-    <div class="personal-details">Personal Details</div>
-    <div class="reset-passwords">Reset Password</div>
-    <button>Save Changes</button>
+    <div class="personal-details">
+      <h2 class="title">Edit Personal Details</h2>
+      <app-personal-detail-form></app-personal-detail-form>
+      <a class="close-my-account" routerLink="/my-profile/close-account">Close my account</a>
+    </div>
+    <div class="reset-passwords">
+      <h2 class="title">Reset Password</h2>
+      <app-reset-password-form></app-reset-password-form>
+    </div>
+    <button class="btn btn-primary btn-regular">Save Changes</button>
   </div>
 </div>
