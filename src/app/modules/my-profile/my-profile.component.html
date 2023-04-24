@@ -1,5 +1,17 @@
 <div class="container my-profile-wrapper">
-  <div class="summary"></div>
+  <div class="summary">
+    <div class="header"></div>
+    <div class="profile-photo"></div>
+    <div class="label">Display name</div>
+    <div class="name">{{ user?.firstName + " " + user?.lastName }}</div>
+    <div class="label">Phone number</div>
+    <div class="phone">{{user?.phone}}</div>
+    <div class="label">Country</div>
+    <div class="country">
+      <img src="/assets/svg/country-orange.svg" alt="" />
+      <span class="countryName">{{user?.country}}</span>
+    </div>
+  </div>
   <div class="forms">
     <div class="personal-details">Personal Details</div>
     <div class="reset-passwords">Reset Password</div>

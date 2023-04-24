@@ -8,4 +8,6 @@ export interface UserModel {
   choronologicalAge: number;
   biologicalAge: number;
   refNo: string;
+  phone: string;
+  country: string;
 }
