@@ -17,6 +17,11 @@ export class MyProfileComponent implements OnInit {
   formsAreInvalid = false;
   user: UserModel | null;
   personalDetail: PersonalDetailModel;
+
+  isCollapsed = true;
+  isHelpCollapsed = true;
+  isLegalCollapsed = true;
+
   constructor(private authService: AuthService) {
     this.user = authService.getUser();
     this.personalDetail = {
@@ -44,5 +49,9 @@ export class MyProfileComponent implements OnInit {
 
     //To do
     // Hit the api and save the changes
+  }
+
+  logout() {
+    this.authService.logout();
   }
 }

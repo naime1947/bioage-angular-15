@@ -24,11 +24,145 @@
         />
         <span class="countryName">{{ user?.country }}</span>
       </div>
+    </div>
 
-      <div class="action">
-        <button class="btn btn-outline-primary btn-regular-outlined w-100">
-          Manage Account
-        </button>
+    <div class="action">
+      <button class="btn btn-outline-primary btn-regular-outlined w-100">
+        Manage Account
+      </button>
+
+      <div class="menu-section">
+        <div class="each-menu">
+          <div
+            class="icon-with-text-wrapper me-4"
+            (click)="isHelpCollapsed = !isHelpCollapsed"
+          >
+            <img class="icon" src="/assets/svg/help-circle.svg" alt="search" />
+            <span class="text">Help</span>
+
+            <img
+              class="icon ms-auto"
+              src="/assets/svg/chevron-{{
+                isHelpCollapsed ? 'right' : 'down'
+              }}.svg"
+            />
+          </div>
+
+          <ul [collapse]="isHelpCollapsed" [isAnimated]="true" class="items">
+            <li>
+              FaQs
+              <a href="#" target="_blank">
+                <img
+                  class="icon ms-2"
+                  src="/assets/svg/external-link.svg"
+                  alt="externallink"
+                />
+              </a>
+            </li>
+            <li>
+              More about BioAge
+              <a href="#" target="_blank">
+                <img
+                  class="icon ms-2"
+                  src="/assets/svg/external-link.svg"
+                  alt="externallink"
+                />
+              </a>
+            </li>
+            <li
+              (click)="isCollapsed = !isCollapsed"
+              [attr.aria-expanded]="!isCollapsed"
+              aria-controls="collapseBasic"
+            >
+              Concerned about your BioAge?
+              <img
+                class="icon ms-2"
+                src="/assets/svg/chevron-{{
+                  isCollapsed ? 'right' : 'down'
+                }}.svg"
+              />
+              <div [collapse]="isCollapsed" [isAnimated]="true">
+                <p class="sub-collapse-text">
+                  If you are concerned about your health or wellness, you should
+                  attend an appointment with a healthcare professional. BioAge
+                  is a new technology that many people will not have heard of
+                  yet, even in the medical community. If you want to discuss
+                  this report with a healthcare professional, we recommend you
+                  download the fact sheet to show them.
+                </p>
+              </div>
+            </li>
+
+            <li>
+              Technical support
+              <a href="#" target="_blank">
+                <img
+                  class="icon ms-2"
+                  src="/assets/svg/external-link.svg"
+                  alt="externallink"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="each-menu">
+          <div
+            class="icon-with-text-wrapper me-4"
+            (click)="isLegalCollapsed = !isLegalCollapsed"
+          >
+            <img class="icon" src="/assets/svg/feather.svg" alt="search" />
+            <span class="text">Legal</span>
+
+            <img
+              class="icon ms-auto"
+              src="/assets/svg/chevron-{{
+                isHelpCollapsed ? 'right' : 'down'
+              }}.svg"
+            />
+          </div>
+          <ul [collapse]="isLegalCollapsed" [isAnimated]="true" class="items">
+            <li>
+              Disclaimer
+              <a href="#" target="_blank">
+                <img
+                  class="icon ms-2"
+                  src="/assets/svg/external-link.svg"
+                  alt="externallink"
+                />
+              </a>
+            </li>
+            <li>
+              Terms and Conditions
+              <a href="#" target="_blank">
+                <img
+                  class="icon ms-2"
+                  src="/assets/svg/external-link.svg"
+                  alt="externallink"
+                />
+              </a>
+            </li>
+            <li>
+              Privacy Policy
+              <a href="#" target="_blank">
+                <img
+                  class="icon ms-2"
+                  src="/assets/svg/external-link.svg"
+                  alt="externallink"
+                />
+              </a>
+            </li>
+            <li>
+              Terms of Service
+              <a href="#" target="_blank">
+                <img
+                  class="icon ms-2"
+                  src="/assets/svg/external-link.svg"
+                  alt="externallink"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
