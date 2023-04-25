@@ -1,3 +1,9 @@
+<div class="banner">
+  <div class="container">
+    <h1 class="banner-title">My Profile</h1>
+  </div>
+</div>
+
 <div class="container my-profile-wrapper">
   <div class="summary">
     <div class="inner">
@@ -18,15 +24,24 @@
         />
         <span class="countryName">{{ user?.country }}</span>
       </div>
+
+      <div class="action">
+        <button class="btn btn-outline-primary btn-regular-outlined w-100">
+          Manage Account
+        </button>
+      </div>
     </div>
   </div>
   <div class="forms">
     <div *ngIf="formsAreInvalid" class="alert alert-danger">
-      <p>Please check your input and try again! </p>
+      <p>Please check your input and try again!</p>
     </div>
     <div class="personal-details">
       <h2 class="title">Edit Personal Details</h2>
-      <app-personal-detail-form #personalForm [personalDetail]="personalDetail"></app-personal-detail-form>
+      <app-personal-detail-form
+        #personalForm
+        [personalDetail]="personalDetail"
+      ></app-personal-detail-form>
       <div class="close-my-account">
         <a routerLink="/my-profile/close-account">Close my account</a>
       </div>
@@ -35,6 +50,8 @@
       <h2 class="title">Reset Password</h2>
       <app-reset-password-form #passwordForm></app-reset-password-form>
     </div>
-    <button (click)="onSubmit()" class="btn btn-primary btn-regular extended">Save Changes</button>
+    <button (click)="onSubmit()" class="btn btn-primary btn-regular extended">
+      Save Changes
+    </button>
   </div>
 </div>
