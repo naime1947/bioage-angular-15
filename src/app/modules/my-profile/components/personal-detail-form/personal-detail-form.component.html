@@ -1,25 +1,78 @@
-<form>
+<form [formGroup]="personalDetailFormGroup">
   <div class="row">
     <div class="form-group col-md-6">
       <label for="displayName">Display name</label>
-      <input type="text" class="form-control" id="displayName" placeholder="Display Name">
+      <input
+        type="text"
+        class="form-control"
+        id="displayName"
+        formControlName="displayName"
+        placeholder="Display Name"
+      />
+      <div
+        *ngIf="f['displayName'].invalid && (f['displayName'].dirty || f['displayName'].touched)"
+        class="error"
+      >
+        <div *ngIf="f['displayName'].errors?.['required']">Name is required.</div>
+        <div *ngIf="f['displayName'].errors?.['minlength']">
+          Name must be at least 4 characters long.
+        </div>
+      </div>
     </div>
     <div class="form-group col-md-6">
       <label for="email">Email address</label>
-      <input type="email" class="form-control" id="email" placeholder="Email">
+      <input
+        type="email"
+        class="form-control"
+        id="email"
+        formControlName="email"
+        placeholder="Email"
+      />
+      <div
+        *ngIf="f['email'].invalid && (f['email'].dirty || f['email'].touched)"
+        class="error"
+      >
+        <div *ngIf="f['email'].errors?.['required']">Email is required.</div>
+        <div *ngIf="f['email'].errors?.['pattern']">
+          Email format is not valid.
+        </div>
+      </div>
     </div>
   </div>
   <div class="row">
     <div class="form-group col-md-6">
       <label for="phone">Phone number</label>
-      <input type="text" class="form-control" id="phone" placeholder="Display Name">
+      <input
+        type="text"
+        class="form-control"
+        id="phone"
+        formControlName="phone"
+        placeholder="Display Name"
+      />
+      <div
+        *ngIf="f['phone'].invalid && (f['phone'].dirty || f['phone'].touched)"
+        class="error"
+      >
+        <div *ngIf="f['phone'].errors?.['required']">Phone is required.</div>
+      </div>
     </div>
     <div class="form-group col-md-6">
       <label for="country">Country</label>
-      <select name="country" class="form-select" id="country">
-        <option value="us">United States</option>
-        <option value="ca">Canada</option>
+      <select
+        name="country"
+        class="form-select"
+        formControlName="country"
+        id="country"
+      >
+        <option value="US">United States</option>
+        <option value="CA">Canada</option>
       </select>
+      <div
+      *ngIf="f['country'].invalid && (f['country'].dirty || f['country'].touched)"
+      class="error"
+    >
+      <div *ngIf="f['country'].errors?.['required']">Country is required.</div>
+    </div>
     </div>
   </div>
 </form>

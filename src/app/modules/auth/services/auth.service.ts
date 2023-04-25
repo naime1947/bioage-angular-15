@@ -22,7 +22,7 @@ export class AuthService {
     biologicalAge: 68,
     refNo: 'RD12345',
     phone: '0211234567',
-    country: 'USA',
+    country: 'US',
   } as UserModel;
   constructor(private router: Router) {
     const savedUser = localStorage.getItem('user');

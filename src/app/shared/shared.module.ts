@@ -19,6 +19,7 @@ import { AuthGuard } from './guards/auth.guard';
 import { DateDueCounterComponent } from './components/date-due-counter/date-due-counter.component';
 import { RangeViewerComponent } from './components/range-viewer/range-viewer.component';
 import { LanguageSwitcherComponent } from './components/language-switcher/language-switcher.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -39,6 +40,8 @@ import { LanguageSwitcherComponent } from './components/language-switcher/langua
   ],
   imports: [
     CommonModule,
+    FormsModule,
+    ReactiveFormsModule,
     BsDropdownModule.forRoot(),
     CollapseModule.forRoot(),
     PopoverModule.forRoot(),
@@ -46,6 +49,8 @@ import { LanguageSwitcherComponent } from './components/language-switcher/langua
     TooltipModule.forRoot(),
   ],
   exports: [
+    FormsModule,
+    ReactiveFormsModule,
     //svg icons
     DashboardSvgComponent,
     MyResultSvgComponent,

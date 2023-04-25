@@ -8,6 +8,7 @@ import { ResetPasswordComponent } from './pages/reset-password/reset-password.co
 import { ManageAccountComponent } from './pages/manage-account/manage-account.component';
 import { PersonalDetailFormComponent } from './components/personal-detail-form/personal-detail-form.component';
 import { ResetPasswordFormComponent } from './components/reset-password-form/reset-password-form.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 
