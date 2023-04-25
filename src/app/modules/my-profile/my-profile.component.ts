@@ -1,7 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { UserModel } from '@modules/auth/models/user.model';
 import { AuthService } from '@modules/auth/services/auth.service';
 import { PersonalDetailModel } from '@shared/models/personal-detail.model';
+import { PersonalDetailFormComponent } from './components/personal-detail-form/personal-detail-form.component';
+import { ResetPasswordFormComponent } from './components/reset-password-form/reset-password-form.component';
 
 @Component({
   selector: 'app-my-profile',
@@ -9,6 +11,10 @@ import { PersonalDetailModel } from '@shared/models/personal-detail.model';
   styleUrls: ['./my-profile.component.scss'],
 })
 export class MyProfileComponent implements OnInit {
+  @ViewChild('personalForm') personalDetailForm!: PersonalDetailFormComponent;
+  @ViewChild('passwordForm') passwordForm!: ResetPasswordFormComponent;
+
+  formsAreInvalid = false;
   user: UserModel | null;
   personalDetail: PersonalDetailModel;
   constructor(private authService: AuthService) {
@@ -22,4 +28,21 @@ export class MyProfileComponent implements OnInit {
   }
 
   ngOnInit(): void {}
+
+  onSubmit(){
+    if(this.personalDetailForm.personalDetailFormGroup.invalid || this.passwordForm.passwordForm.invalid){
+      this.formsAreInvalid = true;
+      return;
+    }
+    this.formsAreInvalid = false;
+
+    const personalDetails = this.personalDetailForm.personalDetailFormGroup.value;
+    const password = this.passwordForm.f["newPassword"].value;
+
+    console.log(personalDetails);
+    console.log(password);
+
+    //To do
+    // Hit the api and save the changes
+  }
 }
