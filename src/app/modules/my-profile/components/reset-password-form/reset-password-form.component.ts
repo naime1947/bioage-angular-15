@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { Regex } from '@shared/utilities/regex';
 
 @Component({
   selector: 'app-reset-password-form',
@@ -13,27 +14,12 @@ export class ResetPasswordFormComponent implements OnInit {
   constructor(private fb: FormBuilder) {}
   ngOnInit(): void {
     this.passwordForm = this.fb.group({
-      newPassword: [
-        '',
-        [
-          Validators.pattern(
-            '^(?=.*[A-Za-z])(?=.*d)(?=.*[@$!%*#?&])[A-Za-zd@$!%*#?&]{8,}$'
-          ),
-        ],
-      ],
-      confirmPassword: [
-        '',
-        [
-          Validators.pattern(
-            '^(?=.*[A-Za-z])(?=.*d)(?=.*[@$!%*#?&])[A-Za-zd@$!%*#?&]{8,}$'
-          ),
-        ],
-      ],
+      newPassword: ['', [Validators.pattern(Regex.password)]],
+      confirmPassword: ['', [Validators.pattern(Regex.password)]],
     });
   }
 
   get f() {
     return this.passwordForm.controls;
   }
-
 }
