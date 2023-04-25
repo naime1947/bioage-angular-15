@@ -27,7 +27,10 @@
     </div>
 
     <div class="action">
-      <button routerLink="/my-profile/manage-account" class="btn btn-outline-primary btn-regular-outlined w-100">
+      <button
+        routerLink="/my-profile/manage-account"
+        class="btn btn-outline-primary btn-regular-outlined w-100"
+      >
         Manage Account
       </button>
 
@@ -162,6 +165,14 @@
               </a>
             </li>
           </ul>
+        </div>
+        <div class="each-menu">
+          <a (click)="logout()"
+            ><div class="icon-with-text-wrapper">
+              <app-sign-out-svg></app-sign-out-svg>
+              <span class="text sign-out"> Sign out</span>
+            </div>
+          </a>
         </div>
       </div>
     </div>
