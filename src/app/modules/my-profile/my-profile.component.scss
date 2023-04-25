@@ -73,6 +73,12 @@
       .location-icon {
         margin-right: 5px;
       }
+
+      .action {
+        width: 100%;
+        padding: 10px;
+        display: none;
+      }
     }
   }
 
@@ -112,13 +118,6 @@
   font-weight: 500;
 }
 
-@media screen and (min-width: 992px) {
-  .action {
-    width: 100%;
-    padding: 10px;
-    display: none;
-  }
-}
 @media screen and (max-width: 991px) {
   .banner {
     height: 121px;
