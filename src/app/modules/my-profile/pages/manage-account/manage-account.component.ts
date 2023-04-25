@@ -1,6 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
 import { UserModel } from '@modules/auth/models/user.model';
 import { AuthService } from '@modules/auth/services/auth.service';
+import { PersonalDetailFormComponent } from '@modules/my-profile/components/personal-detail-form/personal-detail-form.component';
 import { PersonalDetailModel } from '@shared/models/personal-detail.model';
 
 @Component({
@@ -9,6 +10,8 @@ import { PersonalDetailModel } from '@shared/models/personal-detail.model';
   styleUrls: ['./manage-account.component.scss']
 })
 export class ManageAccountComponent {
+  @ViewChild('personalForm') personalDetailForm!: PersonalDetailFormComponent;
+
   user: UserModel | null;
 
   personalDetail: PersonalDetailModel;
@@ -21,5 +24,18 @@ export class ManageAccountComponent {
       phone: this.user?.phone!,
       country: this.user?.country!
     }
+  }
+
+  onSubmit(){
+    if(this.personalDetailForm.personalDetailFormGroup.invalid){
+      return;
+    }
+
+    const personalDetails = this.personalDetailForm.personalDetailFormGroup.value;
+
+    console.log(personalDetails);
+
+    //To do
+    // Hit the api and save the changes
   }
 }
