@@ -1,1 +1,13 @@
-<p>manage-account works!</p>
+<div class="banner">
+  <div class="container">
+    <h1 class="banner-title">Manage Account</h1>
+  </div>
+</div>
+<div class="container wrapper">
+  <h2 class="title">Edit Personal Details</h2>
+  <app-personal-detail-form [personalDetail]="personalDetail"></app-personal-detail-form>
+  <button class="btn btn-regular extended w-100">Save changes</button>
+  <div class="actions">
+    <p routerLink="/my-profile/reset-password" >Reset password</p> <p routerLink="/my-profile/close-account" style="color: #828282">Close my account</p>
+  </div>
+</div>
