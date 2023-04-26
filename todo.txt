@@ -4,4 +4,6 @@
 4. Integrade api compability to load data and other staffs
 5. implements chart
 6. password form compare password validation
-7. close account page
+// 7. close account page
+8. title for browser tab
+9. favicon icon
