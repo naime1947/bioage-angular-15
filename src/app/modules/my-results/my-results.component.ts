@@ -11,22 +11,27 @@ import { AuthService } from '@modules/auth/services/auth.service';
 export class MyResultsComponent implements OnInit {
   assessmentResults = [
     {
+      id: "1",
       name: 'BioAge Assessment',
       date: '2015-03-25',
     },
     {
+      id: "2",
       name: 'BioAge Assessment',
       date: '2015-01-26',
     },
     {
+      id: "3",
       name: 'BioAge Assessment',
       date: '2015-02-27',
     },
     {
+      id: "4",
       name: 'BioAge Assessment',
       date: '2015-04-05',
     },
     {
+      id: "5",
       name: 'BioAge Assessment',
       date: '2015-01-25',
     },

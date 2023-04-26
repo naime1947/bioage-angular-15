@@ -29,7 +29,7 @@
     </div>
 
     <div class="assessments-wrapper">
-      <div *ngFor="let assessment of assessmentResults" class="each-block">
+      <div *ngFor="let assessment of assessmentResults" class="each-block" routerLink="/my-results/{{assessment.id}}">
         <div class="inner">
           <img class="icon-file" src="/assets/svg/file-text.svg" alt="" />
           <h3 class="title">{{ assessment.name }}</h3>

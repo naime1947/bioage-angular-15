@@ -3,12 +3,14 @@ import { CommonModule } from '@angular/common';
 import { MyResultsComponent } from './my-results.component';
 import { MyResultsRoutingModule } from './my-results-routing.module';
 import { SharedModule } from '@shared/shared.module';
+import { ResultComponent } from './pages/result/result.component';
 
 
 
 @NgModule({
   declarations: [
-    MyResultsComponent
+    MyResultsComponent,
+    ResultComponent
   ],
   imports: [
     CommonModule,
