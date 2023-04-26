@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { UserModel } from '@modules/auth/models/user.model';
+import { AuthService } from '@modules/auth/services/auth.service';
 
 @Component({
   selector: 'app-result',
@@ -7,4 +9,8 @@ import { Component } from '@angular/core';
 })
 export class ResultComponent {
 
+  user: UserModel | null;
+  constructor(private authService: AuthService){
+    this.user = authService.getUser();
+  }
 }
