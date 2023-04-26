@@ -35,7 +35,7 @@ export class MyProfileComponent implements OnInit {
   ngOnInit(): void {}
 
   onSubmit(){
-    if(this.personalDetailForm.personalDetailFormGroup.invalid || this.passwordForm.passwordForm.invalid){
+    if(this.personalDetailForm.personalDetailFormGroup.invalid || this.passwordForm.passwordFormGroup.invalid){
       this.formsAreInvalid = true;
       return;
     }

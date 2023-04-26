@@ -8,18 +8,18 @@ import { Regex } from '@shared/utilities/regex';
   styleUrls: ['./reset-password-form.component.scss'],
 })
 export class ResetPasswordFormComponent implements OnInit {
-  passwordForm!: FormGroup;
+  passwordFormGroup!: FormGroup;
   showNewPassword = false;
   showConfirmPassword = false;
   constructor(private fb: FormBuilder) {}
   ngOnInit(): void {
-    this.passwordForm = this.fb.group({
+    this.passwordFormGroup = this.fb.group({
       newPassword: ['', [Validators.pattern(Regex.password)]],
       confirmPassword: ['', [Validators.pattern(Regex.password)]],
     });
   }
 
   get f() {
-    return this.passwordForm.controls;
+    return this.passwordFormGroup.controls;
   }
 }
