@@ -1,6 +1,11 @@
 <div class="container grid">
   <div class="block-result">
     <div class="bio-age">
+      <button class="btn btn-outline-primary btn-regular-outlined w-100 my-4">
+        <img src="/assets/svg/download.svg" alt="" />
+        Download result
+      </button>
+
       <h2 class="title">Your Biological Age</h2>
       <div class="age-boxes">
         <div class="box me-3">
@@ -47,9 +52,9 @@
       </div>
       <div class="alert alert-info">
         <p>
-          Every person has two ages: our chronological age (how old you are) and
-          our biological age. Our biological age (or BioAge) is a measure of how
-          well our cells, tissues and organs are aging.
+          Every person has two ages: our <b>chronological age</b> (how old you
+          are) and our <b>biological age.</b> Our biological age (or BioAge) is
+          a measure of how well our cells, tissues and organs are aging.
         </p>
       </div>
     </div>
@@ -77,9 +82,24 @@
   <div class="effect-of-smock">
     <h2 class="title">Effect of Exposure to Smoking</h2>
     <app-range-viewer [value]="76"></app-range-viewer>
-    <button class="btn btn-outline-primary btn-regular-outlined w-100">
-      Find out more
-    </button>
+    <div class="alert alert-info">
+      <ul>
+        <li>We detected a high level of exposure to smoke in your eyes.</li>
+        <li>
+          Usually this result is due to being a current or previous smoker, or
+          high secondhand smoke exposure.
+        </li>
+        <li>
+          Your smoking exposure is one (of many) contributors to your biological
+          age calculation.
+        </li>
+      </ul>
+      <p>
+        If your exposure to smoking is still high, it is recommended you reduce
+        the exposure to improve your health and reduce your biological age gap.
+      </p>
+      <p><b>Speak to your doctor for assistance.</b></p>
+    </div>
   </div>
 
   <div class="compare-others">
