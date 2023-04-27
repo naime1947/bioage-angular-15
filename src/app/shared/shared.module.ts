@@ -20,6 +20,8 @@ import { DateDueCounterComponent } from './components/date-due-counter/date-due-
 import { RangeViewerComponent } from './components/range-viewer/range-viewer.component';
 import { LanguageSwitcherComponent } from './components/language-switcher/language-switcher.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { BreadcrumbsComponent } from './components/breadcrumbs/breadcrumbs.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -37,11 +39,13 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     DateDueCounterComponent,
     RangeViewerComponent,
     LanguageSwitcherComponent,
+    BreadcrumbsComponent,
   ],
   imports: [
     CommonModule,
     FormsModule,
     ReactiveFormsModule,
+    RouterModule,
     BsDropdownModule.forRoot(),
     CollapseModule.forRoot(),
     PopoverModule.forRoot(),
@@ -71,7 +75,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     ReadMoreComponent,
     DateDueCounterComponent,
     RangeViewerComponent,
-    LanguageSwitcherComponent
+    LanguageSwitcherComponent,
+    BreadcrumbsComponent
   ],
   providers: [
     AuthGuard

@@ -1,0 +1,31 @@
+.wrapper {
+  margin: 10px 0;
+}
+img {
+  vertical-align: middle;
+  margin-bottom: 2px;
+}
+span {
+  font-family: var(--heading-font-family);
+  margin-top: 5px;
+  margin-right: 5px;
+
+  font-size: 14px;
+  font-weight: 500;
+
+  cursor: pointer;
+
+  &.get-back {
+    color: #828282;
+  }
+
+  &.seperator {
+    font-size: 16px;
+    cursor: text;
+  }
+
+  &:last-child{
+    cursor: default;
+    pointer-events: none;
+  }
+}

@@ -1,0 +1,11 @@
+<div class="wrapper">
+  <img src="/assets/svg/chevron-left.svg" alt="" />
+  <span class="get-back" (click)="back()"> Get Back</span>
+
+  <ng-container *ngFor="let data of breadcrumbData">
+    <span class="seperator">/</span
+    ><span routerLink="{{data.route}}" routerLinkActive="router-link-active">{{
+      data.label
+    }}</span>
+  </ng-container>
+</div>
