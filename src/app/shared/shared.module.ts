@@ -22,6 +22,7 @@ import { LanguageSwitcherComponent } from './components/language-switcher/langua
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BreadcrumbsComponent } from './components/breadcrumbs/breadcrumbs.component';
 import { RouterModule } from '@angular/router';
+import { DownloadSvgComponent } from './svg-icons/download-svg/download-svg.component';
 
 @NgModule({
   declarations: [
@@ -40,6 +41,7 @@ import { RouterModule } from '@angular/router';
     RangeViewerComponent,
     LanguageSwitcherComponent,
     BreadcrumbsComponent,
+    DownloadSvgComponent,
   ],
   imports: [
     CommonModule,
@@ -62,6 +64,7 @@ import { RouterModule } from '@angular/router';
     TheScienceSvgComponent,
     DisclaimersSvgComponent,
     UserSvgComponent,
+    DownloadSvgComponent,
 
     //bootstrap module
     BsDropdownModule,

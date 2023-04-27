@@ -11,6 +11,14 @@
   }
 }
 
+::ng-deep{
+  .btn:hover{
+    svg, path{
+      fill: var(--color-secondary) !important;
+    }
+  }
+}
+
 .grid {
   margin-top: 1rem;
   margin-bottom: 3rem;
