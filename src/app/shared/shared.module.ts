@@ -23,6 +23,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BreadcrumbsComponent } from './components/breadcrumbs/breadcrumbs.component';
 import { RouterModule } from '@angular/router';
 import { DownloadSvgComponent } from './svg-icons/download-svg/download-svg.component';
+import { CompareOthersLikeYouChartComponent } from './charts/components/compare-others-like-you-chart/compare-others-like-you-chart.component';
+import { BioageProgressChartComponent } from './charts/components/bioage-progress-chart/bioage-progress-chart.component';
 
 @NgModule({
   declarations: [
@@ -42,6 +44,8 @@ import { DownloadSvgComponent } from './svg-icons/download-svg/download-svg.comp
     LanguageSwitcherComponent,
     BreadcrumbsComponent,
     DownloadSvgComponent,
+    CompareOthersLikeYouChartComponent,
+    BioageProgressChartComponent,
   ],
   imports: [
     CommonModule,
@@ -79,7 +83,9 @@ import { DownloadSvgComponent } from './svg-icons/download-svg/download-svg.comp
     DateDueCounterComponent,
     RangeViewerComponent,
     LanguageSwitcherComponent,
-    BreadcrumbsComponent
+    BreadcrumbsComponent,
+    CompareOthersLikeYouChartComponent,
+    BioageProgressChartComponent,
   ],
   providers: [
     AuthGuard

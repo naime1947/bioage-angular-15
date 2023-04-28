@@ -29,7 +29,11 @@
     </div>
 
     <div class="assessments-wrapper">
-      <div *ngFor="let assessment of assessmentResults" class="each-block" routerLink="/my-results/{{assessment.id}}">
+      <div
+        *ngFor="let assessment of assessmentResults"
+        class="each-block"
+        routerLink="/my-results/{{ assessment.id }}"
+      >
         <div class="inner">
           <img class="icon-file" src="/assets/svg/file-text.svg" alt="" />
           <h3 class="title">{{ assessment.name }}</h3>
@@ -48,7 +52,7 @@
   </div>
   <div class="block-chart">
     <h2 class="title">How your BioAge has proressed</h2>
-    <div class="chart">Chart will be shown here</div>
+    <app-bioage-progress-chart></app-bioage-progress-chart>
   </div>
   <div class="block-result-footer">
     <h3>Your BioAge and your health are not fixed!</h3>
