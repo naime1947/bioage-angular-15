@@ -71,7 +71,7 @@ export class BioageProgressChartComponent implements AfterViewInit, OnDestroy {
                   xMin: 0,
                   xMax: 0,
                   borderColor: 'rgb(44, 210, 56)',
-                  borderWidth: 20,
+                  borderWidth: 15,
                 },
                 line2:{
                   type: 'line',
@@ -80,7 +80,7 @@ export class BioageProgressChartComponent implements AfterViewInit, OnDestroy {
                   xMin: 0,
                   xMax: 0,
                   borderColor: 'rgb(253, 178, 25)',
-                  borderWidth: 20
+                  borderWidth: 15
                 },
                 line3:{
                   type: 'line',
@@ -89,7 +89,7 @@ export class BioageProgressChartComponent implements AfterViewInit, OnDestroy {
                   xMin: 0,
                   xMax: 0,
                   borderColor: 'rgb(243, 22, 16)',
-                  borderWidth: 20
+                  borderWidth: 15
                 }
               },
             },
