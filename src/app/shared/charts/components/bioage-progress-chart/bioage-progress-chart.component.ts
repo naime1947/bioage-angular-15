@@ -30,6 +30,7 @@ export class BioageProgressChartComponent implements AfterViewInit, OnDestroy {
             {
               label: 'Biological age',
               data: biologicalAge,
+              borderDash: [10,5],
               borderColor: 'rgb(255, 99, 132)',
               backgroundColor: 'rgb(255, 99, 132, 0.4)',
               order: 1,
@@ -44,7 +45,7 @@ export class BioageProgressChartComponent implements AfterViewInit, OnDestroy {
               type: 'line',
               fill: '-1',
               order: 0,
-            },
+            }
           ],
         },
         options: {
@@ -63,7 +64,33 @@ export class BioageProgressChartComponent implements AfterViewInit, OnDestroy {
             },
             annotation: {
               annotations: {
-
+                line1:{
+                  type: 'line',
+                  yMin: 20,
+                  yMax: 38,
+                  xMin: 0,
+                  xMax: 0,
+                  borderColor: 'rgb(44, 210, 56)',
+                  borderWidth: 20,
+                },
+                line2:{
+                  type: 'line',
+                  yMin: 38,
+                  yMax: 52,
+                  xMin: 0,
+                  xMax: 0,
+                  borderColor: 'rgb(253, 178, 25)',
+                  borderWidth: 20
+                },
+                line3:{
+                  type: 'line',
+                  yMin: 52,
+                  yMax: 70,
+                  xMin: 0,
+                  xMax: 0,
+                  borderColor: 'rgb(243, 22, 16)',
+                  borderWidth: 20
+                }
               },
             },
           },

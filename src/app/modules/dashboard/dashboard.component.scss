@@ -255,10 +255,7 @@
 
   .compare-others {
     grid-column: 2/3;
-    .chart {
-      height: 335px;
-      background-color: var(--color-body);
-    }
+    margin: 0 auto;
     .caption {
       padding-top: 0.5rem;
       padding-bottom: 0.5rem;
@@ -272,10 +269,7 @@
   .bio-age-progress {
     grid-column: 3/4;
 
-    .chart {
-      height: 335px;
-      background-color: var(--color-body);
-    }
+    margin: 0 auto;
   }
 }
 

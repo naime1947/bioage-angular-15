@@ -49,6 +49,11 @@ export class CompareOthersLikeYouChartComponent
         },
         options: {
           responsive: true,
+          elements: {
+            line: {
+              tension: 0.6
+            }
+          },
           plugins: {
             legend: {
               display: false,
