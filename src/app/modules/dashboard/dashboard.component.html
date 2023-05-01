@@ -1,51 +1,51 @@
 <div class="banner">
   <div class="container wrapper">
     <div class="banner-content">
-      <h1>Hello, {{ user?.firstName }}</h1>
-      <p>Welcome to your BioAge Dashboard</p>
+      <h1 i18n>Hello, {{ user?.firstName }}</h1>
+      <p i18n>Welcome to your BioAge Dashboard</p>
     </div>
     <img src="/assets/img/banner-img-1.png" alt="" class="banner-img" />
   </div>
 </div>
 <div class="container grid">
   <div class="overview">
-    <h2 class="title">Overview</h2>
+    <h2 class="title" i18n>Overview</h2>
     <ul>
       <li>
-        <span class="label">Patient:</span>
+        <span class="label" i18n>Patient:</span>
         {{ user?.displayName }}
       </li>
       <li>
-        <span class="label">Date of Latest Imaging:</span>
+        <span class="label" i18n>Date of Latest Imaging:</span>
         {{ user?.dateOfLatestImaging | date }}
       </li>
-      <li><span class="label">Ref. No:</span> {{ user?.refNo }}</li>
+      <li><span class="label" i18n>Ref. No:</span> {{ user?.refNo }}</li>
     </ul>
   </div>
   <div class="bio-age">
-    <h2 class="title">Your Biological Age</h2>
+    <h2 class="title" i18n>Your Biological Age</h2>
     <div class="age-boxes">
       <div class="box me-3">
         <div class="title-wrapper">
           <img src="/assets/svg/chronological.svg" alt="" />
-          <span>Chronological</span>
+          <span i18n>Chronological</span>
         </div>
         <div class="circle">
           <div class="inner">
             <div class="age">{{ user?.choronologicalAge }}</div>
-            <div class="label">Years</div>
+            <div class="label" i18n>Years</div>
           </div>
         </div>
       </div>
       <div class="box">
         <div class="title-wrapper">
           <img src="/assets/svg/heart-orange.svg" alt="" />
-          <span>Biological</span>
+          <span i18n>Biological</span>
         </div>
         <div class="circle">
           <div class="inner">
             <div class="age">{{ user?.biologicalAge }}</div>
-            <div class="label">Years</div>
+            <div class="label" i18n>Years</div>
           </div>
         </div>
       </div>
@@ -53,10 +53,10 @@
     <div class="age-gap">
       <img src="/assets/svg/age-gap.svg" alt="" />
       <div class="content">
-        <h3>Your Biological Age Gap</h3>
-        <p>The difference between your Chronological Age and BioAge</p>
+        <h3 i18n>Your Biological Age Gap</h3>
+        <p i18n>The difference between your Chronological Age and BioAge</p>
       </div>
-      <div class="gap ms-auto">
+      <div class="gap ms-auto" i18n>
         <span class="number">{{
           user && user.biologicalAge && user.choronologicalAge
             ? user.biologicalAge - user.choronologicalAge > 0
@@ -67,32 +67,32 @@
         years
       </div>
     </div>
-    <button class="btn btn-outline-primary btn-regular-outlined w-100">
+    <button class="btn btn-outline-primary btn-regular-outlined w-100" i18n>
       Find out more
     </button>
   </div>
   <div class="health-recom">
-    <h2 class="title">Health Recommendations</h2>
-    <div class="content">
+    <h2 class="title" i18n>Health Recommendations</h2>
+    <div class="content" i18n>
       <img src="/assets/svg/health-recom.svg" alt="" />
       <p>Follow these health recommendations to stay on top of your BioAge</p>
     </div>
-    <button class="btn btn-outline-primary btn-regular-outlined w-100">
+    <button class="btn btn-outline-primary btn-regular-outlined w-100" i18n>
       Find out more
     </button>
   </div>
   <div class="next-bio-age">
-    <h2 class="title" style="font-size: 20px;">Your next Bio Age assessment is due in:</h2>
+    <h2 class="title" style="font-size: 20px;" i18n>Your next Bio Age assessment is due in:</h2>
     <app-date-due-counter
       [dueDate]="user?.nextAssessmentDate"
     ></app-date-due-counter>
-    <button class="btn btn-outline-primary btn-regular-outlined w-100">
+    <button class="btn btn-outline-primary btn-regular-outlined w-100" i18n>
       Book Appoinment now
     </button>
   </div>
   <div class="john-dyk">
-    <h2 class="title">{{ user?.firstName }}, Did you know</h2>
-    <p>
+    <h2 class="title" i18n>{{ user?.firstName }}, Did you know</h2>
+    <p i18n>
       A {{ user?.biologicalAge }} years old is at higher risk for a range of
       medical conditions when compared to a {{ user?.choronologicalAge }} years
       old, including:
@@ -102,40 +102,40 @@
       <div class="box me-3">
         <div class="inner">
           <img src="/assets/svg/heart-orange-in-box.svg" alt="" />
-          <p><b>3x</b> Higher risk of having a <b>Cardiac Event</b></p>
+          <p i18n><b >3x</b> Higher risk of having a <b>Cardiac Event</b></p>
         </div>
       </div>
       <div class="box me-3">
         <div class="inner">
           <img src="/assets/svg/progress-in-box.svg" alt="" />
-          <p><b>5x</b> Higher risk of having <b>Type 2 Diabetes</b></p>
+          <p i18n><b>5x</b> Higher risk of having <b>Type 2 Diabetes</b></p>
         </div>
       </div>
       <div class="box">
         <div class="inner">
           <img src="/assets/svg/blood-pressure-in-box.svg" alt="" />
-          <p><b>3x</b> Higher risk of having elevated <b>Blood Pressure</b></p>
+          <p i18n><b>3x</b> Higher risk of having elevated <b>Blood Pressure</b></p>
         </div>
       </div>
     </div>
   </div>
   <div class="effect-of-smock">
-    <h2 class="title">Effect of Exposure to Smoking</h2>
+    <h2 class="title" i18n>Effect of Exposure to Smoking</h2>
     <app-range-viewer [value]="76"></app-range-viewer>
-    <button class="btn btn-outline-primary btn-regular-outlined w-100">
+    <button class="btn btn-outline-primary btn-regular-outlined w-100" i18n>
       Find out more
     </button>
   </div>
   <div class="compare-others">
-    <h2 class="title">How to Compare to others like you</h2>
+    <h2 class="title" i18n>How to Compare to others like you</h2>
     <app-compare-others-like-you-chart></app-compare-others-like-you-chart>
-    <div class="caption">
+    <div class="caption" i18n>
       *Compared to the BioAge data from thousands of people of similar
       chronological age and gender at birth
     </div>
   </div>
   <div class="bio-age-progress">
-    <h2 class="title">How your BioAge has proressed</h2>
+    <h2 class="title" i18n>How your BioAge has proressed</h2>
     <app-bioage-progress-chart></app-bioage-progress-chart>
   </div>
 </div>

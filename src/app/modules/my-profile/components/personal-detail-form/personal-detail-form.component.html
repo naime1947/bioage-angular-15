@@ -1,39 +1,46 @@
 <form [formGroup]="personalDetailFormGroup">
   <div class="row">
     <div class="form-group col-md-6">
-      <label for="displayName">Display name</label>
+      <label for="displayName" i18n>Display name</label>
       <input
         type="text"
         class="form-control"
         id="displayName"
         formControlName="displayName"
+        i18n-placeholder
         placeholder="Display Name"
       />
       <div
-        *ngIf="f['displayName'].invalid && (f['displayName'].dirty || f['displayName'].touched)"
+        *ngIf="
+          f['displayName'].invalid &&
+          (f['displayName'].dirty || f['displayName'].touched)
+        "
         class="error"
       >
-        <div *ngIf="f['displayName'].errors?.['required']">Name is required.</div>
-        <div *ngIf="f['displayName'].errors?.['minlength']">
+        <div *ngIf="f['displayName'].errors?.['required']" i18n>
+          Name is required.
+        </div>
+        <div *ngIf="f['displayName'].errors?.['minlength']" i18n>
           Name must be at least 4 characters long.
         </div>
       </div>
     </div>
     <div class="form-group col-md-6">
-      <label for="email">Email address</label>
+      <label for="email" i18n>Email address</label>
       <input
         type="email"
         class="form-control"
         id="email"
         formControlName="email"
+        i18n-placeholder
         placeholder="Email"
       />
       <div
         *ngIf="f['email'].invalid && (f['email'].dirty || f['email'].touched)"
         class="error"
       >
-        <div *ngIf="f['email'].errors?.['required']">Email is required.</div>
-        <div *ngIf="f['email'].errors?.['pattern']">
+        <div *ngIf="f['email'].errors?.['required']" i18n>Email is required.</div>
+        <div *ngIf="f['email'].errors?.['pattern']" i18n>
           Email format is not valid.
         </div>
       </div>
@@ -41,7 +48,7 @@
   </div>
   <div class="row">
     <div class="form-group col-md-6">
-      <label for="phone">Phone number</label>
+      <label for="phone" i18n>Phone number</label>
       <input
         type="text"
         class="form-control"
@@ -53,26 +60,30 @@
         *ngIf="f['phone'].invalid && (f['phone'].dirty || f['phone'].touched)"
         class="error"
       >
-        <div *ngIf="f['phone'].errors?.['required']">Phone is required.</div>
+        <div *ngIf="f['phone'].errors?.['required']" i18n>Phone is required.</div>
       </div>
     </div>
     <div class="form-group col-md-6">
-      <label for="country">Country</label>
+      <label for="country" i18n>Country</label>
       <select
         name="country"
         class="form-select"
         formControlName="country"
         id="country"
       >
-        <option value="US">United States</option>
-        <option value="CA">Canada</option>
+        <option value="US" i18n>United States</option>
+        <option value="CA" i18n>Canada</option>
       </select>
       <div
-      *ngIf="f['country'].invalid && (f['country'].dirty || f['country'].touched)"
-      class="error"
-    >
-      <div *ngIf="f['country'].errors?.['required']">Country is required.</div>
-    </div>
+        *ngIf="
+          f['country'].invalid && (f['country'].dirty || f['country'].touched)
+        "
+        class="error"
+      >
+        <div *ngIf="f['country'].errors?.['required']" i18n>
+          Country is required.
+        </div>
+      </div>
     </div>
   </div>
 </form>

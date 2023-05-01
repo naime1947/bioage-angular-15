@@ -1,6 +1,6 @@
 <div class="banner">
   <div class="container">
-    <h1 class="banner-title">My Profile</h1>
+    <h1 class="banner-title" i18n>My Profile</h1>
   </div>
 </div>
 
@@ -11,11 +11,11 @@
       <div class="profile-photo">
         <img src="/assets/img/pro-photo-placeholder.png" alt="" />
       </div>
-      <div class="label">Display name</div>
+      <div class="label" i18n>Display name</div>
       <div class="data name">{{ user?.displayName }}</div>
-      <div class="label">Phone number</div>
+      <div class="label" i18n>Phone number</div>
       <div class="data">{{ user?.phone }}</div>
-      <div class="label">Country</div>
+      <div class="label" i18n>Country</div>
       <div class="data">
         <img
           class="location-icon"
@@ -30,6 +30,7 @@
       <button
         routerLink="/my-profile/manage-account"
         class="btn btn-outline-primary btn-regular-outlined w-100"
+        i18n
       >
         Manage Account
       </button>
@@ -41,7 +42,7 @@
             (click)="isHelpCollapsed = !isHelpCollapsed"
           >
             <img class="icon" src="/assets/svg/help-circle.svg" alt="search" />
-            <span class="text">Help</span>
+            <span class="text" i18n>Help</span>
 
             <img
               class="icon ms-auto"
@@ -52,7 +53,7 @@
           </div>
 
           <ul [collapse]="isHelpCollapsed" [isAnimated]="true" class="items">
-            <li>
+            <li i18n>
               FaQs
               <a href="#" target="_blank">
                 <img
@@ -62,7 +63,7 @@
                 />
               </a>
             </li>
-            <li>
+            <li i18n>
               More about BioAge
               <a href="#" target="_blank">
                 <img
@@ -76,6 +77,7 @@
               (click)="isCollapsed = !isCollapsed"
               [attr.aria-expanded]="!isCollapsed"
               aria-controls="collapseBasic"
+              i18n
             >
               Concerned about your BioAge?
               <img
@@ -96,7 +98,7 @@
               </div>
             </li>
 
-            <li>
+            <li i18n>
               Technical support
               <a href="#" target="_blank">
                 <img
@@ -114,7 +116,7 @@
             (click)="isLegalCollapsed = !isLegalCollapsed"
           >
             <img class="icon" src="/assets/svg/feather.svg" alt="search" />
-            <span class="text">Legal</span>
+            <span class="text" i18n>Legal</span>
 
             <img
               class="icon ms-auto"
@@ -124,7 +126,7 @@
             />
           </div>
           <ul [collapse]="isLegalCollapsed" [isAnimated]="true" class="items">
-            <li>
+            <li i18n>
               Disclaimer
               <a href="#" target="_blank">
                 <img
@@ -134,7 +136,7 @@
                 />
               </a>
             </li>
-            <li>
+            <li i18n>
               Terms and Conditions
               <a href="#" target="_blank">
                 <img
@@ -144,7 +146,7 @@
                 />
               </a>
             </li>
-            <li>
+            <li i18n>
               Privacy Policy
               <a href="#" target="_blank">
                 <img
@@ -154,7 +156,7 @@
                 />
               </a>
             </li>
-            <li>
+            <li i18n>
               Terms of Service
               <a href="#" target="_blank">
                 <img
@@ -170,7 +172,7 @@
           <a (click)="logout()"
             ><div class="icon-with-text-wrapper">
               <app-sign-out-svg></app-sign-out-svg>
-              <span class="text sign-out"> Sign out</span>
+              <span class="text sign-out" i18n> Sign out</span>
             </div>
           </a>
         </div>
@@ -179,23 +181,27 @@
   </div>
   <div class="forms">
     <div *ngIf="formsAreInvalid" class="alert alert-danger">
-      <p>Please check your input and try again!</p>
+      <p i18n>Please check your input and try again!</p>
     </div>
     <div class="personal-details">
-      <h2 class="title">Edit Personal Details</h2>
+      <h2 class="title" i18n>Edit Personal Details</h2>
       <app-personal-detail-form
         #personalForm
         [personalDetail]="personalDetail"
       ></app-personal-detail-form>
       <div class="close-my-account">
-        <a routerLink="/my-profile/close-account">Close my account</a>
+        <a routerLink="/my-profile/close-account" i18n>Close my account</a>
       </div>
     </div>
     <div class="reset-passwords">
-      <h2 class="title">Reset Password</h2>
+      <h2 class="title" i18n>Reset Password</h2>
       <app-reset-password-form #passwordForm></app-reset-password-form>
     </div>
-    <button (click)="onSubmit()" class="btn btn-primary btn-regular extended">
+    <button
+      (click)="onSubmit()"
+      class="btn btn-primary btn-regular extended"
+      i18n
+    >
       Save Changes
     </button>
   </div>

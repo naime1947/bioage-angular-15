@@ -1,0 +1,1573 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="1873823646461864102" datatype="html">
+        <source>©Toku Inc. <x id="INTERPOLATION" equiv-text="{{year}}"/> | All rights reserved</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/layout/footer/footer.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/auth/components/login/login.component.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7911416166208830577" datatype="html">
+        <source>Help</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/layout/header/header.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-profile/my-profile.component.html</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6802724754049149612" datatype="html">
+        <source> FaQs <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;#&quot; target=&quot;_blank&quot;&gt;"/><x id="TAG_IMG" ctype="image" equiv-text="&lt;img
+                class=&quot;icon ms-2&quot;
+                src=&quot;/assets/svg/external-link.svg&quot;
+                alt=&quot;externallink&quot;
+              /&gt;"/><x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/layout/header/header.component.html</context>
+          <context context-type="linenumber">31,39</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-profile/my-profile.component.html</context>
+          <context context-type="linenumber">56,64</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5778708873186912384" datatype="html">
+        <source> More about BioAge <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;#&quot; target=&quot;_blank&quot;&gt;"/><x id="TAG_IMG" ctype="image" equiv-text="&lt;img
+                class=&quot;icon ms-2&quot;
+                src=&quot;/assets/svg/external-link.svg&quot;
+                alt=&quot;externallink&quot;
+              /&gt;"/><x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/layout/header/header.component.html</context>
+          <context context-type="linenumber">41,49</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-profile/my-profile.component.html</context>
+          <context context-type="linenumber">66,74</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3124748157107749829" datatype="html">
+        <source> Concerned about your BioAge? <x id="TAG_IMG" ctype="image" equiv-text="&lt;img
+              class=&quot;icon ms-2&quot;
+              src=&quot;/assets/svg/chevron-{{ isCollapsed ? &apos;right&apos; : &apos;down&apos; }}.svg&quot;
+            /&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div [collapse]=&quot;isCollapsed&quot; [isAnimated]=&quot;true&quot;&gt;"/><x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/> If you are concerned about your health or wellness, you should attend an appointment with a healthcare professional. BioAge is a new technology that many people will not have heard of yet, even in the medical community. If you want to discuss this report with a healthcare professional, we recommend you download the fact sheet to show them. <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/layout/header/header.component.html</context>
+          <context context-type="linenumber">57,72</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-profile/my-profile.component.html</context>
+          <context context-type="linenumber">81,98</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="238601159276858109" datatype="html">
+        <source> Technical support <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;#&quot; target=&quot;_blank&quot;&gt;"/><x id="TAG_IMG" ctype="image" equiv-text="&lt;img
+                class=&quot;icon ms-2&quot;
+                src=&quot;/assets/svg/external-link.svg&quot;
+                alt=&quot;externallink&quot;
+              /&gt;"/><x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/layout/header/header.component.html</context>
+          <context context-type="linenumber">75,83</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-profile/my-profile.component.html</context>
+          <context context-type="linenumber">101,109</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7814069298939347422" datatype="html">
+        <source>Legal</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/layout/header/header.component.html</context>
+          <context context-type="linenumber">91</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-profile/my-profile.component.html</context>
+          <context context-type="linenumber">119</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8185829670061679161" datatype="html">
+        <source> Terms and Conditions <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;#&quot; target=&quot;_blank&quot;&gt;"/><x id="TAG_IMG" ctype="image" equiv-text="&lt;img
+                class=&quot;icon ms-2&quot;
+                src=&quot;/assets/svg/external-link.svg&quot;
+                alt=&quot;externallink&quot;
+              /&gt;"/><x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/layout/header/header.component.html</context>
+          <context context-type="linenumber">104,112</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-profile/my-profile.component.html</context>
+          <context context-type="linenumber">139,147</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1328254050130603802" datatype="html">
+        <source> Privacy Policy <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;#&quot; target=&quot;_blank&quot;&gt;"/><x id="TAG_IMG" ctype="image" equiv-text="&lt;img
+                class=&quot;icon ms-2&quot;
+                src=&quot;/assets/svg/external-link.svg&quot;
+                alt=&quot;externallink&quot;
+              /&gt;"/><x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/layout/header/header.component.html</context>
+          <context context-type="linenumber">114,122</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-profile/my-profile.component.html</context>
+          <context context-type="linenumber">149,157</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3416546681068552874" datatype="html">
+        <source> Terms of Service <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;#&quot; target=&quot;_blank&quot;&gt;"/><x id="TAG_IMG" ctype="image" equiv-text="&lt;img
+                class=&quot;icon ms-2&quot;
+                src=&quot;/assets/svg/external-link.svg&quot;
+                alt=&quot;externallink&quot;
+              /&gt;"/><x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/layout/header/header.component.html</context>
+          <context context-type="linenumber">124,132</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-profile/my-profile.component.html</context>
+          <context context-type="linenumber">159,167</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7574576235938925220" datatype="html">
+        <source><x id="TAG_IMG" ctype="image" equiv-text="&lt;img
+              class=&quot;icon&quot;
+              style=&quot;margin-left: -10px&quot;
+              src=&quot;/assets/svg/user-outline.svg&quot;
+              alt=&quot;externallink&quot;
+            /&gt;"/> My Profile </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/layout/header/header.component.html</context>
+          <context context-type="linenumber">145,152</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2949848596707725099" datatype="html">
+        <source>Sign out</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/layout/header/header.component.html</context>
+          <context context-type="linenumber">160</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6570363013146073520" datatype="html">
+        <source>Dashboard</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/layout/header/menu-items/menu-items.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4936645848891830149" datatype="html">
+        <source>My Results</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/layout/header/menu-items/menu-items.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-results/my-results.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3019316790046255199" datatype="html">
+        <source>Actions / What to do</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/layout/header/menu-items/menu-items.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2005251964617532187" datatype="html">
+        <source>The Science</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/layout/header/menu-items/menu-items.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4991111665365985889" datatype="html">
+        <source>Disclaimers</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/layout/header/menu-items/menu-items.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/disclaimers/disclaimers.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7265534728124496062" datatype="html">
+        <source> My Profile </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/layout/header/menu-items/menu-items.component.html</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4682614722145216374" datatype="html">
+        <source> Sign out</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/layout/header/menu-items/menu-items.component.html</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-profile/my-profile.component.html</context>
+          <context context-type="linenumber">175</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4810423090593746459" datatype="html">
+        <source>Transform your Health:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/actions/actions.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1934462877928510628" datatype="html">
+        <source>Small Changes, Big Results</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/actions/actions.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8468299434730707165" datatype="html">
+        <source>Now that you know your BioAge, what next?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/actions/actions.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1878798162839479991" datatype="html">
+        <source> We can improve our BioAge by taking small steps towards better health. Research tells us to focus on these three aspects of our health: </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/actions/actions.component.html</context>
+          <context context-type="linenumber">7,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="449712922219700420" datatype="html">
+        <source>References</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/actions/actions.component.html</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5157188845853687531" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;color-secondary&quot;&gt;"/>(1)(a)<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> ACCORD Study Group; Buse JB, Bigger JT, Byington RP, Cooper LS, Cushman WC, Friedewald WT, Genuth S, Gerstein HC, Ginsberg HN, Goff DC Jr, Grimm RH Jr, Margolis KL, Probstfield JL, Simons-Morton DG, Sullivan MD. Action to Control Cardiovascular Risk in Diabetes (ACCORD) trial: design and methods. Am J Cardiol. 2007 Jun 18;99(12A):21i-33i. doi: 10.1016/j.amjcard.2007.03.003. Epub 2007 Apr 16. PMID: 17599422. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/actions/actions.component.html</context>
+          <context context-type="linenumber">47,54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1094436822790402286" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;color-secondary&quot;&gt;"/>(1)(b)<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> Duckworth W, Abraira C, Moritz T, et al., on behalf of the VADT Investigators. Glucose control and vascular complications in veterans with type 2 diabetes. N Engl J Med 2009;360:129-39. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/actions/actions.component.html</context>
+          <context context-type="linenumber">56,60</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8292319186831369039" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;color-secondary&quot;&gt;"/>(1)(c)<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>Leslie RD. United Kingdom prospective diabetes study (UKPDS): what now or so what? Diabetes Metab Res Rev. 1999 Jan-Feb;15. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/actions/actions.component.html</context>
+          <context context-type="linenumber">62,65</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="215739432479455763" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;color-secondary&quot;&gt;"/>(2)<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>(2) Galaviz KI, Narayan KMV, Lobelo F, Weber MB. Lifestyle and the Prevention of Type 2 Diabetes: A Status Report. Am J Lifestyle Med. 2015 Nov 24;12(1):4-20. doi: 10.1177/1559827615619159. PMID: 30202378; PMCID: PMC6125024. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/actions/actions.component.html</context>
+          <context context-type="linenumber">67,71</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4487825962456327229" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;color-secondary&quot;&gt;"/> (3)(a)<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> The Hypertension Optimal Treatment Study (the HOT Study). Blood Press. 1993 Mar;2(1):62-8. doi: 10.3109/08037059309077529. PMID: 8193735. PMC4156910. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/actions/actions.component.html</context>
+          <context context-type="linenumber">73,76</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4938198298005515321" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;color-secondary&quot;&gt;"/> (3)(b)<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>) Ambrosius WT, Sink KM, Foy CG, Berlowitz DR, Cheung AK, Cushman WC, Fine LJ, Goff DC Jr, Johnson KC, Killeen AA, Lewis CE, Oparil S, Reboussin DM, Rocco MV, Snyder JK, Williamson JD, Wright JT Jr, Whelton PK; SPRINT Study Research Group. The design and rationale of a multicenter clinical trial comparing two strategies for control of systolic blood pressure: the Systolic Blood Pressure Intervention Trial (SPRINT). Clin Trials. 2014 Oct;11(5):532-46. doi: 10.1177/1740774514537404. Epub 2014 Jun 5. Erratum in: Clin Trials. 2017 Apr;14(2):222. PMID: 24902920; PMCID: </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/actions/actions.component.html</context>
+          <context context-type="linenumber">78,87</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3482344661128538945" datatype="html">
+        <source>Your BioAge and your health are not done!</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/actions/actions.component.html</context>
+          <context context-type="linenumber">95</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5675482294022160429" datatype="html">
+        <source> The following lifestyle recommendations have been proven tohelp people like you to optimize their blood sugar, weight and blood pressure. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/actions/actions.component.html</context>
+          <context context-type="linenumber">98,101</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2489043421020270752" datatype="html">
+        <source> Our advice on what you can do to improve your health: </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/actions/actions.component.html</context>
+          <context context-type="linenumber">109,111</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8601354776278978609" datatype="html">
+        <source>Regular Exercise</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/actions/actions.component.html</context>
+          <context context-type="linenumber">123</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/actions/actions.component.html</context>
+          <context context-type="linenumber">138</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9105839417955946037" datatype="html">
+        <source> Exercise helps the body use insulin more efficiently, which can lead to better blood sugar control. It can also lower blood pressure and help to achieve or maintain a healthy weight. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/actions/actions.component.html</context>
+          <context context-type="linenumber">124,128</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3102628796505220190" datatype="html">
+        <source> Aim for at least 30 minutes of moderate-intensity exercise most days of the week. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/actions/actions.component.html</context>
+          <context context-type="linenumber">129,132</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1406760805594497452" datatype="html">
+        <source>Exercise helps the body use insulin more efficiently, which can lead to
+        better blood sugar control. It can also lower blood pressure and help to
+        achieve or maintain a healthy weight. Aim for at least 30 minutes of
+        moderate-intensity exercise most days of the week.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/actions/actions.component.html</context>
+          <context context-type="linenumber">142,145</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1395041718644835295" datatype="html">
+        <source>Eat Healthy</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/actions/actions.component.html</context>
+          <context context-type="linenumber">154</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/actions/actions.component.html</context>
+          <context context-type="linenumber">181</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8780387639423156772" datatype="html">
+        <source> Eating a balanced diet that is rich in fiber, healthy fats, and lean proteins can help regulate blood sugar levels. Avoid foods high in sugar and refined carbohydrates, which can cause spikes in blood sugar levels. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/actions/actions.component.html</context>
+          <context context-type="linenumber">155,160</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7025941565165620321" datatype="html">
+        <source> Dehydration can cause blood sugar levels to rise, so it&apos;s important to stay hydrated by drinking plenty of water throughout the day. Drink plenty of water throughout the day to help curb hunger and promote good digestion. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/actions/actions.component.html</context>
+          <context context-type="linenumber">161,166</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1119601892409040305" datatype="html">
+        <source> Certain supplements, like chromium and magnesium, may help regulate blood sugar levels. Talk to your healthcare provider before starting any new supplement regimen. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/actions/actions.component.html</context>
+          <context context-type="linenumber">167,171</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7218257115189239776" datatype="html">
+        <source> Monitor your portion sizes: Use smaller plates and pay attention to serving sizes to prevent overeating </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/actions/actions.component.html</context>
+          <context context-type="linenumber">172,175</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="302933937348461208" datatype="html">
+        <source>Eating a balanced diet that is rich in fiber, healthy fats, and lean
+      proteins can help regulate blood sugar levels. Avoid foods high in
+      sugar and refined carbohydrates, which can cause spikes in blood sugar
+      levels. Dehydration can cause blood sugar levels to rise, so it&apos;s
+      important to stay hydrated by drinking plenty of water throughout the
+      day. Drink plenty of water throughout the day to help curb hunger and
+      promote good digestion. Certain supplements, like chromium and
+      magnesium, may help regulate blood sugar levels. Talk to your
+      healthcare provider before starting any new supplement regimen.
+      Monitor your portion sizes: Use smaller plates and pay attention to
+      serving sizes to prevent overeating</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/actions/actions.component.html</context>
+          <context context-type="linenumber">185,195</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6139309558775093010" datatype="html">
+        <source>Manage Stress</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/actions/actions.component.html</context>
+          <context context-type="linenumber">204</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/actions/actions.component.html</context>
+          <context context-type="linenumber">218</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4613866880836039903" datatype="html">
+        <source> High levels of stress can cause blood sugar levels, weight and blood pressure to rise, so it&apos;s important to manage stress levels. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/actions/actions.component.html</context>
+          <context context-type="linenumber">205,208</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5222301609112679477" datatype="html">
+        <source> Try to manage stress through relaxation techniques such as deep breathing, meditation, or yoga. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/actions/actions.component.html</context>
+          <context context-type="linenumber">209,212</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5583798136898993164" datatype="html">
+        <source>High levels of stress can cause blood sugar levels, weight and blood
+        pressure to rise, so it&apos;s important to manage stress levels.  Try to
+        manage stress through relaxation techniques such as deep breathing,
+        meditation, or yoga.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/actions/actions.component.html</context>
+          <context context-type="linenumber">222,225</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2545889393661276614" datatype="html">
+        <source>Quit Smoking</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/actions/actions.component.html</context>
+          <context context-type="linenumber">234</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/actions/actions.component.html</context>
+          <context context-type="linenumber">248</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5201395703839880053" datatype="html">
+        <source> Smoking can raise blood pressure and increase the risk of heart disease.  </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/actions/actions.component.html</context>
+          <context context-type="linenumber">235,238</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6057876998806672624" datatype="html">
+        <source> Speak to your doctor for guidance and assistance with quitting smoking. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/actions/actions.component.html</context>
+          <context context-type="linenumber">239,242</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="240412400867082424" datatype="html">
+        <source>Smoking can raise blood pressure and increase the risk of heart
+        disease.  Speak to your doctor for guidance and assistance with quitting
+        smoking.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/actions/actions.component.html</context>
+          <context context-type="linenumber">252,254</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3585053955002245371" datatype="html">
+        <source> See More recommendations </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/actions/actions.component.html</context>
+          <context context-type="linenumber">262,264</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2940734240946622631" datatype="html">
+        <source><x id="TAG_IMG" ctype="image" equiv-text="&lt;img src=&quot;/assets/svg/alert-circle-orange.svg&quot; alt=&quot;&quot; /&gt;"/> See References <x id="TAG_IMG_1" ctype="x-img_1" equiv-text="&lt;img src=&quot;/assets/svg/chevron-right-orange.svg&quot; alt=&quot;&quot;
+/&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/actions/component/see-reference/see-reference.component.html</context>
+          <context context-type="linenumber">2,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="951215201246407337" datatype="html">
+        <source> Our Blood Sugar <x id="START_TAG_NG_CONTAINER" ctype="x-ng_container" equiv-text="&lt;ng-container dropdown&gt;"/><x id="START_TAG_SPAN_2" ctype="x-span_2" equiv-text="&lt;span class=&quot;popover-base&quot; dropdownToggle&gt;"/><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>1<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div *dropdownMenu class=&quot;dropdown-menu popover-dropdown&quot;&gt;"/><x id="TAG_IMG" ctype="image" equiv-text="&lt;img src=&quot;/assets/img/triangle-up.png&quot; alt=&quot;&quot; /&gt;"/><x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/><x id="START_TAG_SPAN_1" ctype="x-span_1" equiv-text="&lt;span class=&quot;color-secondary&quot;&gt;"/>(1)(a)<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> ACCORD Study Group; Buse JB, Bigger JT, Byington RP, Cooper LS, Cushman WC, Friedewald WT, Genuth S, Gerstein HC, Ginsberg HN, Goff DC Jr, Grimm RH Jr, Margolis KL, Probstfield JL, Simons-Morton DG, Sullivan MD. Action to Control Cardiovascular Risk in Diabetes (ACCORD) trial: design and methods. Am J Cardiol. 2007 Jun 18;99(12A):21i-33i. doi: 10.1016/j.amjcard.2007.03.003. Epub 2007 Apr 16. PMID: 17599422. <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/><x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/><x id="START_TAG_SPAN_1" ctype="x-span_1" equiv-text="&lt;span class=&quot;color-secondary&quot;&gt;"/>(1)(b)<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> Duckworth W, Abraira C, Moritz T, et al., on behalf of the VADT Investigators. Glucose control and vascular complications in veterans with type 2 diabetes. N Engl J Med 2009;360:129-39. <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/><x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/><x id="START_TAG_SPAN_1" ctype="x-span_1" equiv-text="&lt;span class=&quot;color-secondary&quot;&gt;"/>(1)(c)<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> Leslie RD. United Kingdom prospective diabetes study (UKPDS): what now or so what? Diabetes Metab Res Rev. 1999 Jan-Feb;15. <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="CLOSE_TAG_NG_CONTAINER" ctype="x-ng_container" equiv-text="&lt;/ng-container&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/actions/component/three-box/three-box.component.html</context>
+          <context context-type="linenumber">5,36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2847417300634809916" datatype="html">
+        <source> A 1% reduction in blood sugar in those with elevated levels is associated with <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>a 17-21% reduction in the risk of cardiac events. <x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/actions/component/three-box/three-box.component.html</context>
+          <context context-type="linenumber">38,41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6265868554285791362" datatype="html">
+        <source> Our Weight <x id="START_TAG_NG_CONTAINER" ctype="x-ng_container" equiv-text="&lt;ng-container dropdown&gt;"/><x id="START_TAG_SPAN_2" ctype="x-span_2" equiv-text="&lt;span class=&quot;popover-base&quot; dropdownToggle&gt;"/><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>2<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div *dropdownMenu class=&quot;dropdown-menu popover-dropdown&quot;&gt;"/><x id="TAG_IMG" ctype="image" equiv-text="&lt;img src=&quot;/assets/img/triangle-up.png&quot; alt=&quot;&quot; /&gt;"/><x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/><x id="START_TAG_SPAN_1" ctype="x-span_1" equiv-text="&lt;span class=&quot;color-secondary&quot;&gt;"/>(2)<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> Galaviz KI, Narayan KMV, Lobelo F, Weber MB. Lifestyle and the Prevention of Type 2 Diabetes: A Status Report. Am J Lifestyle Med. 2015 Nov 24;12(1):4-20. doi: 10.1177/1559827615619159. PMID: 30202378; PMCID: PMC6125024. <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="CLOSE_TAG_NG_CONTAINER" ctype="x-ng_container" equiv-text="&lt;/ng-container&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/actions/component/three-box/three-box.component.html</context>
+          <context context-type="linenumber">50,66</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3104545895937315085" datatype="html">
+        <source> A <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>5kg<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> weight loss in those with a high BMI can <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>reduce diabetes risk by 58%.<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/actions/component/three-box/three-box.component.html</context>
+          <context context-type="linenumber">68,70</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7975290189527748426" datatype="html">
+        <source> Our Blood Pressure <x id="START_TAG_NG_CONTAINER" ctype="x-ng_container" equiv-text="&lt;ng-container dropdown&gt;"/><x id="START_TAG_SPAN_2" ctype="x-span_2" equiv-text="&lt;span class=&quot;popover-base&quot; dropdownToggle&gt;"/><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>3<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div *dropdownMenu class=&quot;dropdown-menu popover-dropdown&quot;&gt;"/><x id="TAG_IMG" ctype="image" equiv-text="&lt;img src=&quot;/assets/img/triangle-up.png&quot; alt=&quot;&quot; /&gt;"/><x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/><x id="START_TAG_SPAN_1" ctype="x-span_1" equiv-text="&lt;span class=&quot;color-secondary&quot;&gt;"/>(3)(a)<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> The Hypertension Optimal Treatment Study (the HOT Study). Blood Press. 1993 Mar;2(1):62-8. doi: 10.3109/08037059309077529. PMID: 8193735. <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/><x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/><x id="START_TAG_SPAN_1" ctype="x-span_1" equiv-text="&lt;span class=&quot;color-secondary&quot;&gt;"/>(3)(b)<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> Ambrosius WT, Sink KM, Foy CG, Berlowitz DR, Cheung AK, Cushman WC, Fine LJ, Goff DC Jr, Johnson KC, Killeen AA, Lewis CE, Oparil S, Reboussin DM, Rocco MV, Snyder JK, Williamson JD, Wright JT Jr, Whelton PK; SPRINT Study Research Group. The design and rationale of a multicenter clinical trial comparing two strategies for control of systolic blood pressure: the Systolic Blood Pressure Intervention Trial (SPRINT). Clin Trials. 2014 Oct;11(5):532-46. doi: 10.1177/1740774514537404. Epub 2014 Jun 5. Erratum in: Clin Trials. 2017 Apr;14(2):222. PMID: 24902920; PMCID: PMC4156910. <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="CLOSE_TAG_NG_CONTAINER" ctype="x-ng_container" equiv-text="&lt;/ng-container&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/actions/component/three-box/three-box.component.html</context>
+          <context context-type="linenumber">79,106</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8414206188887368012" datatype="html">
+        <source> A <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>10%<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> reduction in systolic blood pressure in those with elevated levels is associated with <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>a 25% - 35% reduction in the risk of cardiac events.<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/actions/component/three-box/three-box.component.html</context>
+          <context context-type="linenumber">108,111</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5933898117986191094" datatype="html">
+        <source>BioAge Results Portal</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/auth/components/login/login.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9187410649183374354" datatype="html">
+        <source>Please, authenticate to view your results</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/auth/components/login/login.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4476224839121490369" datatype="html">
+        <source> Sign In </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/auth/components/login/login.component.html</context>
+          <context context-type="linenumber">22,24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7504752777131062423" datatype="html">
+        <source> Create account </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/auth/components/login/login.component.html</context>
+          <context context-type="linenumber">25,27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3724591343089785757" datatype="html">
+        <source>Hello, <x id="INTERPOLATION" equiv-text="{{ user?.firstName }}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8074456902739038527" datatype="html">
+        <source>Welcome to your BioAge Dashboard</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2614607010577950577" datatype="html">
+        <source>Overview</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7520925098760239771" datatype="html">
+        <source>Patient:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7918930382744510837" datatype="html">
+        <source>Date of Latest Imaging:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8032809564927556509" datatype="html">
+        <source>Ref. No:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="12562225115580542" datatype="html">
+        <source>Your Biological Age</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-results/pages/result/result.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7058787413690577427" datatype="html">
+        <source>Chronological</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-results/pages/result/result.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="953022389548488004" datatype="html">
+        <source>Years</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-results/pages/result/result.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-results/pages/result/result.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4773287394777817039" datatype="html">
+        <source>Biological</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-results/pages/result/result.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6512160296744191942" datatype="html">
+        <source>Your Biological Age Gap</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">56</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-results/pages/result/result.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4982940169252155220" datatype="html">
+        <source>The difference between your Chronological Age and BioAge</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-results/pages/result/result.component.html</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4056799361602050030" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;number&quot;&gt;"/><x id="INTERPOLATION" equiv-text="{{
+          user &amp;&amp; user.biologicalAge &amp;&amp; user.choronologicalAge
+            ? user.biologicalAge - user.choronologicalAge &gt; 0
+              ? &quot;+&quot; + (user.biologicalAge - user.choronologicalAge)
+              : user.biologicalAge - user.choronologicalAge
+            : &quot;+&quot; + 0
+        }}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> years </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">60,68</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-results/pages/result/result.component.html</context>
+          <context context-type="linenumber">47,55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4829177270839953752" datatype="html">
+        <source> Find out more </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">70,72</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">80,82</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">125,127</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-results/pages/result/result.component.html</context>
+          <context context-type="linenumber">74,76</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8545170228964254721" datatype="html">
+        <source>Health Recommendations</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">75</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-results/pages/result/result.component.html</context>
+          <context context-type="linenumber">67</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1228383112276692092" datatype="html">
+        <source><x id="TAG_IMG" ctype="image" equiv-text="&lt;img src=&quot;/assets/svg/health-recom.svg&quot; alt=&quot;&quot; /&gt;"/><x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>Follow these health recommendations to stay on top of your BioAge<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">77,78</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8877519148153157233" datatype="html">
+        <source>Your next Bio Age assessment is due in:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">85</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3582070576247777048" datatype="html">
+        <source> Book Appoinment now </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">89,91</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6133514861168170097" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{ user?.firstName }}"/>, Did you know</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">94</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-results/pages/result/result.component.html</context>
+          <context context-type="linenumber">126</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1959346391657521553" datatype="html">
+        <source> A <x id="INTERPOLATION" equiv-text="{{ user?.biologicalAge }}"/> years old is at higher risk for a range of medical conditions when compared to a <x id="INTERPOLATION_1" equiv-text="{{ user?.choronologicalAge }}"/> years old, including: </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">95,99</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-results/pages/result/result.component.html</context>
+          <context context-type="linenumber">127,131</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2584180222488607774" datatype="html">
+        <source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>3x<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> Higher risk of having a <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Cardiac Event<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">105</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-results/pages/result/result.component.html</context>
+          <context context-type="linenumber">137</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6627359799879150742" datatype="html">
+        <source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>5x<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> Higher risk of having <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Type 2 Diabetes<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">111</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-results/pages/result/result.component.html</context>
+          <context context-type="linenumber">143</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7877378582509539980" datatype="html">
+        <source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>3x<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> Higher risk of having elevated <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Blood Pressure<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">117</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-results/pages/result/result.component.html</context>
+          <context context-type="linenumber">150</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2660271509494693110" datatype="html">
+        <source>Effect of Exposure to Smoking</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">123</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-results/pages/result/result.component.html</context>
+          <context context-type="linenumber">89</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2160544709876312165" datatype="html">
+        <source>How to Compare to others like you</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">130</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-results/pages/result/result.component.html</context>
+          <context context-type="linenumber">114</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5881666526580108562" datatype="html">
+        <source> *Compared to the BioAge data from thousands of people of similar chronological age and gender at birth </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">132,135</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-results/pages/result/result.component.html</context>
+          <context context-type="linenumber">116,119</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6347500703538381615" datatype="html">
+        <source>How your BioAge has proressed</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">138</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-results/my-results.component.html</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-results/pages/result/result.component.html</context>
+          <context context-type="linenumber">122</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3631046336457769622" datatype="html">
+        <source> a) Links to other websites are simply for your convenience. Links chosen by you to view are at your own risk. Toku Eyes Ltd takes no liability for any linked sites or their content which may change without notice. Any link to another website does not imply that Toku Eyes Ltd endorses or accepts any responsibility for the content, safety, reliability, or quality of the materials. Be sure to study the privacy policies and other information about what, how and why a website may collect and use the information you provide. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/disclaimers/disclaimers.component.html</context>
+          <context context-type="linenumber">7,15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7238869497879990713" datatype="html">
+        <source> b) Regular exercise is one of the healthiest habits you can form. But it is not always without risk, even for healthy individuals. Certain types of exercise are riskier than others, and all exercise is risky for some individuals. It is the same with diet. Some dietary recommendations are healthy for the majority of people but potentially dangerous to others. You are responsible for your own health and safety at all times. In no way should the exercise or dietary information which may be provided by Toku Eyes Ltd on a report or system shall replace or in any way interfere with the guidance given to you by a medical professional. If you fail to seek medical clearance or if you ignore medical advice, you do so at your own risk, and no one associated with Toku Eyes Ltd (its employees, directors, advisors, or partners) shall hold any liability for damage and/or injury caused. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/disclaimers/disclaimers.component.html</context>
+          <context context-type="linenumber">17,31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2929069156379269236" datatype="html">
+        <source> c) The content of Toku Eyes Ltd’s system and report is for your information only, not advice or guarantee of outcome. Information is gathered and shared from reputable sources; however, Toku Eyes Ltd is not responsible for errors or omissions in reporting or explanation. No individual should use the information, resources or tools contained within to self-diagnosis or self-treat any health-related condition. Toku Eyes Ltd gives no assurance or warranty regarding the accuracy, timeliness or applicability of the content. Toku Eyes Ltd accepts no liability for errors, inaccuracies, omissions, or misleading statements. Toku Eyes Ltd excludes liability for any losses, demands, claims or damages of any kind regarding information, content, or services at this website. The information may be updated anytime, especially as medical discoveries and research evolve. At no time does Toku Eyes Ltd take any responsibility for any action taken or care chosen in reliance on information contained in this report or system. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/disclaimers/disclaimers.component.html</context>
+          <context context-type="linenumber">33,48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5123641961240230279" datatype="html">
+        <source> d) This Biological Age Test does not provide medical advice. It is intended for informational and educational purposes only. The information contained herein is not a substitute for professional medical advice, diagnosis or treatment. Never ignore professional medical advice in seeking treatment because of something you have read or seen on our website. Toku Eyes Ltd will not be liable for any direct, indirect, consequential, special, exemplary, or other damages arising therefrom. If you think you may have a medical emergency, immediately call your doctor or dial 911. Carrying out this test does not establish a professional relationship with Toku Eyes Ltd. Any medical or healthcare-related decision should be made in consultation with your qualified healthcare provider. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/disclaimers/disclaimers.component.html</context>
+          <context context-type="linenumber">50,62</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2407698205738401758" datatype="html">
+        <source> e) Toku Eyes Ltd may process data derived from Personal Information that has been de-identified and/or aggregated to reasonably avoid the identification of a specific individual for research, development, analytics, and similar purposes. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/disclaimers/disclaimers.component.html</context>
+          <context context-type="linenumber">64,69</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3089873442051110479" datatype="html">
+        <source>Pg 3 of 3</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/disclaimers/disclaimers.component.html</context>
+          <context context-type="linenumber">70</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7067982694353492669" datatype="html">
+        <source>Change your future, what’s your BioAge?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/disclaimers/disclaimers.component.html</context>
+          <context context-type="linenumber">71</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2409672154570643758" datatype="html">
+        <source>Display name</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-profile/components/personal-detail-form/personal-detail-form.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-profile/my-profile.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3013055597615607317" datatype="html">
+        <source>Display Name</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-profile/components/personal-detail-form/personal-detail-form.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3323415564519831786" datatype="html">
+        <source> Name is required. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-profile/components/personal-detail-form/personal-detail-form.component.html</context>
+          <context context-type="linenumber">20,22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3766522176074350215" datatype="html">
+        <source> Name must be at least 4 characters long. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-profile/components/personal-detail-form/personal-detail-form.component.html</context>
+          <context context-type="linenumber">23,25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3967269098753656610" datatype="html">
+        <source>Email address</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-profile/components/personal-detail-form/personal-detail-form.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4768749765465246664" datatype="html">
+        <source>Email</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-profile/components/personal-detail-form/personal-detail-form.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8602814243662345124" datatype="html">
+        <source>Email is required.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-profile/components/personal-detail-form/personal-detail-form.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1220883608630303681" datatype="html">
+        <source> Email format is not valid. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-profile/components/personal-detail-form/personal-detail-form.component.html</context>
+          <context context-type="linenumber">43,45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8121141462865337916" datatype="html">
+        <source>Phone number</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-profile/components/personal-detail-form/personal-detail-form.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-profile/my-profile.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1346506990112121576" datatype="html">
+        <source>Phone is required.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-profile/components/personal-detail-form/personal-detail-form.component.html</context>
+          <context context-type="linenumber">63</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="516176798986294299" datatype="html">
+        <source>Country</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-profile/components/personal-detail-form/personal-detail-form.component.html</context>
+          <context context-type="linenumber">67</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-profile/my-profile.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6133495983093212227" datatype="html">
+        <source>United States</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-profile/components/personal-detail-form/personal-detail-form.component.html</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3486679398271885916" datatype="html">
+        <source>Canada</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-profile/components/personal-detail-form/personal-detail-form.component.html</context>
+          <context context-type="linenumber">75</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7996565463829635689" datatype="html">
+        <source> Country is required. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-profile/components/personal-detail-form/personal-detail-form.component.html</context>
+          <context context-type="linenumber">83,85</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3588415639242079458" datatype="html">
+        <source>New password</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-profile/components/reset-password-form/reset-password-form.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-profile/components/reset-password-form/reset-password-form.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5563102466383045164" datatype="html">
+        <source> Password format is not valid. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-profile/components/reset-password-form/reset-password-form.component.html</context>
+          <context context-type="linenumber">26,28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8174919026012824751" datatype="html">
+        <source>Repeat new password</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-profile/components/reset-password-form/reset-password-form.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3782563238994348625" datatype="html">
+        <source>Confirm password</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-profile/components/reset-password-form/reset-password-form.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="226707151597771075" datatype="html">
+        <source> Password format is not valid </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-profile/components/reset-password-form/reset-password-form.component.html</context>
+          <context context-type="linenumber">56,58</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5119040210206303273" datatype="html">
+        <source> Your new password must contain more than 8 characters, numbers and special characters.
+</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-profile/components/reset-password-form/reset-password-form.component.html</context>
+          <context context-type="linenumber">63,66</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2127032578120864096" datatype="html">
+        <source>My Profile</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-profile/my-profile.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="32249545856627441" datatype="html">
+        <source> Manage Account </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-profile/my-profile.component.html</context>
+          <context context-type="linenumber">34,36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3213291071831823028" datatype="html">
+        <source> Disclaimer <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;#&quot; target=&quot;_blank&quot;&gt;"/><x id="TAG_IMG" ctype="image" equiv-text="&lt;img
+                  class=&quot;icon ms-2&quot;
+                  src=&quot;/assets/svg/external-link.svg&quot;
+                  alt=&quot;externallink&quot;
+                /&gt;"/><x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-profile/my-profile.component.html</context>
+          <context context-type="linenumber">129,137</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8435885972817272782" datatype="html">
+        <source>Please check your input and try again!</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-profile/my-profile.component.html</context>
+          <context context-type="linenumber">184</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4022929292697954070" datatype="html">
+        <source>Edit Personal Details</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-profile/my-profile.component.html</context>
+          <context context-type="linenumber">187</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-profile/pages/manage-account/manage-account.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7609380082792005400" datatype="html">
+        <source>Close my account</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-profile/my-profile.component.html</context>
+          <context context-type="linenumber">193</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6972105223770675605" datatype="html">
+        <source>Reset Password</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-profile/my-profile.component.html</context>
+          <context context-type="linenumber">197</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-profile/pages/reset-password/reset-password.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-profile/pages/reset-password/reset-password.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6273997865051397082" datatype="html">
+        <source> Save Changes </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-profile/my-profile.component.html</context>
+          <context context-type="linenumber">204,206</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4310394964982912017" datatype="html">
+        <source>Close Account</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-profile/pages/close-account/close-account.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2322688793988378029" datatype="html">
+        <source>Close account</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-profile/pages/close-account/close-account.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5465520310928081444" datatype="html">
+        <source>IMPORTANT:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-profile/pages/close-account/close-account.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="441703324075685036" datatype="html">
+        <source> Deleting your account will remove all account access and you will no longer receive any further BioAge information. Your personal information will also be removed on our database. If you would like to close your account and for Toku to remove your personal information from our database, please email <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>privacy@tokueyes.com<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> with the subject line &quot;Close BioAge account” and include in the email body:  </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-profile/pages/close-account/close-account.component.html</context>
+          <context context-type="linenumber">9,16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8194156209320744779" datatype="html">
+        <source>Your Full Name</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-profile/pages/close-account/close-account.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1738000365625884670" datatype="html">
+        <source> Contact Information or any other identifying information Toku may need to locate your account in our system. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-profile/pages/close-account/close-account.component.html</context>
+          <context context-type="linenumber">18,21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6143225747091139618" datatype="html">
+        <source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b
+      &gt;"/>Please note that deleting your account will remove all account access, and you will no longer receive any further BioAge information.<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b
+    &gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-profile/pages/close-account/close-account.component.html</context>
+          <context context-type="linenumber">23,26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3341225802653793588" datatype="html">
+        <source> Toku may be required by local law and regulation to keep part or whole of Information for a limited time. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-profile/pages/close-account/close-account.component.html</context>
+          <context context-type="linenumber">28,31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1911827420209807833" datatype="html">
+        <source>Manage Account</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-profile/pages/manage-account/manage-account.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2156730257988465074" datatype="html">
+        <source> Save changes </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-profile/pages/manage-account/manage-account.component.html</context>
+          <context context-type="linenumber">12,14</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-profile/pages/reset-password/reset-password.component.html</context>
+          <context context-type="linenumber">9,11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1636934520301910285" datatype="html">
+        <source>Reset password</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-profile/pages/manage-account/manage-account.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6049102762926524689" datatype="html">
+        <source> Close my account </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-profile/pages/manage-account/manage-account.component.html</context>
+          <context context-type="linenumber">17,19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6358045061000554523" datatype="html">
+        <source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/><x id="INTERPOLATION" equiv-text="{{ assessmentResults.length }}"/> <x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>tests found </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-results/my-results.component.html</context>
+          <context context-type="linenumber">10,11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2957614501673079633" datatype="html">
+        <source>Sort:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-results/my-results.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5423991647761194551" datatype="html">
+        <source>Newest</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-results/my-results.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5844212965736113574" datatype="html">
+        <source>Oldest</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-results/my-results.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3700437849403259810" datatype="html">
+        <source>No Assesment found.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-results/my-results.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3529924116528161832" datatype="html">
+        <source>Your BioAge and your health are not fixed!</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-results/my-results.component.html</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7505779748698230310" datatype="html">
+        <source> See Our Health recommendations </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-results/my-results.component.html</context>
+          <context context-type="linenumber">59,61</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1605127696332288895" datatype="html">
+        <source>Your next BioAge assessment is due in:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-results/my-results.component.html</context>
+          <context context-type="linenumber">64</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-results/pages/result/result.component.html</context>
+          <context context-type="linenumber">79</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6454987057491341552" datatype="html">
+        <source> Book appoinment now </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-results/my-results.component.html</context>
+          <context context-type="linenumber">68,70</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-results/pages/result/result.component.html</context>
+          <context context-type="linenumber">83,85</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="582389909221600935" datatype="html">
+        <source><x id="START_TAG_APP_DOWNLOAD_SVG" ctype="x-app_download_svg" equiv-text="&lt;app-download-svg&gt;"/><x id="CLOSE_TAG_APP_DOWNLOAD_SVG" ctype="x-app_download_svg" equiv-text="&lt;/app-download-svg&gt;"/> Download result </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-results/pages/result/result.component.html</context>
+          <context context-type="linenumber">9,11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6346685816220047283" datatype="html">
+        <source> Every person has two ages: our <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>chronological age<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> (how old you are) and our <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>biological age.<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> Our biological age (or BioAge) is a measure of how well our cells, tissues and organs are aging. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-results/pages/result/result.component.html</context>
+          <context context-type="linenumber">58,62</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3344600853786355105" datatype="html">
+        <source> Follow these health recommendations to stay on top of your BioAge </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-results/pages/result/result.component.html</context>
+          <context context-type="linenumber">70,72</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1733868192258665389" datatype="html">
+        <source> We detected a high level of exposure to smoke in your eyes. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-results/pages/result/result.component.html</context>
+          <context context-type="linenumber">93,95</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="714893072211628993" datatype="html">
+        <source> Usually this result is due to being a current or previous smoker, or high secondhand smoke exposure. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-results/pages/result/result.component.html</context>
+          <context context-type="linenumber">96,99</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4239203361226646780" datatype="html">
+        <source> Your smoking exposure is one (of many) contributors to your biological age calculation. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-results/pages/result/result.component.html</context>
+          <context context-type="linenumber">100,103</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9128685773145996512" datatype="html">
+        <source> If your exposure to smoking is still high, it is recommended you reduce the exposure to improve your health and reduce your biological age gap. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-results/pages/result/result.component.html</context>
+          <context context-type="linenumber">105,108</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3136172874259735650" datatype="html">
+        <source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Speak to your doctor for assistance.<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/my-results/pages/result/result.component.html</context>
+          <context context-type="linenumber">109</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8267761404087413290" datatype="html">
+        <source>What Makes our Technology so Unique?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/the-science/the-science.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8743456306782763114" datatype="html">
+        <source> When we look at your eye image, we can see features that contribute to the aging of your body. Our robust AI engine can see so much more. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/the-science/the-science.component.html</context>
+          <context context-type="linenumber">5,8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4863371103643861248" datatype="html">
+        <source>1</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/the-science/the-science.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6441168497334529189" datatype="html">
+        <source>2</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/the-science/the-science.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5553013051982389716" datatype="html">
+        <source>3</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/the-science/the-science.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6300003832284833975" datatype="html">
+        <source>4</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/the-science/the-science.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1986204440772735655" datatype="html">
+        <source>Fundus image of a middle-aged individual with diabetes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/the-science/the-science.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="83875080669940562" datatype="html">
+        <source> 1. <x id="START_HEADING_LEVEL3" ctype="x-h3" equiv-text="&lt;h3 class=&quot;name&quot; &gt;"/>Blood vessels<x id="CLOSE_HEADING_LEVEL3" ctype="x-h3" equiv-text="&lt;/h3&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/the-science/the-science.component.html</context>
+          <context context-type="linenumber">24,26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4225690436867945309" datatype="html">
+        <source>Provides an estimate of your cardiovascular health.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/the-science/the-science.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="289635145384686669" datatype="html">
+        <source> 2. <x id="START_HEADING_LEVEL3" ctype="x-h3" equiv-text="&lt;h3 class=&quot;name&quot;&gt;"/>Nerve<x id="CLOSE_HEADING_LEVEL3" ctype="x-h3" equiv-text="&lt;/h3&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/the-science/the-science.component.html</context>
+          <context context-type="linenumber">32,34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1193637503565172795" datatype="html">
+        <source>Provides insight to your neurological health.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/the-science/the-science.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2906474768807412907" datatype="html">
+        <source> 3. <x id="START_HEADING_LEVEL3" ctype="x-h3" equiv-text="&lt;h3 class=&quot;name&quot;&gt;"/>Macula<x id="CLOSE_HEADING_LEVEL3" ctype="x-h3" equiv-text="&lt;/h3&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/the-science/the-science.component.html</context>
+          <context context-type="linenumber">40,42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5094945623516584211" datatype="html">
+        <source>Helps estimate your rate of ageing and inflammatory health.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/the-science/the-science.component.html</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1143855919612611292" datatype="html">
+        <source> 4. <x id="START_HEADING_LEVEL3" ctype="x-h3" equiv-text="&lt;h3 class=&quot;name&quot;&gt;"/>Image Clarity<x id="CLOSE_HEADING_LEVEL3" ctype="x-h3" equiv-text="&lt;/h3&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/the-science/the-science.component.html</context>
+          <context context-type="linenumber">48,50</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5669691665530122770" datatype="html">
+        <source>Provides insight to the rate at which your lens is ageing.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/the-science/the-science.component.html</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="826901987276758659" datatype="html">
+        <source>The AI behind our technology</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/the-science/the-science.component.html</context>
+          <context context-type="linenumber">59</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6536956537127928170" datatype="html">
+        <source> We use artificial intelligence (AI) which involves using super-computers to recognize patterns, classify, analyze and draw predictions from data. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/the-science/the-science.component.html</context>
+          <context context-type="linenumber">62,65</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6788217669466588213" datatype="html">
+        <source> The photo of your eye is passed through our AI engine which has learnt patterns from images from over 500,000 eye images (and still counting!) to recognize the various features of our eye health through photographs of your eye. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/the-science/the-science.component.html</context>
+          <context context-type="linenumber">66,71</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1243853260646156136" datatype="html">
+        <source> Analysis is performed at speeds beyond human capability, plus can recognize features a human may not be able to perceive. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/the-science/the-science.component.html</context>
+          <context context-type="linenumber">72,75</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2695752576087327759" datatype="html">
+        <source><x id="TAG_IMG" ctype="image" equiv-text="&lt;img src=&quot;/assets/svg/legend-bio.svg&quot; alt=&quot;&quot;&gt;"/> Biological Age </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/charts/components/bioage-progress-chart/bioage-progress-chart.component.html</context>
+          <context context-type="linenumber">4,5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2998914766975513603" datatype="html">
+        <source><x id="TAG_IMG" ctype="image" equiv-text="&lt;img src=&quot;/assets/svg/legend-chrono.svg&quot; alt=&quot;&quot;&gt;"/> Chronological Age </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/charts/components/bioage-progress-chart/bioage-progress-chart.component.html</context>
+          <context context-type="linenumber">7,8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3970609940972659694" datatype="html">
+        <source><x id="TAG_IMG" ctype="image" equiv-text="&lt;img src=&quot;/assets/svg/legend-gap.svg&quot; alt=&quot;&quot;&gt;"/> Gap </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/charts/components/bioage-progress-chart/bioage-progress-chart.component.html</context>
+          <context context-type="linenumber">10,11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8354707699351268875" datatype="html">
+        <source> Get Back</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/breadcrumbs/breadcrumbs.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="840951359074313455" datatype="html">
+        <source>Days</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/date-due-counter/date-due-counter.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8070396816726827304" datatype="html">
+        <source>Hours</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/date-due-counter/date-due-counter.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5531237363767747080" datatype="html">
+        <source>Minutes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/date-due-counter/date-due-counter.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8874012390997067175" datatype="html">
+        <source>Seconds</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/date-due-counter/date-due-counter.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3711069159075161996" datatype="html">
+        <source>Eng</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/language-switcher/language-switcher.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3681834557979401958" datatype="html">
+        <source>Esp</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/language-switcher/language-switcher.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="720557322859638078" datatype="html">
+        <source>You</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/range-viewer/range-viewer.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="802458941707537739" datatype="html">
+        <source>Low</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/range-viewer/range-viewer.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8063651736083474594" datatype="html">
+        <source>High</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/range-viewer/range-viewer.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

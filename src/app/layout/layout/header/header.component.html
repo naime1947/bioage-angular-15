@@ -25,10 +25,10 @@
       <div class="btn-group" dropdown [insideClick]="true">
         <div class="icon-with-text-wrapper me-4" dropdownToggle>
           <img class="icon" src="/assets/svg/help-circle.svg" alt="search" />
-          <span class="text">Help</span>
+          <span class="text" i18n>Help</span>
         </div>
         <ul *dropdownMenu class="dropdown-menu regular-dropdown-menu">
-          <li>
+          <li i18n>
             FaQs
             <a href="#" target="_blank">
               <img
@@ -38,7 +38,7 @@
               />
             </a>
           </li>
-          <li>
+          <li i18n>
             More about BioAge
             <a href="#" target="_blank">
               <img
@@ -53,6 +53,7 @@
             (mouseleave)="isCollapsed = !isCollapsed"
             [attr.aria-expanded]="!isCollapsed"
             aria-controls="collapseBasic"
+            i18n
           >
             Concerned about your BioAge?
             <img
@@ -71,7 +72,7 @@
             </div>
           </li>
 
-          <li>
+          <li i18n>
             Technical support
             <a href="#" target="_blank">
               <img
@@ -87,7 +88,7 @@
       <div class="btn-group" dropdown [insideClick]="true">
         <div class="icon-with-text-wrapper me-4" dropdownToggle>
           <img class="icon" src="/assets/svg/feather.svg" alt="search" />
-          <span class="text">Legal</span>
+          <span class="text" i18n>Legal</span>
         </div>
         <ul *dropdownMenu class="dropdown-menu regular-dropdown-menu">
           <li>
@@ -100,7 +101,7 @@
               />
             </a>
           </li>
-          <li>
+          <li i18n>
             Terms and Conditions
             <a href="#" target="_blank">
               <img
@@ -110,7 +111,7 @@
               />
             </a>
           </li>
-          <li>
+          <li i18n>
             Privacy Policy
             <a href="#" target="_blank">
               <img
@@ -120,7 +121,7 @@
               />
             </a>
           </li>
-          <li>
+          <li i18n>
             Terms of Service
             <a href="#" target="_blank">
               <img
@@ -140,7 +141,7 @@
           *dropdownMenu
           class="dropdown-menu regular-dropdown-menu my-profile-dropdown"
         >
-          <li routerLink="/my-profile" [routerLinkActive]="'active'">
+          <li routerLink="/my-profile" [routerLinkActive]="'active'" i18n>
             <img
               class="icon"
               style="margin-left: -10px"
@@ -156,7 +157,7 @@
               src="/assets/svg/log-out.svg"
               alt="externallink"
             />
-            <span class="sign-out">Sign out</span>
+            <span class="sign-out" i18n>Sign out</span>
           </li>
         </ul>
       </div>
