@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl } from '@angular/forms';
+import { Title } from '@angular/platform-browser';
 import { UserModel } from '@modules/auth/models/user.model';
 import { AuthService } from '@modules/auth/services/auth.service';
 
@@ -38,12 +39,13 @@ export class MyResultsComponent implements OnInit {
   ];
 
   user: UserModel | null;
-  constructor(private authService: AuthService){
+  constructor(private authService: AuthService, private titleService: Title){
     this.user = authService.getUser();
   }
   ngOnInit(): void {
     this.onSort('new');
     //this.assessmentResults = [];
+    this.titleService.setTitle('My Results - BioAge');
   }
 
   onSort(type: string) {

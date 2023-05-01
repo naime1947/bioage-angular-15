@@ -5,6 +5,7 @@ import {
   OnInit,
   ViewChild,
 } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 import { UserModel } from '@modules/auth/models/user.model';
 import { AuthService } from '@modules/auth/services/auth.service';
 
@@ -15,9 +16,11 @@ import { AuthService } from '@modules/auth/services/auth.service';
 })
 export class DashboardComponent implements OnInit {
   user: UserModel | null;
-  constructor(private authService: AuthService) {
+  constructor(private authService: AuthService, private titleService: Title) {
     this.user = this.authService.getUser();
   }
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.titleService.setTitle('Dashbaord - BioAge')
+  }
 }

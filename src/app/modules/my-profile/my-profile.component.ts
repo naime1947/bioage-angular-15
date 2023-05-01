@@ -4,6 +4,7 @@ import { AuthService } from '@modules/auth/services/auth.service';
 import { PersonalDetailModel } from '@shared/models/personal-detail.model';
 import { PersonalDetailFormComponent } from './components/personal-detail-form/personal-detail-form.component';
 import { ResetPasswordFormComponent } from './components/reset-password-form/reset-password-form.component';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-my-profile',
@@ -22,7 +23,7 @@ export class MyProfileComponent implements OnInit {
   isHelpCollapsed = true;
   isLegalCollapsed = true;
 
-  constructor(private authService: AuthService) {
+  constructor(private authService: AuthService, private titleService: Title) {
     this.user = authService.getUser();
     this.personalDetail = {
       displayName: this.user?.displayName!,
@@ -32,7 +33,9 @@ export class MyProfileComponent implements OnInit {
     }
   }
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.titleService.setTitle('My Profile - BioAge');
+  }
 
   onSubmit(){
     if(this.personalDetailForm.personalDetailFormGroup.invalid || this.passwordForm.passwordFormGroup.invalid){
