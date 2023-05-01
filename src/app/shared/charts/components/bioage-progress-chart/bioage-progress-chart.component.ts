@@ -1,6 +1,7 @@
 import { AfterViewInit, Component, OnDestroy, OnInit } from '@angular/core';
 import { Chart, registerables } from 'chart.js';
 import annotationPlugin from 'chartjs-plugin-annotation';
+Chart.register(...registerables, annotationPlugin);
 
 @Component({
   selector: 'app-bioage-progress-chart',
@@ -64,6 +65,20 @@ export class BioageProgressChartComponent implements AfterViewInit, OnDestroy {
             },
             annotation: {
               annotations: {
+                label1: {
+                  type: 'label',
+                  yValue: 65,
+                  xValue: 0,
+                  xAdjust: 250,
+                  backgroundColor: 'rgba(17,41,73, 1)',
+                  color: 'rgba(255, 255, 255)',
+                  content: '68 years (March 27th)',
+                  padding: 12,
+                  borderRadius: 8,
+                  font: {
+                    size: 12,
+                  },
+                },
                 line1: {
                   type: 'line',
                   yMin: 20,
@@ -91,6 +106,7 @@ export class BioageProgressChartComponent implements AfterViewInit, OnDestroy {
                   borderColor: 'rgb(243, 22, 16)',
                   borderWidth: 15,
                 },
+
               },
             },
           },
