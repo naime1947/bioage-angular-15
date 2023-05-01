@@ -1,4 +1,11 @@
-import { AfterViewInit, Component, OnDestroy, OnInit } from '@angular/core';
+import {
+  AfterViewInit,
+  Component,
+  ElementRef,
+  OnDestroy,
+  OnInit,
+  ViewChild,
+} from '@angular/core';
 import { Chart, registerables } from 'chart.js';
 import annotationPlugin from 'chartjs-plugin-annotation';
 
@@ -12,10 +19,20 @@ Chart.register(...registerables, annotationPlugin);
 export class CompareOthersLikeYouChartComponent
   implements AfterViewInit, OnDestroy
 {
+  @ViewChild('compareOthersLikeYouChart') canvas!: ElementRef;
+
   myChart!: Chart;
   constructor() {}
   ngAfterViewInit(): void {
     setTimeout(() => {
+      const gradient = this.canvas.nativeElement
+        .getContext('2d')
+        .createLinearGradient(0, 0, 450, 0);
+      gradient.addColorStop('0', '#27D138');
+      gradient.addColorStop('0.33', '#FAE100');
+      gradient.addColorStop('0.62', '#FF9129');
+      gradient.addColorStop('1', '#F2110E');
+
       const ageGaps = [
         1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
       ];
@@ -34,13 +51,16 @@ export class CompareOthersLikeYouChartComponent
               label: 'Dataset 1',
               data: numberOfPeoples,
               borderColor: 'rgb(255, 99, 132)',
-              backgroundColor: 'rgb(255, 99, 132, 0.4)',
+              borderRadius: 15,
+              backgroundColor: gradient,
               order: 1,
+              barPercentage: 1.1,
             },
             {
               label: 'Dataset 2',
               data: numberOfPeoples,
-              borderColor: 'rgb(54, 162, 235)',
+              borderColor: '#112949',
+              borderWidth: 3,
               backgroundColor: 'rgb(54, 162, 235, 0.7)',
               type: 'line',
               order: 0,
@@ -51,8 +71,11 @@ export class CompareOthersLikeYouChartComponent
           responsive: true,
           elements: {
             line: {
-              tension: 0.6
-            }
+              tension: 0.6,
+            },
+          },
+          layout: {
+            padding: 0,
           },
           plugins: {
             legend: {
@@ -69,13 +92,17 @@ export class CompareOthersLikeYouChartComponent
                   type: 'point',
                   xValue: 16,
                   yValue: 3400,
-                  backgroundColor: 'rgba(25, 99, 132, 0.25)',
+                  borderColor: '#112949',
+                  borderWidth: 3,
+                  backgroundColor: 'rgba(25, 99, 132, 0)',
                 },
                 point2: {
                   type: 'point',
-                  xValue: 9,
-                  yValue: 9900,
-                  backgroundColor: 'rgba(25, 99, 132, 0.25)',
+                  xValue: 7,
+                  yValue: 9800,
+                  borderColor: '#112949',
+                  borderWidth: 3,
+                  backgroundColor: 'rgba(25, 99, 132, 0)',
                 },
                 label1: {
                   type: 'label',
@@ -84,6 +111,8 @@ export class CompareOthersLikeYouChartComponent
                   backgroundColor: 'rgba(17,41,73, 1)',
                   color: 'rgba(255, 255, 255)',
                   content: ['You (17 years)'],
+                  padding: 12,
+                  borderRadius: 8,
                   font: {
                     size: 12,
                   },
@@ -91,8 +120,10 @@ export class CompareOthersLikeYouChartComponent
                 label2: {
                   type: 'label',
                   xValue: 7,
-                  yValue: 8000,
+                  yValue: 8500,
                   backgroundColor: 'rgba(17,41,73, 1)',
+                  padding: 12,
+                  borderRadius: 8,
                   color: 'rgba(255, 255, 255)',
                   content: ['Average (8 years)'],
                   font: {
