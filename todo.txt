@@ -6,7 +6,7 @@
 6. password form compare password validation
 // 7. close account page
 8. title for browser tab
-9. favicon icon
+// 9. favicon icon
 // 10. Breadcrumb
 
 
