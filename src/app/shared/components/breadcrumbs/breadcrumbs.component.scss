@@ -29,3 +29,9 @@ span {
     pointer-events: none;
   }
 }
+
+@media screen and (max-width: 767px) {
+  span{
+    font-size: 12px !important;
+  }
+}
