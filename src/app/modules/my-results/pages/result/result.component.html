@@ -19,7 +19,7 @@
           </div>
           <div class="circle">
             <div class="inner">
-              <div class="age">{{ user?.choronologicalAge }}</div>
+              <div class="age">{{ assessmentResult?.choronologicalAge }}</div>
               <div class="label" i18n>Years</div>
             </div>
           </div>
@@ -31,7 +31,7 @@
           </div>
           <div class="circle">
             <div class="inner">
-              <div class="age">{{ user?.biologicalAge }}</div>
+              <div class="age">{{ assessmentResult?.biologicalAge }}</div>
               <div class="label" i18n>Years</div>
             </div>
           </div>
@@ -45,10 +45,17 @@
         </div>
         <div class="gap ms-auto" i18n>
           <span class="number">{{
-            user && user.biologicalAge && user.choronologicalAge
-              ? user.biologicalAge - user.choronologicalAge > 0
-                ? "+" + (user.biologicalAge - user.choronologicalAge)
-                : user.biologicalAge - user.choronologicalAge
+            assessmentResult &&
+            assessmentResult.biologicalAge &&
+            assessmentResult.choronologicalAge
+              ? assessmentResult.biologicalAge -
+                  assessmentResult.choronologicalAge >
+                0
+                ? "+" +
+                  (assessmentResult.biologicalAge -
+                    assessmentResult.choronologicalAge)
+                : assessmentResult.biologicalAge -
+                  assessmentResult.choronologicalAge
               : "+" + 0
           }}</span>
           years
@@ -78,7 +85,7 @@
   <div class="block-due-date">
     <h3 i18n>Your next BioAge assessment is due in:</h3>
     <app-date-due-counter
-      [dueDate]="user?.nextAssessmentDate"
+      [dueDate]="assessmentResult?.nextAssessmentDate"
     ></app-date-due-counter>
     <button class="btn btn-outline-primary btn-regular-outlined w-100" i18n>
       Book appoinment now
@@ -125,9 +132,9 @@
   <div class="john-dyk">
     <h2 class="title" i18n>{{ user?.firstName }}, Did you know</h2>
     <p i18n>
-      A {{ user?.biologicalAge }} years old is at higher risk for a range of
-      medical conditions when compared to a {{ user?.choronologicalAge }} years
-      old, including:
+      A {{ assessmentResult?.biologicalAge }} years old is at higher risk for a
+      range of medical conditions when compared to a
+      {{ assessmentResult?.choronologicalAge }} years old, including:
     </p>
 
     <div class="three-boxes">

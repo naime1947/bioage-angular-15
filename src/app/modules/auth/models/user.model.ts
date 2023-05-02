@@ -4,10 +4,6 @@ export interface UserModel {
   lastName: string;
   displayName: string;
   email: string;
-  dateOfLatestImaging: Date;
-  nextAssessmentDate: Date;
-  choronologicalAge: number;
-  biologicalAge: number;
   refNo: string;
   phone: string;
   country: string;

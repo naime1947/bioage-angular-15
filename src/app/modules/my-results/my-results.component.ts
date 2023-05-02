@@ -5,6 +5,7 @@ import { UserModel } from '@modules/auth/models/user.model';
 import { AuthService } from '@modules/auth/services/auth.service';
 import { AssessmentResultModel } from './models/assessment-result.model';
 import { MyResultService } from './services/my-result.service';
+import { sortAssessment } from '@shared/utilities/utils';
 
 @Component({
   selector: 'app-my-results',
@@ -13,6 +14,7 @@ import { MyResultService } from './services/my-result.service';
 })
 export class MyResultsComponent implements OnInit {
   assessmentResults!: AssessmentResultModel[];
+  latestAssessmentResult!: AssessmentResultModel;
 
   user: UserModel | null;
   constructor(
@@ -25,7 +27,8 @@ export class MyResultsComponent implements OnInit {
     this.myResultSevice.assessmentResults$.pipe().subscribe((data) => {
       this.assessmentResults = data;
       if (this.assessmentResults && this.assessmentResults.length) {
-        this.onSort('new');
+        sortAssessment(this.assessmentResults, 'new');
+        this.latestAssessmentResult = this.assessmentResults[0];
       }
     });
   }
@@ -35,21 +38,7 @@ export class MyResultsComponent implements OnInit {
     this.myResultSevice.getResults();
   }
 
-  onSort(type: string) {
-    if (type === 'new') {
-      this.assessmentResults.sort((a, b) => {
-        var dateA = new Date(a.date).getTime();
-        var dateB = new Date(b.date).getTime();
-        return dateA < dateB ? 1 : -1;
-      });
-    } else {
-      this.assessmentResults.sort((a, b) => {
-        var dateA = new Date(a.date).getTime();
-        var dateB = new Date(b.date).getTime();
-        return dateA > dateB ? 1 : -1;
-      });
-    }
-
-    console.log(this.assessmentResults);
+  onSort(type: string){
+    sortAssessment(this.assessmentResults, type);
   }
 }

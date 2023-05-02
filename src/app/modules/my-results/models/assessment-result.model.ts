@@ -1,5 +1,8 @@
 export interface AssessmentResultModel {
   id: string;
   name: string;
-  date: Date;
+  dateOfLatestImaging: Date;
+  nextAssessmentDate: Date;
+  choronologicalAge: number;
+  biologicalAge: number;
 }
