@@ -1,13 +1,15 @@
 1. Cross browser responsive testing
-2. i18n implements and testing
+//2. i18n implements and testing
 //3. Optimize images and load time
-4. Integrade api compability to load data and other staffs
+//4. Integrade api compability to load data and other staffs
 //5. implements chart
 6. password form compare password validation
 // 7. close account page
 //8. title for browser tab
 // 9. favicon icon
 // 10. Breadcrumb
-11. link button
+//11. link button
 
+
+localization / multilanguage
 https://medium.com/dailyjs/maintaining-multi-language-angular-applications-26b74df8d085

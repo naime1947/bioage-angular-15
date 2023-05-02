@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Regex } from '@shared/utilities/regex';
+import { createCompareValidator } from '@shared/utilities/validators';
 
 @Component({
   selector: 'app-reset-password-form',
@@ -17,6 +18,13 @@ export class ResetPasswordFormComponent implements OnInit {
       newPassword: ['', [Validators.pattern(Regex.password)]],
       confirmPassword: ['', [Validators.pattern(Regex.password)]],
     });
+
+    this.passwordFormGroup.addValidators(
+      createCompareValidator(
+        this.passwordFormGroup.get('newPassword')!,
+        this.passwordFormGroup.get('confirmPassword')!
+      )
+    );
   }
 
   get f() {
