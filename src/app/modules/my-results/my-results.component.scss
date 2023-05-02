@@ -86,7 +86,7 @@
 
           .date {
             align-self: center;
-            .icon{
+            .icon {
               margin-right: 5px;
               margin-top: -3px;
             }
@@ -95,6 +95,10 @@
             margin-left: 20px;
             margin-top: 6px;
           }
+        }
+        transition: transform 0.4s ease;
+        &:hover {
+          transform: scale(1.01);
         }
       }
     }
