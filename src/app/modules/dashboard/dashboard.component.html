@@ -76,7 +76,7 @@
         years
       </div>
     </div>
-    <button class="btn btn-outline-primary btn-regular-outlined w-100" i18n>
+    <button routerLink="/my-results/{{latestAssessmentResult.id}}" class="btn btn-outline-primary btn-regular-outlined w-100" i18n>
       Find out more
     </button>
   </div>
@@ -86,7 +86,7 @@
       <img src="/assets/svg/health-recom.svg" alt="" />
       <p>Follow these health recommendations to stay on top of your BioAge</p>
     </div>
-    <button class="btn btn-outline-primary btn-regular-outlined w-100" i18n>
+    <button routerLink="/actions" class="btn btn-outline-primary btn-regular-outlined w-100" i18n>
       Find out more
     </button>
   </div>
@@ -135,7 +135,7 @@
   <div class="effect-of-smock">
     <h2 class="title" i18n>Effect of Exposure to Smoking</h2>
     <app-range-viewer [value]="76"></app-range-viewer>
-    <button class="btn btn-outline-primary btn-regular-outlined w-100" i18n>
+    <button routerLink="/my-results/{{latestAssessmentResult.id}}" class="btn btn-outline-primary btn-regular-outlined w-100" i18n>
       Find out more
     </button>
   </div>

@@ -1,10 +1,4 @@
-import {
-  AfterViewInit,
-  Component,
-  ElementRef,
-  OnInit,
-  ViewChild,
-} from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 import { UserModel } from '@modules/auth/models/user.model';
 import { AuthService } from '@modules/auth/services/auth.service';
@@ -17,6 +11,7 @@ import { sortAssessment } from '@shared/utilities/utils';
   templateUrl: './dashboard.component.html',
   styleUrls: ['./dashboard.component.scss'],
 })
+
 export class DashboardComponent implements OnInit {
   user: UserModel | null;
   latestAssessmentResult!: AssessmentResultModel;
@@ -28,9 +23,8 @@ export class DashboardComponent implements OnInit {
   ) {
     this.user = this.authService.getUser();
 
-    this.myResultService.assessmentResults$.pipe().subscribe(data => {
-      console.log(data);
-      if(data && data.length){
+    this.myResultService.assessmentResults$.pipe().subscribe((data) => {
+      if (data && data.length) {
         sortAssessment(data, 'new');
         this.latestAssessmentResult = data[0];
       }

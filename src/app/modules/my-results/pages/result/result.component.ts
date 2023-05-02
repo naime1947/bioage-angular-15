@@ -5,6 +5,7 @@ import { AuthService } from '@modules/auth/services/auth.service';
 import { AssessmentResultModel } from '@modules/my-results/models/assessment-result.model';
 import { MyResultService } from '@modules/my-results/services/my-result.service';
 import { BreadcrumbService } from '@shared/components/breadcrumbs/services/breadcrumb.service';
+import * as moment from 'moment';
 import { tap } from 'rxjs';
 
 @Component({
@@ -25,7 +26,6 @@ export class ResultComponent implements OnInit {
   ) {
     this.user = this.authService.getUser();
     this.assessmentId = this.route.snapshot.params['id'];
-    console.log(this.assessmentId);
   }
 
   ngOnInit(): void {
@@ -34,16 +34,20 @@ export class ResultComponent implements OnInit {
       .pipe(
         tap((data) => {
           this.assessmentResult = data;
+          setTimeout(() => {
+            this.breadcrumbService.addBreadcrumbData([
+              {
+                label: `BioAge Assessments (${moment(
+                  this.assessmentResult?.dateOfLatestImaging
+                ).format('MMMM DD, YYYY')})`,
+                route: '',
+              },
+            ]);
+          }, 0);
         })
       )
       .subscribe();
-    setTimeout(() => {
-      this.breadcrumbService.addBreadcrumbData([
-        {
-          label: 'BioAge Assessments (March 27, 2022)',
-          route: '',
-        },
-      ]);
-    }, 0);
+
+    window.scrollTo(0, 0);
   }
 }
