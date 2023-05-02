@@ -29,9 +29,9 @@ export class MyResultsComponent implements OnInit {
       }
     });
   }
+
   ngOnInit(): void {
     this.titleService.setTitle('My Results - BioAge');
-
     this.myResultSevice.getResults();
   }
 
