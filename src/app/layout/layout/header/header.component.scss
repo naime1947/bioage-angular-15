@@ -53,7 +53,12 @@ app-language-switcher{
         }
       }
 
-      app-the-science-svg,
+      app-the-science-svg{
+        svg path {
+          stroke: var(--color-secondary);
+          fill: var(--color-secondary);
+        }
+      }
       app-disclaimers-svg {
         svg path {
           stroke: var(--color-secondary);
@@ -80,7 +85,12 @@ app-language-switcher{
       }
     }
 
-    app-the-science-svg,
+    app-the-science-svg{
+      svg path {
+        stroke: var(--color-secondary);
+        fill: var(--color-secondary);
+      }
+    }
     app-disclaimers-svg {
       svg path {
         stroke: var(--color-secondary);
