@@ -25,6 +25,7 @@ import { RouterModule } from '@angular/router';
 import { DownloadSvgComponent } from './svg-icons/download-svg/download-svg.component';
 import { CompareOthersLikeYouChartComponent } from './charts/components/compare-others-like-you-chart/compare-others-like-you-chart.component';
 import { BioageProgressChartComponent } from './charts/components/bioage-progress-chart/bioage-progress-chart.component';
+import { FeedbackModalComponent } from './components/feedback-modal/feedback-modal.component';
 
 @NgModule({
   declarations: [
@@ -46,6 +47,7 @@ import { BioageProgressChartComponent } from './charts/components/bioage-progres
     DownloadSvgComponent,
     CompareOthersLikeYouChartComponent,
     BioageProgressChartComponent,
+    FeedbackModalComponent,
   ],
   imports: [
     CommonModule,
@@ -86,6 +88,7 @@ import { BioageProgressChartComponent } from './charts/components/bioage-progres
     BreadcrumbsComponent,
     CompareOthersLikeYouChartComponent,
     BioageProgressChartComponent,
+    FeedbackModalComponent
   ],
   providers: [
     AuthGuard
