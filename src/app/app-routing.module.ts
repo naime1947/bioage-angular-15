@@ -9,6 +9,11 @@ const routes: Routes = [
       import('./modules/auth/auth.module').then((m) => m.AuthModule),
   },
   {
+    path: 'no-results',
+    loadChildren: () =>
+      import('./modules/no-results/no-results.module').then((m) => m.NoResultsModule),
+  },
+  {
     path: 'error',
     loadChildren: () =>
       import('./modules/errors/errors.module').then((m) => m.ErrorsModule),

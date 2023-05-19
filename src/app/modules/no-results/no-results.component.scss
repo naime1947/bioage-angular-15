@@ -1,0 +1,22 @@
+.main {
+  min-height: calc(100vh - 78px - 87px);
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper{
+  max-width: 1080px;
+  height: fit-content;
+  border: 1px solid var(--color-border) ;
+  border-radius: 16px;
+  padding: 3rem;
+
+  display: flex;
+
+  img{
+    width: 198px;
+    height: 222px;
+    margin: 0 4rem 0 1rem;
+  }
+}

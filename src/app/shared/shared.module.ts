@@ -26,6 +26,8 @@ import { DownloadSvgComponent } from './svg-icons/download-svg/download-svg.comp
 import { CompareOthersLikeYouChartComponent } from './charts/components/compare-others-like-you-chart/compare-others-like-you-chart.component';
 import { BioageProgressChartComponent } from './charts/components/bioage-progress-chart/bioage-progress-chart.component';
 import { FeedbackModalComponent } from './components/feedback-modal/feedback-modal.component';
+import { UnsecuredHeaderComponent } from './unsecured-layout/unsecured-header/unsecured-header.component';
+import { UnsecuredFooterComponent } from './unsecured-layout/unsecured-footer/unsecured-footer.component';
 
 @NgModule({
   declarations: [
@@ -48,6 +50,8 @@ import { FeedbackModalComponent } from './components/feedback-modal/feedback-mod
     CompareOthersLikeYouChartComponent,
     BioageProgressChartComponent,
     FeedbackModalComponent,
+    UnsecuredHeaderComponent,
+    UnsecuredFooterComponent,
   ],
   imports: [
     CommonModule,
@@ -88,7 +92,9 @@ import { FeedbackModalComponent } from './components/feedback-modal/feedback-mod
     BreadcrumbsComponent,
     CompareOthersLikeYouChartComponent,
     BioageProgressChartComponent,
-    FeedbackModalComponent
+    FeedbackModalComponent,
+    UnsecuredHeaderComponent,
+    UnsecuredFooterComponent,
   ],
   providers: [
     AuthGuard
