@@ -2,15 +2,20 @@
   <img src="/assets/img/appreciate.png" alt="" />
   <div class="content">
     <h2>We appreciate your feedback!</h2>
-    <p>Can we contact you for a paid survey to talk about your BioAge experience?</p>
-    <button
-      class="btn btn-outline-primary btn-regular-outlined"
-      (click)="bsModalRef?.hide()"
-    >
-      Another Time
-    </button>
-    <button class="btn btn-primary btn-regular" (click)="bsModalRef?.hide()">
-      Yes, Sure!
-    </button>
+    <p>
+      Can we contact you for a paid survey to talk about your BioAge experience?
+    </p>
+
+    <div class="actions">
+      <button
+        class="btn btn-outline-primary btn-regular-outlined"
+        (click)="bsModalRef?.hide()"
+      >
+        Another Time
+      </button>
+      <button class="btn btn-primary btn-regular" (click)="bsModalRef?.hide()">
+        Yes, Sure!
+      </button>
+    </div>
   </div>
 </div>

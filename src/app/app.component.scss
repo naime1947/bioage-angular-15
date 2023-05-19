@@ -4,4 +4,12 @@
     width: 650px !important;
     max-width: 650px !important;
   }
+
+  @media screen and (max-width: 991px){
+    .feedback-modal-wrapper {
+      top: 25%;
+      width: auto !important;
+      max-width: 100% !important;
+    }
+  }
 }
