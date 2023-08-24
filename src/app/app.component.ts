@@ -9,15 +9,15 @@ import { BsModalRef, BsModalService } from 'ngx-bootstrap/modal';
 })
 export class AppComponent implements OnInit {
   bsModalRef!: BsModalRef;
-
+  title = "";
   constructor(private modalService: BsModalService) {}
 
   ngOnInit(): void {
-    setTimeout(() => {
-      this.bsModalRef = this.modalService.show(FeedbackModalComponent, {
-        animated: true,
-        class: 'feedback-modal-wrapper'
-      });
-    }, 2000);
+    // setTimeout(() => {
+    //   this.bsModalRef = this.modalService.show(FeedbackModalComponent, {
+    //     animated: true,
+    //     class: 'feedback-modal-wrapper'
+    //   });
+    // }, 2000);
   }
 }

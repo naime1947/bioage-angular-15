@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
+//Colors Class
+:host {
+  --color-bg-green: #92c83e;
+  --color-bg-orange: #fbad18;
+  --color-bg-red: #ef3e2d;
+  font-family: "Montserrat", sans-serif !important;
+
+  .bg-1 {
+    background: var(--color-bg-green);
+    opacity: 1;
+  }
+
+  .bg-2 {
+    background: var(--color-bg-green);
+    opacity: 0.65;
+  }
+  .bg-3 {
+    background: var(--color-bg-green);
+    opacity: 0.4;
+  }
+  .bg-4 {
+    background: var(--color-bg-orange);
+    opacity: 0.5;
+  }
+  .bg-5 {
+    background: var(--color-bg-orange);
+    opacity: 1;
+  }
+  .bg-6 {
+    background: var(--color-bg-red);
+    opacity: 1;
+  }
+
+  .slider {
+    min-height: 470px;
+    background-color: #f4f4f4;
+    padding: 2rem 3rem;
+    border-radius: 8px 8px 0px 0px;
+    .block-wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: end;
+      gap: 1.5rem;
+
+      .each-block {
+        flex-grow: 1;
+        .brick {
+          height: 30px;
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .your-age {
+    .heart {
+      position: relative;
+      margin-top: 1rem;
+      display: flex;
+      justify-content: center;
+      img {
+        width: 100px;
+        height: 100px;
+      }
+      span.your-age {
+        position: absolute;
+        top: 35%;
+        color: #fff;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 34px;
+      }
+    }
+    p {
+      margin: .7rem 0;
+      font-size: 20px;
+      color: #052460;
+      line-height: 34px;
+      font-weight: 700;
+    }
+  }
+
+  .content {
+    padding: 3rem;
+    display: flex;
+    justify-content: space-between;
+
+    color: #fff;
+    border-radius: 0px 0px 8px 8px;
+
+    .summary {
+      width: 450px;
+
+      .age-difference {
+        font-size: 62px;
+        font-weight: 700;
+      }
+    }
+
+    .description {
+    }
+  }
+}

@@ -1,0 +1,47 @@
+<div class="container wrapper">
+  <div class="slider">
+    <div class="block-wrapper">
+      <div class="each-block">
+        <div class="brick bg-1"></div>
+      </div>
+      <div class="each-block">
+        <div class="brick bg-2"></div>
+      </div>
+      <div class="each-block">
+        <div class="brick bg-3"></div>
+      </div>
+      <div class="each-block">
+        <div class="brick bg-4"></div>
+      </div>
+      <div class="each-block">
+        <div class="brick bg-5"></div>
+      </div>
+      <div class="each-block">
+        <div class="brick bg-6"></div>
+      </div>
+    </div>
+    <div class="your-age">
+      <div class="heart">
+        <img src="/assets/img/Blue-Heart.png" alt="" />
+        <span class="your-age">{{ yourAge }}</span>
+      </div>
+      <p class="text-center">Your age</p>
+    </div>
+  </div>
+
+  <div class="content bg-1">
+    <div class="summary">
+      <p>Your results show a difference of</p>
+      <div class="age-difference">
+        {{ ageDifference }} year{{
+          ageDifference != 0 && ageDifference != 1 && ageDifference != -1
+            ? "s"
+            : ""
+        }}
+      </div>
+    </div>
+    <div class="description">
+      <p>{{ description }}</p>
+    </div>
+  </div>
+</div>
