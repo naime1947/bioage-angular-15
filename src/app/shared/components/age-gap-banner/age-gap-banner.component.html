@@ -10,21 +10,87 @@
 
     <div class="block-wrapper">
       <div class="each-block">
+        <div
+          *ngIf="ageDifference != 0"
+          [style.visibility]="ageDifference <= -3 ? 'visible' : 'hidden'"
+          class="your-age"
+        >
+          <p class="text-center">Your BioAge</p>
+          <div class="heart">
+            <img src="/assets/img/Green-Heart.png" alt="" />
+            <span class="your-age">{{ yourBioAge }}</span>
+          </div>
+        </div>
         <div class="brick bg-1"></div>
       </div>
       <div class="each-block">
+        <div
+          *ngIf="ageDifference != 0"
+          [style.visibility]="ageDifference == -2 ? 'visible' : 'hidden'"
+          class="your-age"
+        >
+          <p class="text-center">Your BioAge</p>
+          <div class="heart">
+            <img src="/assets/img/Green-Heart.png" alt="" />
+            <span class="your-age">{{ yourBioAge }}</span>
+          </div>
+        </div>
         <div class="brick bg-2"></div>
       </div>
       <div class="each-block">
+        <div
+          *ngIf="ageDifference != 0"
+          [style.visibility]="ageDifference == -1 ? 'visible' : 'hidden'"
+          class="your-age"
+        >
+          <p class="text-center">Your BioAge</p>
+          <div class="heart">
+            <img src="/assets/img/Green-Heart.png" alt="" />
+            <span class="your-age">{{ yourBioAge }}</span>
+          </div>
+        </div>
         <div class="brick bg-3"></div>
       </div>
       <div class="each-block">
+        <div
+          *ngIf="ageDifference != 0"
+          [style.visibility]="ageDifference == 1 ? 'visible' : 'hidden'"
+          class="your-age"
+        >
+          <p class="text-center">Your BioAge</p>
+          <div class="heart">
+            <img src="/assets/img/Green-Heart.png" alt="" />
+            <span class="your-age">{{ yourBioAge }}</span>
+          </div>
+        </div>
         <div class="brick bg-4"></div>
       </div>
       <div class="each-block">
+        <div
+          *ngIf="ageDifference != 0"
+          [style.visibility]="ageDifference == 2 ? 'visible' : 'hidden'"
+          class="your-age"
+        >
+          <p class="text-center">Your BioAge</p>
+          <div class="heart">
+            <img src="/assets/img/Green-Heart.png" alt="" />
+            <span class="your-age">{{ yourBioAge }}</span>
+          </div>
+        </div>
         <div class="brick bg-5"></div>
       </div>
       <div class="each-block">
+        <div
+          *ngIf="ageDifference != 0"
+          [style.visibility]="ageDifference >= 3 ? 'visible' : 'hidden'"
+          class="your-age"
+        >
+          <p class="text-center">Your BioAge</p>
+          <div class="heart">
+            <img src="/assets/img/Green-Heart.png" alt="" />
+            <span class="your-age">{{ yourBioAge }}</span>
+          </div>
+        </div>
         <div class="brick bg-6"></div>
       </div>
     </div>
