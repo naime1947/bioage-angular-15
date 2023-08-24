@@ -9,6 +9,6 @@ export class AgeGapBannerComponent {
   description =
     'Research has shown a 5 year difference between BioAge and chronological age is associated with an increased risk of conditions like cardiovascular disease';
     yourAge = 50;
-    yourBioAge = 53;
+    yourBioAge = 50;
     ageDifference = this.yourAge - this.yourBioAge;
 }
