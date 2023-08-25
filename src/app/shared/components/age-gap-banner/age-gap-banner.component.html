@@ -59,7 +59,7 @@
         >
           <p class="text-center">Your BioAge</p>
           <div class="heart">
-            <img src="/assets/img/Green-Heart.png" alt="" />
+            <img src="/assets/img/Amber-Heart.png" alt="" />
             <span class="your-age">{{ yourBioAge }}</span>
           </div>
         </div>
@@ -73,7 +73,7 @@
         >
           <p class="text-center">Your BioAge</p>
           <div class="heart">
-            <img src="/assets/img/Green-Heart.png" alt="" />
+            <img src="/assets/img/Amber-Heart.png" alt="" />
             <span class="your-age">{{ yourBioAge }}</span>
           </div>
         </div>
@@ -87,7 +87,7 @@
         >
           <p class="text-center">Your BioAge</p>
           <div class="heart">
-            <img src="/assets/img/Green-Heart.png" alt="" />
+            <img src="/assets/img/Red-Heart.png" alt="" />
             <span class="your-age">{{ yourBioAge }}</span>
           </div>
         </div>
@@ -103,11 +103,19 @@
     </div>
   </div>
 
-  <div class="content bg-1">
+  <div
+    class="content"
+    [ngClass]="{
+      'bg-1': ageDifference <= 0,
+      'bg-5': ageDifference > 0 && ageDifference < 3,
+      'bg-6': ageDifference >= 3
+    }"
+  >
     <div class="summary">
       <p>Your results show a difference of</p>
       <div class="age-difference">
-        {{ ageDifference }} year{{
+        <span *ngIf="ageDifference < 0">-</span>
+        <span *ngIf="ageDifference > 0">+</span>{{ ageDifferenceAbs }} year{{
           ageDifference != 0 && ageDifference != 1 && ageDifference != -1
             ? "s"
             : ""

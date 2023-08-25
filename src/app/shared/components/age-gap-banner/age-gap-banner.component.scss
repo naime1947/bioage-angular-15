@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
+//@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
 //Colors Class
 :host {
   --color-bg-green: #92c83e;
@@ -33,9 +33,9 @@
   }
 
   .slider {
-    min-height: 470px;
+    min-height: 450px;
     background-color: #f4f4f4;
-    padding: 2rem 3rem;
+    padding: 1rem 3rem;
     border-radius: 8px 8px 0px 0px;
     .block-wrapper {
       display: flex;
@@ -82,7 +82,7 @@
   }
 
   .content {
-    padding: 3rem;
+    padding: 2rem 3rem;
     display: flex;
     justify-content: space-between;
 
@@ -90,15 +90,23 @@
     border-radius: 0px 0px 8px 8px;
 
     .summary {
-      width: 450px;
-
+      min-width: 450px;
+      p{
+        font-size: 17px;
+        font-weight: 700;
+        line-height: 20px;
+      }
       .age-difference {
         font-size: 62px;
         font-weight: 700;
+        line-height: 75px;
       }
     }
 
     .description {
+      font-size: 23px;
+      font-weight: 600;
+      line-height: 34px;
     }
   }
 }
