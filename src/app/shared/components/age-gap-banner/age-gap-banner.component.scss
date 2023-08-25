@@ -91,7 +91,7 @@
 
     .summary {
       min-width: 450px;
-      p{
+      p {
         font-size: 17px;
         font-weight: 700;
         line-height: 20px;
@@ -107,6 +107,126 @@
       font-size: 23px;
       font-weight: 600;
       line-height: 34px;
+    }
+  }
+}
+
+@media screen and (max-width: 991px) {
+  :host {
+    .slider {
+      min-height: auto;
+      padding: 0.5rem 3rem;
+      .block-wrapper {
+        gap: 1rem;
+
+        .each-block {
+          flex-grow: 1;
+          .brick {
+            height: 18px;
+          }
+        }
+      }
+    }
+
+    .your-age {
+      margin: 1rem auto;
+      .heart {
+        img {
+          width: 60px;
+          height: 60px;
+        }
+        span.your-age {
+          top: 10%;
+          font-size: 23px;
+          line-height: 24px;
+        }
+      }
+      p {
+        margin: 0.5rem 0;
+        font-size: 14px;
+        line-height: 14px;
+      }
+    }
+
+    .content {
+      display: block;
+      padding: 1.5rem;
+
+      .summary {
+        min-width: auto;
+        margin-bottom: 2rem;
+        .age-difference{
+          font-size: 50px;
+          line-height: 60px;
+        }
+      }
+
+      .description {
+        margin-bottom: 0;
+        font-size: 18px;
+        line-height: 23px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 575px) {
+  :host {
+    .slider {
+      min-height: auto;
+      padding: 0.5rem 1.5rem;
+      .block-wrapper {
+        gap: .5rem;
+
+        .each-block {
+          flex-grow: 1;
+          .brick {
+            height: 18px;
+          }
+        }
+      }
+    }
+
+    .your-age {
+      margin: 1rem auto;
+      .heart {
+        img {
+          width: 54px;
+          height: 54px;
+        }
+        span.your-age {
+          top: 5%;
+          font-size: 20px;
+          line-height: 20px;
+        }
+      }
+      p {
+        margin: 0.2rem 0;
+        font-size: 11px;
+        line-height: 13px;
+      }
+    }
+
+    .content {
+      display: block;
+      padding: 1rem;
+
+      .summary {
+        min-width: auto;
+        p{
+          font-size: 14px;
+        }
+        .age-difference{
+          line-height: 50px;
+        }
+        margin-bottom: 1.5rem;
+      }
+
+      .description {
+        margin-bottom: 0;
+        font-size: 12px;
+        line-height: 20px;
+      }
     }
   }
 }
