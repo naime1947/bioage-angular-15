@@ -31,8 +31,20 @@ export class DashboardComponent implements OnInit {
     });
   }
 
+  yourAge = 53;
+  yourBioAge = 57;
   ngOnInit(): void {
     this.titleService.setTitle('Dashbaord - BioAge');
     this.myResultService.getResults();
+
+    setInterval(()=> {
+      this.yourBioAge = this.getRandomInt(49, 57)
+    }, 3000)
   }
+
+  getRandomInt(min:number, max:number) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
 }
